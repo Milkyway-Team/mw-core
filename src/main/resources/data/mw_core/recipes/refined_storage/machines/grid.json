@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCL",
+    "EMG",
+    "PDL"
+  ],
+  "key": {
+    "P": {
+      "item": "refinedstorage:improved_processor"
+    },
+    "C": {
+      "item": "refinedstorage:construction_core"
+    },
+    "G": {
+      "item": "ae2:quartz_glass"
+    },
+    "E": {
+      "item": "mw_core:tin_sheet"
+    },
+    "M": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "D": {
+      "item": "refinedstorage:destruction_core"
+    },
+    "L": {
+      "item": "thermal:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:grid"
+  }
+}

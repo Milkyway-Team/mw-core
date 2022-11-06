@@ -1,0 +1,6 @@
+{
+  "parent": "thermal:block/skystone_machine_base",
+  "textures": {
+    "north": "thermal:block/machines/machine_press"
+  }
+}

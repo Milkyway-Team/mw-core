@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "101",
+    "#1#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:lead_sheet"
+    },
+    "1": {
+      "item": "thermal:invar_nugget"
+    },
+    "0": {
+      "item": "refinedstorage:improved_processor"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:1k_storage_part"
+  }
+}

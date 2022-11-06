@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mw_core:item/tools/aluminium_sword"
+  }
+}

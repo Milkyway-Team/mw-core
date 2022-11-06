@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:plates/sturdy/brass",
+    "#forge:plates/sturdy/copper",
+    "#forge:plates/sturdy/gold",
+    "#forge:plates/sturdy/iron"
+  ]
+}

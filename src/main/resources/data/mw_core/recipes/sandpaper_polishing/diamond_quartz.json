@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "mw_core:diamond_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:polished_diamond_quartz"
+    }
+  ]
+}

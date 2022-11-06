@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#0#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/transium"
+    },
+    "0": {
+      "item": "mw_core:transium_nugget"
+    }
+  },
+  "result": {
+    "item": "mw_core:transium_ingot"
+  }
+}

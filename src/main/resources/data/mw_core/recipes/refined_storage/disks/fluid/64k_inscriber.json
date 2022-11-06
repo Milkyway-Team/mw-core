@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "mode": "press",
+  "result": {
+    "item": "refinedstorage:64k_fluid_storage_disk"
+  },
+  "ingredients": {
+    "middle": {
+      "item": "mw_core:data_tube"
+    },
+    "top": {
+      "item": "mw_core:refined_parts"
+    },
+    "bottom": {
+      "item": "mw_core:sturdy_copper_sheet"
+    }
+  }
+}

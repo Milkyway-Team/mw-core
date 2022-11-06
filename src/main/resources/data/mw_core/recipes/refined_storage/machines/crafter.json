@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "202",
+    "434"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:lead_sheet"
+    },
+    "4": {
+      "item": "mw_core:tin_sheet"
+    },
+    "1": {
+      "item": "refinedstorage:construction_core"
+    },
+    "3": {
+      "item": "refinedstorage:destruction_core"
+    },
+    "0": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "2": {
+      "item": "refinedstorage:advanced_processor"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:crafter"
+  }
+}

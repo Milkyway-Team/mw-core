@@ -1,0 +1,308 @@
+{
+  "parent": "create:mechanical_press",
+  "display": {
+    "icon": {
+      "item": "mw_core:silver_sheet"
+    },
+    "title": {
+      "translate": "advancements.mw.press"
+    },
+    "description": {
+      "translate": "advancements.mw.press.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "slimesteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:slimesteel_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "cobalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:cobalt_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "manyullyn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:manyullyn_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "electrum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:electrum_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "enderium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:enderium_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "invar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:invar_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "lead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:lead_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "lumium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:lumium_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:netherite_sheet"
+            ]
+
+          }
+        ]
+      }
+    },
+    "nickel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:nickel_sheet"
+              ]
+          }
+        ]
+      }
+    },
+    "signalum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:signalum_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:silver_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "tin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:tin_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "brass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:brass_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:iron_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:golden_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create:copper_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "bronze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:bronze_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "alloyed:steel_sheet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slimesteel"
+    ],
+    [
+      "cobalt"
+    ],
+    [
+      "bronze"
+    ],
+    [
+      "steel"
+    ],
+    [
+      "copper"
+    ],
+    [
+      "gold"
+    ],
+    [
+      "iron"
+    ],
+    [
+      "brass"
+    ],
+    [
+      "manyullyn"
+    ],
+    [
+      "electrum"
+    ],
+    [
+      "enderium"
+    ],
+    [
+      "invar"
+    ],
+    [
+      "lead"
+    ],
+    [
+      "lumium"
+    ],
+    [
+      "netherite"
+    ],
+    [
+      "nickel"
+    ],
+    [
+      "signalum"
+    ],
+    [
+      "silver"
+    ],
+    [
+      "tin"
+    ]
+  ]
+}

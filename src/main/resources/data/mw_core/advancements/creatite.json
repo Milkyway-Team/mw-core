@@ -1,0 +1,37 @@
+{
+  "parent": "mw_core:root",
+  "display": {
+    "icon": {
+      "item": "mw_core:raw_creatite"
+    },
+    "title": {
+      "translate": "advancement.mw.creatite"
+    },
+    "description": {
+      "translate": "advancement.mw.creatite.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:raw_creatite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

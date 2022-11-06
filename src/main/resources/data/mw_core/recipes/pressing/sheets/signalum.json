@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/signalum"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:signalum_sheet"
+    }
+  ]
+}

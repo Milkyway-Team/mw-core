@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+"pattern": [
+"#1#",
+"203",
+"#4#"
+],
+"key": {
+"#": {
+"item": "minecraft:glowstone_dust"
+},
+"1": {
+"item": "ae2:logic_processor"
+},
+"0": {
+"item": "refinedstorage:destruction_core"
+},
+"2": {
+"item": "mw_core:fluix_core"
+},
+"3": {
+"item": "mw_core:certus_core"
+},
+"4": {
+"item": "mw_core:logic_mechanism"
+}
+},
+"result": {
+"item": "ae2:annihilation_core"
+}
+}

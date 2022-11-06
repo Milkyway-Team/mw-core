@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "101",
+    "#1#"
+  ],
+  "key": {
+    "#": {
+      "item": "refinedstorage:improved_processor"
+    },
+    "1": {
+      "item": "minecraft:bucket"
+    },
+    "0": {
+      "item": "refinedstorage:256k_fluid_storage_disk"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:1024k_fluid_storage_disk"
+  }
+}

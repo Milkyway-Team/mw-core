@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "mw_core:core_casing"
+    },
+    {
+      "fluid": "tconstruct:molten_iron",
+      "nbt": {},
+      "amount": 180
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:basic_processor"
+    }
+  ]
+}

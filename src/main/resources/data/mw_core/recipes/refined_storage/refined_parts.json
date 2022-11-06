@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:zinc_ingot"
+    },
+    {
+      "item": "mw_core:aluminium_nugget"
+    },
+    {
+      "item": "create:copper_sheet"
+    },
+    {
+      "item": "refinedstorage:silicon"
+    }
+  ],
+  "result": {
+    "item": "mw_core:refined_parts",
+    "count": 1
+  }
+}

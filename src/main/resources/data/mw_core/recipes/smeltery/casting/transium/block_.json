@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "mw_core:molten_transium",
+    "amount": 1620
+  },
+  "result": "mw_core:transium_block",
+  "cooling_time": 225
+}

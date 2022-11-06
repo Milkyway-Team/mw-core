@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#0#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/aluminum"
+    },
+    "0": {
+      "item": "mw_core:aluminium_nugget"
+    }
+  },
+  "result": {
+    "item": "mw_core:aluminium_ingot"
+  }
+}

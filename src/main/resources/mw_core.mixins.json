@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.pouffy.mw_core.common.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mw_core.refmap.json",
+  "mixins": [
+
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

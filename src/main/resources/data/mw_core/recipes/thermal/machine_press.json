@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BLB",
+    "YCY",
+    "IPX"
+  ],
+  "key": {
+    "C": {
+      "item": "ae2:inscriber"
+    },
+    "B": {
+      "tag": "forge:ingots/steel"
+    },
+    "I": {
+      "item": "mw_core:fluix_core"
+    },
+    "X": {
+      "item": "mw_core:certus_core"
+    },
+    "P": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "Y": {
+      "tag": "forge:plates/sturdy/iron"
+    },
+    "L": {
+      "item": "mw_core:logic_mechanism"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_press"
+  }
+}

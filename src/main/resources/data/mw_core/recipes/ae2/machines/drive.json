@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "202",
+    "#3#"
+  ],
+  "key": {
+    "#": {
+      "item": "alloyed:steel_ingot"
+    },
+    "1": {
+      "item": "ae2:engineering_processor"
+    },
+    "0": {
+      "item": "refinedstorage:disk_drive"
+    },
+    "2": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "3": {
+      "item": "mw_core:logic_mechanism"
+    }
+  },
+  "result": {
+    "item": "ae2:drive"
+  }
+}

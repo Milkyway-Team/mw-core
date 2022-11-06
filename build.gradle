@@ -1,0 +1,208 @@
+buildscript {
+    repositories {
+        maven { url = 'https://files.minecraftforge.net' }
+        maven { url = 'https://maven.parchmentmc.org' }
+        maven {
+            url "https://repo.spongepowered.org/repository/maven-public/"
+            // content { includeGroup "org.spongepowered" }
+        }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
+        classpath 'org.parchmentmc:librarian:1.+'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle'
+// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+apply plugin: 'org.parchmentmc.librarian.forgegradle'
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+apply plugin: "org.spongepowered.mixin"
+
+mixin {
+    add sourceSets.main, "mw_core.refmap.json"
+}
+
+version = "${mc_version}-${mod_version}"
+group = 'com.pouffy.mw_core' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'mw_core'
+
+//sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'parchment', version: '2022.06.05-1.18.2'
+//    mappings channel: 'official', version: "${mc_version}"
+    // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
+
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            arg '-mixin.config=mw_core.mixins.json'
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                mw_core {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            arg "-mixin.config=mw_core.mixins.json"
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                mw_core {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+
+            args '--mod', 'mw_core', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+
+            environment 'target', 'fmluserdevdata'
+
+            mods {
+                mw_core {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    maven {
+        // JEI
+        name = "Progwml6 maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
+    }
+    maven {
+        // CraftTweaker
+        name = "BlameJared"
+        url = "https://maven.blamejared.com/"
+    }
+    maven { url "https://maven.jaackson.me" }
+    maven { url "https://www.cursemaven.com" }
+    maven { url "https://dvs1.progwml6.com/files/maven/" }
+    maven { url "https://modmaven.k-4u.nl" }
+}
+
+sourceSets.main.resources {
+    srcDirs += 'src/generated/resources'
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
+
+    // You may put jars on which you depend on in ./libs or you may define them like so..
+    // compile "some.group:artifact:version:classifier"
+    // compile "some.group:artifact:version"
+    compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
+    // at runtime, use the full JEI jar
+    runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
+    runtimeOnly fg.deobf("curse.maven:crafttweaker-239197:${project.craftTweaker}")
+    runtimeOnly fg.deobf("curse.maven:jeitweaker-368718:${project.jeiTweaker}")
+    runtimeOnly fg.deobf("curse.maven:createtweaker-437717:${project.createTweaker}")
+
+
+    implementation fg.deobf("curse.maven:create-328085:4007544")
+    implementation fg.deobf("curse.maven:flywheel-forge-486392:3934664")
+
+    implementation fg.deobf("curse.maven:thermalfoundation-222880:${project.thermalFoundation}")
+    implementation fg.deobf("curse.maven:enchantment_industry-688768:${project.enchantmentIndustry}")
+    implementation fg.deobf("curse.maven:create_alloyed-564792:${project.createAlloyed}")
+    implementation fg.deobf("curse.maven:refined_storage-243076:${project.refinedStorage}")
+    implementation fg.deobf("curse.maven:cgm-289479:${project.cgm}")
+    implementation fg.deobf("curse.maven:framework-549225:${project.frameWork}")
+
+
+    implementation fg.deobf("curse.maven:thermalexpansion-69163:${project.thermalExpansion}")
+    implementation fg.deobf("curse.maven:farmers_delight-398521:${project.farmersDelight}")
+    implementation fg.deobf("curse.maven:tconstruct-74072:${project.tinkersConstruct}")
+    //implementation fg.deobf("curse.maven:buddycards-425991:${project.buddyCards}")
+    implementation fg.deobf("curse.maven:mantle-74924:${project.mantle}")
+    implementation fg.deobf("curse.maven:cofhcore-69162:${project.CoFH}")
+    implementation fg.deobf("curse.maven:ae2-223794:4013849")
+
+
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.18.2-5.0.7.1")
+    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.18.2-5.0.7.1:api")
+    /* CT documentation
+    annotationProcessor "com.blamejared.crafttweaker:CraftTweaker-${mc_version}:${crafttweaker_version}"
+    annotationProcessor "com.blamejared.crafttweaker:Crafttweaker_Annotation_Processors-${mc_version}:${crafttweaker_annotations_version}"
+    annotationProcessor 'org.reflections:reflections:0.10.2' // CT dep
+    annotationProcessor 'com.google.code.gson:gson:2.10' // CT dep
+*/
+
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    // Real examples
+    // compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
+    // compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
+
+    // The 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
+    // provided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
+
+    // These dependencies get remapped to your current MCP mappings
+    // deobf 'com.mod-buildcraft:buildcraft:6.0.8:dev'
+
+    // For more info...
+    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
+    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+}
+
+jar {
+    manifest {
+        attributes([
+                "Specification-Title"     : "mw_core",
+                "Specification-Vendor"    : "pouffy",
+                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : "${version}",
+                "Implementation-Vendor"   : "pouffy",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                "MixinConfigs"            : "mw_core.mixins.json"
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}

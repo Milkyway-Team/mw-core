@@ -1,0 +1,89 @@
+{
+  "parent": "mw_core:technology/tech_root",
+  "display": {
+    "icon": {
+      "item": "mw_core:sturdy_iron_sheet"
+    },
+    "title": {
+      "translate": "advancements.mw.sturdy_sheet"
+    },
+    "description": {
+      "translate": "advancements.mw.sturdy_sheet.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:sturdy_iron_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:sturdy_gold_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:sturdy_copper_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "brass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:sturdy_brass_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:sturdy_steel_sheet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron",
+      "gold",
+      "copper",
+      "brass",
+      "steel"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/transium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/transium"
+  },
+  "result": {
+    "fluid": "mw_core:molten_transium",
+    "amount": 10
+  },
+  "temperature": 1200,
+  "time": 26
+}

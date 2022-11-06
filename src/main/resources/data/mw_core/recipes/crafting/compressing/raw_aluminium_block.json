@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#0#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:raw_materials/aluminum"
+    },
+    "0": {
+      "item": "mw_core:raw_aluminium"
+    }
+  },
+  "result": {
+    "item": "mw_core:raw_aluminium_block"
+  }
+}

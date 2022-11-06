@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "refinedstorage:basic_processor"
+    },
+    {
+      "fluid": "tconstruct:molten_gold",
+      "nbt": {},
+      "amount": 180
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:improved_processor"
+    }
+  ]
+}

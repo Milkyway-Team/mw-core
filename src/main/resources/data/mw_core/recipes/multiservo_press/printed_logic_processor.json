@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "ae2:logic_processor_press"
+    }
+  ],
+  "result": [
+    {
+      "item": "ae2:printed_logic_processor",
+      "count": 1
+    }
+  ],
+  "energy": 2400
+}

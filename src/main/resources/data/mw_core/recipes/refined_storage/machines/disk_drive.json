@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECE",
+    "EME",
+    "TPT"
+  ],
+  "key": {
+    "E": {
+      "item": "mw_core:tin_sheet"
+    },
+    "T": {
+      "item": "thermal:lead_ingot"
+    },
+    "C": {
+      "tag": "forge:chests"
+    },
+    "M": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "P": {
+      "item": "refinedstorage:advanced_processor"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:disk_drive"
+  }
+}

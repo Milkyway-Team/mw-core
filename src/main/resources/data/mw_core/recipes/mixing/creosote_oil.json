@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "thermal:tar"
+    },
+    {
+      "item": "thermal:tar"
+    },
+    {
+      "item": "thermal:tar"
+    },
+    {
+      "item": "thermal:tar"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "thermal:creosote",
+      "amount": 100
+    }
+  ],
+  "heatRequirement": "heated"
+}

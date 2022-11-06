@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "mw_core:transium_block"
+    },
+    "title": {
+      "translate": "advancements.mw.root"
+    },
+    "description": {
+      "translate": "advancements.mw.root.desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "mw_core:textures/block/raw_aluminium_block.png"
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

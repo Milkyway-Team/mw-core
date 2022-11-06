@@ -1,0 +1,10 @@
+{
+  "venture": {
+    "sounds": [
+      {
+        "name": "mw_core:venture",
+        "stream": true
+      }
+    ]
+  }
+}

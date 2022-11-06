@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/invar"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:invar_sheet"
+    }
+  ]
+}

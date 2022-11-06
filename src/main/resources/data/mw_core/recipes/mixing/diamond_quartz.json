@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/diamond"
+    },
+    {
+      "tag": "forge:gems/quartz"
+    },
+    {
+      "fluid": "tconstruct:molten_diamond",
+      "amount": 300
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:diamond_quartz"
+    }
+  ],
+  "heatRequirement": "heated"
+}

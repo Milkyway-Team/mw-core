@@ -1,0 +1,25 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "thermal:apatite_ore"
+    	}
+    ],
+	"results": [
+		{
+			"item": "thermal:apatite",
+			"count": 12
+		},
+		{
+			"item": "thermal:apatite",
+			"count": 1,
+			"chance": 0.5
+		},
+		{
+			"item": "minecraft:gravel",
+			"count": 1,
+			"chance": 0.2
+		}
+	],
+	"processingTime": 300
+}

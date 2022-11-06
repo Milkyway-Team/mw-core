@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mw_core:creatite_ore",
+    "mw_core:transium_block",
+    "mw_core:aluminium_block",
+    "mw_core:transium_block"
+  ]
+}

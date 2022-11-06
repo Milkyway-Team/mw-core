@@ -1,0 +1,26 @@
+{
+  "loader": "thermal:reconfigurable",
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": {"texture": "#down", "cullface": "down"},
+        "up": {"texture": "#up", "cullface": "up"},
+        "north": {"texture": "#north", "cullface": "north"},
+        "south": {"texture": "#south", "cullface": "south"},
+        "west": {"texture": "#west", "cullface": "west"},
+        "east": {"texture": "#east", "cullface": "east"}
+      }
+    }
+  ],
+  "textures": {
+    "particle": "thermal:block/machines/machine_top",
+    "down": "ae2:block/smooth_sky_stone_block",
+    "up": "ae2:block/drive/drive_top",
+    "east": "thermal:block/machines/skystone_machine_side",
+    "west": "thermal:block/machines/skystone_machine_side",
+    "south": "thermal:block/machines/skystone_machine_side"
+  }
+}

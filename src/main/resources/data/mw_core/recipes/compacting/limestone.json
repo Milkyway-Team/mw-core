@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:bone_meal",
+      "count": 4
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "count": 1
+    },
+    {
+      "fluid": "minecraft:lava",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "create:limestone"
+    }
+  ]
+}

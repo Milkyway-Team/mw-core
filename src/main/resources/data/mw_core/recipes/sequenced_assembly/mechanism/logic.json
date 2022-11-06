@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:logic_processor"
+  },
+  "transitionalItem": {
+    "item": "mw_core:incomplete_logic_mechanism"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_logic_mechanism"
+        },
+        {
+          "item": "ae2:printed_silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_logic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_logic_mechanism"
+        },
+        {
+          "item": "thermal:diamond_gear"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_logic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_logic_mechanism"
+        },
+        {
+          "item": "mw_core:data_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_logic_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:logic_mechanism",
+      "chance": 1.0
+    }
+  ],
+  "loops": 1
+}

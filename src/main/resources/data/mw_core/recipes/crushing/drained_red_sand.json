@@ -1,0 +1,25 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mw_core:drained_red_sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "count": 3,
+      "chance": 0.25
+    },
+    {
+      "item": "thermal:niter_dust",
+      "count": 3,
+      "chance": 0.75
+    },
+    {
+      "item": "create:crushed_gold_ore",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 1600
+}

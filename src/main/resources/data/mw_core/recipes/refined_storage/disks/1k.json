@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P#",
+    "101",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+    "1": {
+      "item": "mw_core:data_tube"
+    },
+    "0": {
+      "item": "refinedstorage:1k_storage_part"
+    },
+    "P": {
+      "item": "mw_core:refined_parts"
+    },
+    "S": {
+      "item": "mw_core:sturdy_brass_sheet"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:1k_storage_disk"
+  }
+}

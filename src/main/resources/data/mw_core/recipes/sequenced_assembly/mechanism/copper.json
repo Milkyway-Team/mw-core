@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:basic_mechanism"
+  },
+  "transitionalItem": {
+    "item": "mw_core:incomplete_copper_mechanism"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_copper_mechanism"
+        },
+        {
+          "item": "alloyed:bronze_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_copper_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_copper_mechanism"
+        },
+        {
+          "item": "thermal:iron_gear"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_copper_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_copper_mechanism"
+        },
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_copper_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:copper_mechanism",
+      "chance": 1.0
+    }
+  ],
+  "loops": 1
+}

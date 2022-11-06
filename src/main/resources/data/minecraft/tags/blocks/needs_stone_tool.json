@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mw_core:aluminium_ore",
+    "mw_core:deepslate_aluminium_ore",
+    "mw_core:halite_ore",
+    "mw_core:raw_aluminium_block",
+    "mw_core:deepslte_halite_ore"
+  ]
+}

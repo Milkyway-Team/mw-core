@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IFS",
+    "L  ",
+    "IFS"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:plates/reinforced/iron"
+    },
+    "F": {
+      "item": "mw_core:fluix_core"
+    },
+    "S": {
+      "item": "alloyed:steel_sheet"
+    },
+    "L": {
+      "item": "mw_core:logic_mechanism"
+    }
+  },
+  "result": {
+    "item": "ae2:charger"
+  }
+}

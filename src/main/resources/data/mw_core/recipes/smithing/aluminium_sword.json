@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:stone_sword"
+  },
+  "addition": {
+    "item": "mw_core:aluminium_ingot"
+  },
+  "result": {
+    "item": "mw_core:aluminium_sword"
+  }
+}

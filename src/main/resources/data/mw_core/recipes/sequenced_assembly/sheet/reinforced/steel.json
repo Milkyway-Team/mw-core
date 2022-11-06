@@ -1,0 +1,100 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:sturdy_steel_sheet"
+  },
+  "transitionalItem": {
+    "item": "mw_core:unprocessed_steel_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        },
+        {
+          "fluid": "thermal:creosote",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        },
+        {
+          "item": "mw_core:sturdy_steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        },
+        {
+          "fluid": "tconstruct:molten_steel",
+          "nbt": {},
+          "amount": 90
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        },
+        {
+          "fluid": "minecraft:water",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:reinforced_steel_sheet"
+    }
+  ],
+  "loops": 1
+}

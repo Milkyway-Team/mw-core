@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "tconstruct:molten_cobalt",
+      "amount": 180
+    },
+    {
+      "name": "tconstruct:molten_amethyst_bronze",
+      "amount": 180
+    },
+    {
+      "name": "tconstruct:molten_quartz",
+      "amount": 180
+    }
+  ],
+  "result": {
+    "fluid": "mw_core:molten_transium",
+    "amount": 270
+  },
+  "temperature": 1200
+}

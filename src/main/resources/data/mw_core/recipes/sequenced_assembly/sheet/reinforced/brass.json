@@ -1,0 +1,100 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:sturdy_brass_sheet"
+  },
+  "transitionalItem": {
+    "item": "mw_core:unprocessed_brass_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        },
+        {
+          "fluid": "thermal:creosote",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        },
+        {
+          "item": "mw_core:sturdy_brass_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        },
+        {
+          "fluid": "tconstruct:molten_brass",
+          "nbt": {},
+          "amount": 90
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        },
+        {
+          "fluid": "minecraft:water",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:reinforced_brass_sheet"
+    }
+  ],
+  "loops": 1
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "thermal:invar_gear"
+    },
+    "title": {
+      "translate": "advancements.mw.tech_root"
+    },
+    "description": {
+      "translate": "advancements.mw.tech_root.desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "thermal:textures/block/cured_rubber_block.png"
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

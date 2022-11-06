@@ -1,0 +1,24 @@
+{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid": "tconstruct:molten_iron",
+    "amount": 270
+  },
+  "result": [
+    {
+      "fluid": "tconstruct:molten_copper",
+      "amount": 180,
+      "chance": 0.25
+    },
+    {
+      "fluid": "tconstruct:molten_cobalt",
+      "amount": 90,
+      "chance": 0.5
+    },
+    {
+      "item": "create:crushed_iron_ore",
+      "chance": 0.75
+    }
+  ],
+  "energy": 4000
+}

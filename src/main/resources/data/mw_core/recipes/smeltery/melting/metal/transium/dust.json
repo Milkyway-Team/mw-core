@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:dusts/transium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:dusts/transium"
+  },
+  "result": {
+    "fluid": "mw_core:molten_transium",
+    "amount": 90
+  },
+  "temperature": 1200,
+  "time": 59
+}

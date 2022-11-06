@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:limestone"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_nickel_ore",
+      "chance": 0.8
+    },
+    {
+      "item": "thermal:nickel_nugget",
+      "chance": 0.8
+    }
+  ],
+  "processingTime": 250
+}

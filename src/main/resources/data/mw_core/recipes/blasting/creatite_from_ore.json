@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:ores/creatite"
+  },
+  "result": "mw_core:creatite",
+  "experience": 0.1,
+  "cookingtime": 100
+}

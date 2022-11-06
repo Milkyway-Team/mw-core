@@ -1,0 +1,20 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "thermal:deepslate_sulfur_ore"
+    	}
+    ],
+	"results": [
+		{
+			"item": "thermal:sulfur",
+			"count": 6
+		},
+		{
+			"item": "thermal:sulfur",
+			"count": 1,
+			"chance": 0.5
+		}
+	],
+	"processingTime": 300
+}

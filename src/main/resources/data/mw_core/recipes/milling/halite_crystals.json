@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mw_core:halite_crystals"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:salt",
+      "count": 2
+    },
+    {
+      "item": "mw_core:salt",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 70
+}

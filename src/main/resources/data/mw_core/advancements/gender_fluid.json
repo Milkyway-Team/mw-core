@@ -1,0 +1,37 @@
+{
+  "parent": "mw_core:root",
+  "display": {
+    "icon": {
+      "item": "mw_core:molten_transium_bucket"
+    },
+    "title": {
+      "translate": "advancement.mw.gender_fluid"
+    },
+    "description": {
+      "translate": "advancement.mw.gender_fluid.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:molten_transium_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

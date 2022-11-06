@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "thermal:basalz_rod"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:basalz_powder",
+      "count": 2
+    }
+  ],
+  "processingTime": 200
+}

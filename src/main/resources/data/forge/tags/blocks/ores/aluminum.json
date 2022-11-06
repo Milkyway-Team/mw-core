@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "mw_core:aluminium_ore",
+    "mw_core:deepslate_aluminium_ore"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "mw_core:halite_ore",
+    "mw_core:deepslate_halite_ore"
+  ]
+}

@@ -1,0 +1,30 @@
+
+modLoader="javafml" 
+loaderVersion="[40,)"
+license="All rights reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" 
+[[mods]]
+modId="mw_core"
+version="${file.jarVersion}" 
+displayName="Create: Milkyway"
+#updateJSONURL="https://change.me.example.invalid/updates.json" 
+displayURL="https://discord.gg/qbSrvgwYUq" 
+logoFile="milkyway_plaque.png"
+credits="Special thanks to Ridanisaurus for his help with the Creatite item sprites" 
+authors="MilkFur, Pouffy" 
+description='''
+Core mod for Create: Milkyway
+'''
+[[dependencies.mw_core]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[40,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mw_core]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"

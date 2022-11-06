@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "thermal:oil_red_sand",
+    "thermal:oil_sand"
+  ]
+}

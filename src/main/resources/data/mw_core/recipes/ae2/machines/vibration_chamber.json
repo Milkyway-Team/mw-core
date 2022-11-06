@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "SFS",
+    "ILI"
+  ],
+  "key": {
+    "S": {
+      "item": "mw_core:reinforced_steel_sheet"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "L": {
+      "item": "ae2:energy_acceptor"
+    },
+    "F": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "result": {
+    "item": "ae2:vibration_chamber"
+  }
+}

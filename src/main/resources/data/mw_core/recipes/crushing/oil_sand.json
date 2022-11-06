@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "mw_core:oil_sands"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:tar",
+      "count": 3
+    },
+    {
+      "item": "thermal:niter_dust",
+      "count": 3,
+      "chance": 0.75
+    },
+    {
+      "item": "thermal:bitumen",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 800
+}

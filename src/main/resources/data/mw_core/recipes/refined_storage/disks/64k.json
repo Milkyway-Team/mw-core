@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "101",
+    "#1#"
+  ],
+  "key": {
+    "#": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "0": {
+      "item": "refinedstorage:16k_storage_disk"
+    },
+    "C": {
+      "item": "ae2:cell_component_64k"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:64k_storage_disk"
+  }
+}

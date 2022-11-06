@@ -1,0 +1,84 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "transitionalItem": {
+    "item": "mw_core:unprocessed_iron_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_iron_sheet"
+        },
+        {
+          "fluid": "thermal:creosote",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_iron_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_iron_sheet"
+        },
+        {
+          "fluid": "tconstruct:molten_iron",
+          "nbt": {},
+          "amount": 90
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_iron_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_iron_sheet"
+        },
+        {
+          "fluid": "minecraft:water",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_iron_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_iron_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_iron_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:sturdy_iron_sheet"
+    }
+  ],
+  "loops": 1
+}

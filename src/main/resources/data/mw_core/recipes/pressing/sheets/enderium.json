@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/enderium"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:enderium_sheet"
+    }
+  ]
+}

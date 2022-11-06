@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IFS",
+    "L  ",
+    "IFS"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:plates/sturdy/iron"
+    },
+    "F": {
+      "item": "mw_core:certus_core"
+    },
+    "S": {
+      "item": "alloyed:steel_sheet"
+    },
+    "L": {
+      "item": "mw_core:cobalt_mechanism"
+    }
+  },
+  "result": {
+    "item": "ae2:inscriber"
+  }
+}

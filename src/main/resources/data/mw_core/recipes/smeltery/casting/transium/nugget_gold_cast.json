@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/nugget"
+  },
+  "fluid": {
+    "tag": "mw_core:molten_transium",
+    "amount": 10
+  },
+  "result": "mw_core:transium_nugget",
+  "cooling_time": 19
+}

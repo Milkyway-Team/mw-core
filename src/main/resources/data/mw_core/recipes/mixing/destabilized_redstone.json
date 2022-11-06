@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "fluid": "tconstruct:blazing_blood",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "fluid": "thermal:redstone",
+      "amount": 80
+    }
+  ],
+  "heatRequirement": "superheated"
+}

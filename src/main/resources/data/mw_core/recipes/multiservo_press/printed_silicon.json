@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "ae2:silicon"
+    },
+    {
+      "item": "ae2:silicon_press"
+    }
+  ],
+  "result": [
+    {
+      "item": "ae2:printed_silicon",
+      "count": 1
+    }
+  ],
+  "energy": 2400
+}

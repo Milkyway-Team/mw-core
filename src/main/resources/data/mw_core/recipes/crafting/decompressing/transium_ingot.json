@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/transium"
+    }
+  ],
+  "result": {
+    "item": "mw_core:transium_ingot",
+    "count": 9
+  }
+}

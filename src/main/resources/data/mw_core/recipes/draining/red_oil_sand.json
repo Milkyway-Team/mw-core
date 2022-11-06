@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "thermal:oil_red_sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:drained_red_sand"
+    },
+    {
+      "fluid": "thermal:crude_oil",
+      "amount": 200
+    }
+  ]
+}

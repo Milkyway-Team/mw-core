@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "ae2:engineering_processor_press"
+    }
+  ],
+  "result": [
+    {
+      "item": "ae2:printed_engineering_processor",
+      "count": 1
+    }
+  ],
+  "energy": 2400
+}

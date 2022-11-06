@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "mw_core:fluix_core"
+    },
+    "b": {
+      "item": "mw_core:certus_core"
+    },
+    "c": {
+      "item": "thermal:electrum_ingot"
+    }
+  },
+  "result": {
+    "item": "ae2:energy_cell"
+  }
+}

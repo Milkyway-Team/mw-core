@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "mw_core:core_casing"
+    },
+    {
+      "item": "ae2:fluix_crystal"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:fluix_core"
+    }
+  ]
+}

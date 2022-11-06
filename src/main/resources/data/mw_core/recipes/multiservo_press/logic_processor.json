@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "ae2:printed_silicon"
+    },
+    {
+      "item": "ae2:printed_logic_processor"
+    }
+  ],
+  "result": [
+    {
+      "item": "ae2:logic_processor",
+      "count": 1
+    }
+  ],
+  "energy": 2400
+}

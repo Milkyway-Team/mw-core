@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/netherite"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:netherite_sheet"
+    }
+  ]
+}
