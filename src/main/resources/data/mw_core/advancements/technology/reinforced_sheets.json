@@ -1,0 +1,89 @@
+{
+  "parent": "mw_core:technology/sturdy_sheets",
+  "display": {
+    "icon": {
+      "item": "mw_core:reinforced_iron_sheet"
+    },
+    "title": {
+      "translate": "advancements.mw.reinforced_sheet"
+    },
+    "description": {
+      "translate": "advancements.mw.reinforced_sheet.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:reinforced_iron_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:reinforced_gold_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:reinforced_copper_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "brass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:reinforced_brass_sheet"
+            ]
+          }
+        ]
+      }
+    },
+    "steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:reinforced_steel_sheet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron",
+      "gold",
+      "copper",
+      "brass",
+      "steel"
+    ]
+  ]
+}

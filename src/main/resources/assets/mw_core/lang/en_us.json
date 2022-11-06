@@ -128,7 +128,8 @@
   "advancements.mw.tech_root.desc": "Unfamiliar assemblies",
   "advancements.mw.sturdy_sheet": "Sturdy Sheets",
   "advancements.mw.sturdy_sheet.desc": "More advanced sheets are needed to make more advanced machines.",
-
+  "advancements.mw.reinforced_sheet": "Reinforced Sheets",
+  "advancements.mw.reinforced_sheet.desc": "Upgrading your sturdy sheets is recommended for even more advanced machines",
   "_": "TOOLTIPS",
   "item.mw_core.logic_mechanism.tooltip": "LOGIC MECHANISM",
   "item.mw_core.logic_mechanism.tooltip.summary": "Used for the production of technological storage utilities from _Applied_ _Energistics_ _2_",
