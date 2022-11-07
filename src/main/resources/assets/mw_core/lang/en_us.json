@@ -27,6 +27,7 @@
   "item.mw_core.polished_diamond_quartz": "Polished Diamond Quartz",
   "item.mw_core.raw_aluminium": "Raw Bauxite",
   "item.mw_core.raw_creatite": "Raw Creatite",
+  "item.mw_core.radiant_quartz": "Radiant Quartz",
 
   "item.mw_core.refined_parts": "Refined Parts",
   "item.mw_core.rough_certus": "Rough Certus Crystals",
@@ -130,6 +131,10 @@
   "advancements.mw.sturdy_sheet.desc": "More advanced sheets are needed to make more advanced machines.",
   "advancements.mw.reinforced_sheet": "Reinforced Sheets",
   "advancements.mw.reinforced_sheet.desc": "Upgrading your sturdy sheets is recommended for even more advanced machines",
+  "advancements.mw.inscriber": "Inscriber",
+  "advancements.mw.inscriber.desc": "Use sturdy iron sheets to make an inscriber for basic creation of circuits",
+  "advancements.mw.industrial_inscriber": "Industrial Inscriber",
+  "advancements.mw.industrial_inscriber.desc": "An upgraded inscriber, capable of more efficient production of circuits.",
   "_": "TOOLTIPS",
   "item.mw_core.logic_mechanism.tooltip": "LOGIC MECHANISM",
   "item.mw_core.logic_mechanism.tooltip.summary": "Used for the production of technological storage utilities from _Applied_ _Energistics_ _2_",
@@ -138,5 +143,5 @@
   "item.mw_core.scorched_mechanism.tooltip": "SCORCHED MECHANISM",
   "item.mw_core.scorched_mechanism.tooltip.summary": "Used for the construction of the foundry from _Tinker's_ _Construct_",
   "item.mw_core.action_mechanism.tooltip": "ACTION MECHANISM",
-  "item.mw_core.action_mechanism.tooltip.summary": "Used for the assembly of guns and weapons from _MrCrayFish's_ _Gun_ _Mod_ and _Create:_ _Big_ _Cannons_"
+  "item.mw_core.action_mechanism.tooltip.summary": "Used for the assembly of guns and weapons from _Create:_ _Big_ _Cannons_"
 }

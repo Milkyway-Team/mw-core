@@ -1,0 +1,37 @@
+{
+  "parent": "mw_core:technology/sturdy_sheets",
+  "display": {
+    "icon": {
+      "item": "ae2:inscriber"
+    },
+    "title": {
+      "translate": "advancements.mw.inscriber"
+    },
+    "description": {
+      "translate": "advancements.mw.inscriber.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "#": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:inscriber"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "#"
+    ]
+  ]
+}

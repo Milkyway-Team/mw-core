@@ -138,7 +138,7 @@ dependencies {
     implementation fg.deobf("curse.maven:enchantment_industry-688768:${project.enchantmentIndustry}")
     implementation fg.deobf("curse.maven:create_alloyed-564792:${project.createAlloyed}")
     implementation fg.deobf("curse.maven:refined_storage-243076:${project.refinedStorage}")
-    implementation fg.deobf("curse.maven:cgm-289479:${project.cgm}")
+
     implementation fg.deobf("curse.maven:framework-549225:${project.frameWork}")
 
 

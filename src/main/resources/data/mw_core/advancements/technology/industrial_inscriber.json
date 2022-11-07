@@ -1,0 +1,37 @@
+{
+  "parent": "mw_core:technology/inscriber",
+  "display": {
+    "icon": {
+      "item": "thermal:machine_press"
+    },
+    "title": {
+      "translate": "advancements.mw.industrial_inscriber"
+    },
+    "description": {
+      "translate": "advancements.mw.industrial_inscriber.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "#": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thermal:machine_press"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "#"
+    ]
+  ]
+}

@@ -22,7 +22,7 @@
       "item": "ae2:smooth_sky_stone_block"
     },
     "Y": {
-      "tag": "forge:plates/sturdy/iron"
+      "tag": "forge:plates/reinforced/iron"
     },
     "L": {
       "item": "mw_core:logic_mechanism"
