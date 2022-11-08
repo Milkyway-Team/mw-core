@@ -38,7 +38,7 @@ public class MWCore
     };
 
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
     public static final String MODID = "mw_core";
 
     public static ResourceLocation getResource(String name) {
@@ -69,6 +69,8 @@ public class MWCore
         AllDiscs.DISCS.register(modEventBus);
         AllSounds.SOUND_EVENTS.register(modEventBus);
         AllTools.TOOLS.register(modEventBus);
+        AllRecipes.RECIPE_SERIALIZERS.register(modEventBus);
+        AllRecipes.RECIPE_TYPES.register(modEventBus);
     }
 
 

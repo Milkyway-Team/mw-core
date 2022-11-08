@@ -1,0 +1,13 @@
+{
+  "type": "mw_core:soaking",
+  "ingredient": {
+    "item": "minecraft:quartz"
+  },
+  "fluid": "tconstruct:molten_lumium",
+  "source": true,
+  "remove": true,
+  "result": {
+    "item": "mw_core:radiant_quartz",
+    "count": 1
+  }
+}
