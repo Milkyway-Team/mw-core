@@ -70,6 +70,7 @@ public class SoakingRecipe implements Recipe<Container> {
 
     @Override
     public ItemStack assemble(Container pContainer) {
+        pContainer.removeItem(0, 1);
         return getResultItem().copy();
     }
 

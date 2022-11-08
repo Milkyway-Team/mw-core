@@ -91,8 +91,8 @@ public class AllRecipes {
                     ItemStack result = recipe.assemble(container, pos, entity.level);
                     // create item entity
                     Block.popResource(entity.level, pos, result);
-                    // shrink input item stack
-                    entity.getItem().shrink(1);
+                    // update entity item
+                    entity.setItem(container.getItem(0));
                     return;
                 }
             }
