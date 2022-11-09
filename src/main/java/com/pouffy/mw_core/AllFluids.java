@@ -13,6 +13,11 @@ public class AllFluids {
 
     public static FluidObject<ForgeFlowingFluid> transium = register("molten_transium", 1200);
 
+    public static FluidObject<ForgeFlowingFluid> creatite = register("molten_creatite", 1200);
+
+    public static FluidObject<ForgeFlowingFluid> fluix = register("molten_fluix", 1200);
+
+    public static FluidObject<ForgeFlowingFluid> certus = register("molten_certus", 1200);
     private static FluidObject<ForgeFlowingFluid> register(String name, int temp) {
         String still = String.format("mw_core:block/fluid/%s/still", name);
         String flow = String.format("mw_core:block/fluid/%s/flowing", name);

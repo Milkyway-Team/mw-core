@@ -17,6 +17,6 @@ public class RadiantQuartzItem extends NoGravMagicalDohickyItem {
 
     protected void onCreated(ItemEntity entity, CompoundTag persistentData) {
         super.onCreated(entity, persistentData);
-        entity.setDeltaMovement(entity.getDeltaMovement().add(0.0, 0.25, 0.0));
+        entity.setDeltaMovement(entity.getDeltaMovement().add(0.0, 50.0, 0.0));
     }
 }
