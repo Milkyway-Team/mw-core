@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "#forge:storage_blocks/transium",
-    "#forge:storage_blocks/aluminum"
+    "#forge:storage_blocks/aluminum",
+    "#forge:storage_blocks/creatite"
   ]
 }

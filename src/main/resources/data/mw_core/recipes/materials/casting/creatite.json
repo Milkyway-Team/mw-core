@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "mw_core:molten_creatite",
+    "amount": 100
+  },
+  "temperature": 1450,
+  "output": "mw_core:creatite"
+}

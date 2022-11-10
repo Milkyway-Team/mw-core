@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gem"
+  },
+  "fluid": {
+    "tag": "mw_core:molten_certus",
+    "amount": 100
+  },
+  "result": "ae2:certus_quartz_crystal",
+  "cooling_time": 83
+}
