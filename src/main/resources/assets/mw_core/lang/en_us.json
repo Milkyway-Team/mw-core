@@ -143,5 +143,11 @@
   "item.mw_core.scorched_mechanism.tooltip": "SCORCHED MECHANISM",
   "item.mw_core.scorched_mechanism.tooltip.summary": "Used for the construction of the foundry from _Tinker's_ _Construct_",
   "item.mw_core.action_mechanism.tooltip": "ACTION MECHANISM",
-  "item.mw_core.action_mechanism.tooltip.summary": "Used for the assembly of guns and weapons from _Create:_ _Big_ _Cannons_"
+  "item.mw_core.action_mechanism.tooltip.summary": "Used for the assembly of guns and weapons from _Create:_ _Big_ _Cannons_",
+
+  "_": "JEI",
+  "jei.mw_core.soaking": "Soaking",
+  "jei.mw_core.soaking.catalyst.tooltip.flowing_or_source": "Accepts flowing or source block",
+  "jei.mw_core.soaking.catalyst.tooltip.source": "Accepts source block only",
+  "jei.mw_core.soaking.catalyst.tooltip.remove": "Fluid is depleted"
 }
