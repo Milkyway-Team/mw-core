@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "create:wheat_flour"
   },
-  "fluid": "minecraft:water",
+  "fluid": "mw_core:dough_soaker",
   "source": false,
   "remove": false,
   "result": {

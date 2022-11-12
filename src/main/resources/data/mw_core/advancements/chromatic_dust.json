@@ -1,0 +1,37 @@
+{
+  "parent": "mw_core:root",
+  "display": {
+    "icon": {
+      "item": "mw_core:chromatic_dust"
+    },
+    "title": {
+      "translate": "advancement.mw.chromatic_dust"
+    },
+    "description": {
+      "translate": "advancement.mw.chromatic_dust.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:chromatic_dust"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

@@ -50,7 +50,7 @@ public class JeiSoakingCategory implements IRecipeCategory<SoakingRecipe> {
         this.title = new TranslatableComponent("jei." + RECIPE_TYPE.getUid().getNamespace() + "." + RECIPE_TYPE.getUid().getPath());
         this.guiHelper = guiHelper;
         this.background = guiHelper.createBlankDrawable(WIDTH, HEIGHT);
-        this.icon = guiHelper.createDrawableIngredient(ForgeTypes.FLUID_STACK, new FluidStack(Fluids.FLOWING_WATER, 1000));
+        this.icon = guiHelper.createDrawableIngredient(ForgeTypes.FLUID_STACK, new FluidStack(Fluids.FLOWING_WATER, 500));
         this.arrow = guiHelper.createDrawable(TEXTURE, 0, 0, ARROW_WIDTH, ARROW_HEIGHT);
     }
 

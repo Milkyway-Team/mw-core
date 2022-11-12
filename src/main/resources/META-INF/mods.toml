@@ -2,7 +2,8 @@
 modLoader="javafml" 
 loaderVersion="[40,)"
 license="All rights reserved"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" 
+issueTrackerURL="https://github.com/pouffy/mw-core/issues"
+craftTweakerScripts="https://github.com/pouffy/mw-core/tree/main/crafttweaker_scripts"
 [[mods]]
 modId="mw_core"
 version="${file.jarVersion}" 
@@ -10,10 +11,12 @@ displayName="Create: Milkyway"
 #updateJSONURL="https://change.me.example.invalid/updates.json" 
 displayURL="https://discord.gg/qbSrvgwYUq" 
 logoFile="milkyway_plaque.png"
-credits="Special thanks to Ridanisaurus for his help with the Creatite item sprites" 
-authors="MilkFur, Pouffy" 
+credits="MilkFur, Ridanisaurus, SkyJay1, Baab, xRohBust, Mr_Error, ShellTune, SveinTheUser, Kermit, Fehn, all the staff on Milkyway and more!"
+authors="Pouffy"
 description='''
 Core mod for Create: Milkyway
+Once I figure out dependencies they will exist but for now don't use this on it's own.
+This mod has all the bonus features for the modpack Create: Milkyway including custom recipes, items, blocks and fluids.
 '''
 [[dependencies.mw_core]] 
     modId="forge" 

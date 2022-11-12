@@ -1,0 +1,13 @@
+{
+  "type": "mw_core:soaking",
+  "ingredient": {
+    "item": "create:cinder_flour"
+  },
+  "fluid": "mw_core:chromatic_waste",
+  "source": true,
+  "remove": true,
+  "result": {
+    "item": "mw_core:chromatic_dust",
+    "count": 1
+  }
+}

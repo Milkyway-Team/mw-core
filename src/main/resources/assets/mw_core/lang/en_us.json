@@ -9,6 +9,11 @@
   "itemGroup.mw_core": "Create: Milkyway",
   "_": "MATERIALS",
   "item.mw_core.creatite": "Creatite",
+  "item.mw_core.chromatic_dust": "Chromatic Dust",
+  "item.mw_core.rave_tube": "Rave Tube",
+  "fluid.mw_core.chromatic_waste": "Chromatic Waste",
+  "item.mw_core.chromatic_waste_bucket": "Bucket of Chromatic Waste",
+
   "item.mw_core.aluminium_ingot": "Aluminium Ingot",
   "item.mw_core.aluminium_nugget": "Aluminium Nugget",
   "item.mw_core.aluminium_dust": "Aluminium Dust",
@@ -131,6 +136,8 @@
   "advancement.mw.gender_fluid.desc": "Obtain gender fluid",
   "advancements.mw.press": "Pressing Matters",
   "advancements.mw.press.desc": "Create all obtainable sheets in a Mechanical Press",
+  "advancement.mw.chromatic_dust": "O-o-oa-oa",
+  "advancement.mw.chromatic_dust.desc": "O-o-oa-oa aa",
 
   "_": "TECH ADVANCEMENTS",
   "advancements.mw.tech_root": "Advanced Technologies",
@@ -158,7 +165,7 @@
   "jei.mw_core.soaking": "Soaking",
   "jei.mw_core.soaking.catalyst.tooltip.flowing_or_source": "Accepts flowing or source block",
   "jei.mw_core.soaking.catalyst.tooltip.source": "Accepts source block only",
-  "jei.mw_core.soaking.catalyst.tooltip.remove": "Fluid is depleted"
+  "jei.mw_core.soaking.catalyst.tooltip.remove": "Fluid is depleted",
 
   "mw_core.jei.info.radiant_quartz": "Created by dropping Quartz into a very luminous molten metal"
 

@@ -17,6 +17,12 @@ public class AllItems {
     }
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MWCore.MODID);
     //MISC
+
+    public static final RegistryObject<Item> CHROMATIC_DUST = ITEMS.register("chromatic_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+
+    public static final RegistryObject<Item> RAVE_TUBE = ITEMS.register("rave_tube",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> TRANSIUM_INGOT = ITEMS.register("transium_ingot",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> TRANSIUM_NUGGET = ITEMS.register("transium_nugget",
