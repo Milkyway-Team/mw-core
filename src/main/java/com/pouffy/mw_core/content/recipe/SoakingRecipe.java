@@ -3,6 +3,7 @@ package com.pouffy.mw_core.content.recipe;
 import com.google.gson.JsonObject;
 import com.mojang.realmsclient.util.JsonUtils;
 import com.pouffy.mw_core.AllRecipes;
+import com.pouffy.mw_core.MWCore;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
@@ -100,7 +101,6 @@ public class SoakingRecipe implements Recipe<Container> {
     public RecipeSerializer<?> getSerializer() {
         return AllRecipes.SOAKING_RECIPE_SERIALIZER.get();
     }
-
     @Override
     public RecipeType<?> getType() {
         return AllRecipes.SOAKING_RECIPE_TYPE.get();

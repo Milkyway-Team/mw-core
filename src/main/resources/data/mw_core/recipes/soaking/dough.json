@@ -1,0 +1,13 @@
+{
+  "type": "mw_core:soaking",
+  "ingredient": {
+    "item": "create:wheat_flour"
+  },
+  "fluid": "minecraft:water",
+  "source": false,
+  "remove": false,
+  "result": {
+    "item": "create:dough",
+    "count": 1
+  }
+}

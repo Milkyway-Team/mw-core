@@ -1,5 +1,7 @@
 package com.pouffy.mw_core;
 
+import com.simibubi.create.content.contraptions.base.CasingBlock;
+import com.simibubi.create.foundation.data.BuilderTransformers;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -34,4 +36,7 @@ public class AllBlocks {
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F)));
     public static final RegistryObject<Block> DEEPSLATE_HALITE_ORE = BLOCKS.register("deepslate_halite_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).color(MaterialColor.DEEPSLATE).strength(3.0F).sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> CREATITE_BLOCK = BLOCKS.register("creatite_block",
+            () -> new Block(Block.Properties.copy(Blocks.NETHERITE_BLOCK).strength(2.0F).requiresCorrectToolForDrops()));
 }

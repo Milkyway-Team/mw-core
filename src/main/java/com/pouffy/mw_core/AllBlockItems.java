@@ -29,5 +29,6 @@ public class AllBlockItems {
             () -> new BlockItem(AllBlocks.HALITE_ORE.get(), new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> DEEPSLATE_HALITE_ORE = BLOCK_ITEMS.register("deepslate_halite_ore",
             () -> new BlockItem(AllBlocks.DEEPSLATE_HALITE_ORE.get(), new Item.Properties().tab(MWCore.MISC)));
-
+    public static final RegistryObject<Item> CREATITE_BLOCK = BLOCK_ITEMS.register("creatite_block",
+            () -> new BlockItem(AllBlocks.CREATITE_BLOCK.get(), new Item.Properties().tab(MWCore.MISC)));
 }

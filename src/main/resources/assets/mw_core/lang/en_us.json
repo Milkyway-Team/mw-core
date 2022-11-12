@@ -28,10 +28,17 @@
   "item.mw_core.raw_aluminium": "Raw Bauxite",
   "item.mw_core.raw_creatite": "Raw Creatite",
   "item.mw_core.radiant_quartz": "Radiant Quartz",
+  "material.mw_core.creatite": "Creatite",
+  "item.mw_core.molten_creatite_bucket": "Bucket of Molten Creatite",
+  "item.mw_core.molten_fluix_bucket": "Bucket of Molten Fluix",
+  "item.mw_core.molten_certus_bucket": "Bucket of Molten Certus Quartz",
 
   "item.mw_core.refined_parts": "Refined Parts",
   "item.mw_core.rough_certus": "Rough Certus Crystals",
   "item.mw_core.rough_fluix": "Rough Fluix Crystals",
+  "fluid.mw_core.molten_creatite": "Molten Creatite",
+  "fluid.mw_core.molten_fluix": "Molten Fluix",
+  "fluid.mw_core.molten_certus": "Molten Certus Quartz",
 
   "_": "TOOLS",
   "item.mw_core.aluminium_axe": "Aluminium Axe",
@@ -108,6 +115,7 @@
   "block.mw_core.raw_aluminium_block": "Block of Raw Bauxite",
   "block.mw_core.transium_block": "Block of Transium",
   "block.mw_core.creatite_ore": "Nether Creatite Ore",
+  "block.mw_core.creatite_block": "Block of Creatite",
 
   "_": "DISC",
   "item.mw_core.music_disc_venture": "Music Disc",
@@ -145,9 +153,13 @@
   "item.mw_core.action_mechanism.tooltip": "ACTION MECHANISM",
   "item.mw_core.action_mechanism.tooltip.summary": "Used for the assembly of guns and weapons from _Create:_ _Big_ _Cannons_",
 
+
   "_": "JEI",
   "jei.mw_core.soaking": "Soaking",
   "jei.mw_core.soaking.catalyst.tooltip.flowing_or_source": "Accepts flowing or source block",
   "jei.mw_core.soaking.catalyst.tooltip.source": "Accepts source block only",
   "jei.mw_core.soaking.catalyst.tooltip.remove": "Fluid is depleted"
+
+  "mw_core.jei.info.radiant_quartz": "Created by dropping Quartz into a very luminous molten metal"
+
 }

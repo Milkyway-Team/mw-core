@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tconstruct:block/fluid/gem/molten_certus"
+    }
+  }
+}

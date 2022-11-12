@@ -115,4 +115,7 @@ public class MWCore
             LOGGER.info("HELLO from Register Block");
         }
     }
+    public static ResourceLocation asResource(String path) {
+        return new ResourceLocation(MODID, path);
+    }
 }

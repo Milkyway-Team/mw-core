@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "mw_core:molten_creatite",
+    "amount": 900
+  },
+  "result": "mw_core:creatite_block",
+  "cooling_time": 225
+}
