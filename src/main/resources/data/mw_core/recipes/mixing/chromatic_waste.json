@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "ae2:orange_paint_ball"
+    },
+    {
+      "item": "ae2:white_paint_ball"
+    },
+    {
+      "item": "ae2:yellow_paint_ball"
+    },
+    {
+      "item": "ae2:black_paint_ball"
+    },
+    {
+      "item": "ae2:pink_paint_ball"
+    },
+    {
+      "item": "ae2:purple_paint_ball"
+    },
+    {
+      "item": "ae2:blue_paint_ball"
+    },
+    {
+      "item": "ae2:green_paint_ball"
+    },
+    {
+      "item": "ae2:red_paint_ball"
+    },
+    {
+      "fluid": "mw_core:molten_creatite",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "mw_core:chromatic_waste",
+      "amount": 1000
+    }
+  ],
+  "heatRequirement": "superheated"
+}
