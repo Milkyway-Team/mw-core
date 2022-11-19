@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MSM",
+    "TGT",
+    " C "
+  ],
+  "key": {
+    "S": {
+      "item": "create:copper_casing"
+    },
+    "T": {
+      "item": "create:shaft"
+    },
+    "G": {
+      "item": "minecraft:dried_kelp_block"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "M": {
+      "item": "mw_core:copper_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:hose_pulley",
+    "count": 1
+  }
+}

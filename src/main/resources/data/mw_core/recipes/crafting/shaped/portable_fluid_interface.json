@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    "SMT",
+    "CC "
+  ],
+  "key": {
+    "S": {
+      "item": "create:copper_casing"
+    },
+    "T": {
+      "item": "create:chute"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "M": {
+      "item": "mw_core:copper_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:portable_fluid_interface",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TST",
+    "SMS",
+    "TST"
+  ],
+  "key": {
+    "S": {
+      "item": "create:copper_casing"
+    },
+    "M": {
+      "item": "mw_core:copper_mechanism"
+    },
+    "T": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "thermal:fluid_cell_frame",
+    "count": 1
+  }
+}

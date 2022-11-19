@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CTC",
+    "C C",
+    "SMS"
+  ],
+  "key": {
+    "S": {
+      "item": "create:copper_casing"
+    },
+    "T": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "M": {
+      "item": "mw_core:copper_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:item_drain",
+    "count": 1
+  }
+}
