@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "SMS",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "create:shaft"
+    },
+    "M": {
+      "item": "mw_core:copper_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:fluid_valve",
+    "count": 1
+  }
+}

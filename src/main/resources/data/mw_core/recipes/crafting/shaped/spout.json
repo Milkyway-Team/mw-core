@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CTC",
+    "SMS",
+    " P "
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "S": {
+      "item": "create:copper_sheet"
+    },
+    "M": {
+      "item": "mw_core:copper_mechanism"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    }
+  },
+  "result": {
+    "item": "create:spout",
+    "count": 1
+  }
+}

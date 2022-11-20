@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "SMS",
+    " T "
+  ],
+  "key": {
+    "S": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "M": {
+      "item": "mw_core:copper_mechanism"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "create:smart_fluid_pipe",
+    "count": 1
+  }
+}

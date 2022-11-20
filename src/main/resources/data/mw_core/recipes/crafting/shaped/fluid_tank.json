@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CUM",
+    "C M",
+    "COM"
+  ],
+  "key": {
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "U": {
+      "item": "create:copper_casing"
+    },
+    "M": {
+      "item": "create:copper_sheet"
+    },
+    "O": {
+      "item": "mw_core:copper_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:fluid_tank",
+    "count": 1
+  }
+}

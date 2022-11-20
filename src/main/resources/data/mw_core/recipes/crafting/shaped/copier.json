@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    " E "
+  ],
+  "key": {
+    "A": {
+      "item": "create:copper_casing"
+    },
+    "D": {
+      "item": "create:fluid_tank"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "B": {
+      "item": "mw_core:copper_mechanism"
+    },
+    "E": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "result": {
+    "item": "create_enchantment_industry:copier",
+    "count": 1
+  }
+}
