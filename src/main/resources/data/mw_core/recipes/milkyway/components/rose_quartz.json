@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz",
+      "count": 1
+    },
+    {
+      "fluid": "thermal:redstone",
+      "amount": 160
+    }
+  ],
+  "results": [
+     {
+    "item": "create:rose_quartz"
+     }
+  ]
+}

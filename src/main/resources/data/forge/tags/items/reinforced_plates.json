@@ -4,6 +4,9 @@
     "#forge:plates/reinforced/brass",
     "#forge:plates/reinforced/copper",
     "#forge:plates/reinforced/gold",
-    "#forge:plates/reinforced/iron"
+    "#forge:plates/reinforced/iron",
+    "#forge:plates/reinforced/steel",
+    "#forge:plates/reinforced/tin"
+
   ]
 }
