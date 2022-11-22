@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "mw_core:sturdy_sheet_cast"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "tag": "tconstruct:molten_brass",
+    "amount": 180
+  },
+  "result": "mw_core:sturdy_brass_sheet",
+  "cooling_time": 80
+}

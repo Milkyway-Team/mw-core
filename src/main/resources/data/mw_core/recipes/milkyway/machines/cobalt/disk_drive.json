@@ -7,7 +7,7 @@
   ],
   "key": {
     "E": {
-      "item": "mw_core:tin_sheet"
+      "tag": "forge:plates/reinforced/tin"
     },
     "T": {
       "item": "thermal:lead_ingot"

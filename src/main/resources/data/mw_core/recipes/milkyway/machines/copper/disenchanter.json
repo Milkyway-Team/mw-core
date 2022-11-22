@@ -10,7 +10,7 @@
       "item": "create:copper_casing"
     },
     "T": {
-      "item": "create:red_sand_paper"
+      "tag": "create:sandpaper"
     },
     "S": {
       "item": "create:copper_sheet"

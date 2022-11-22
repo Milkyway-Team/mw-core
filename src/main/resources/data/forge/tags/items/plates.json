@@ -14,6 +14,11 @@
     "#forge:plates/enderium",
     "#forge:plates/lumium",
     "#forge:plates/nickel",
-    "#forge:plates/netherite"
+    "#forge:plates/netherite",
+    "#forge:plates/hepatizon",
+    "#forge:plates/queens_slime",
+    "#forge:plates/constantan",
+    "#forge:plates/rose_gold",
+    "#forge:plates/amethyst_bronze"
   ]
 }

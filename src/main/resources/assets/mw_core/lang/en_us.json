@@ -97,17 +97,21 @@
   "item.mw_core.reinforced_copper_sheet": "Reinforced Copper Sheet",
   "item.mw_core.reinforced_iron_sheet": "Reinforced Iron Sheet",
   "item.mw_core.reinforced_steel_sheet": "Reinforced Steel Sheet",
+  "item.mw_core.reinforced_tin_sheet": "Reinforced Tin Sheet",
 
   "item.mw_core.unprocessed_brass_sheet": "Unprocessed Brass Sheet",
   "item.mw_core.unprocessed_gold_sheet": "Unprocessed Gold Sheet",
   "item.mw_core.unprocessed_copper_sheet": "Unprocessed Copper Sheet",
   "item.mw_core.unprocessed_iron_sheet": "Unprocessed Iron Sheet",
+  "item.mw_core.unprocessed_tin_sheet": "Unprocessed Tin Sheet",
+  "item.mw_core.unprocessed_steel_sheet": "Unprocessed Steel Sheet",
 
   "item.mw_core.sturdy_brass_sheet": "Sturdy Brass Sheet",
   "item.mw_core.sturdy_gold_sheet": "Sturdy Gold Sheet",
   "item.mw_core.sturdy_copper_sheet": "Sturdy Copper Sheet",
   "item.mw_core.sturdy_iron_sheet": "Sturdy Iron Sheet",
   "item.mw_core.sturdy_steel_sheet": "Sturdy Steel Sheet",
+
   "item.mw_core.radiant_quartz_sheet": "Radiant Quartz Sheet",
   "item.mw_core.radiant_quartz_sheet": "Radiant Quartz Sheet",
 

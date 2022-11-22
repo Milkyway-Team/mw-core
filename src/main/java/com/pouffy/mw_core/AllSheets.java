@@ -1,5 +1,6 @@
 package com.pouffy.mw_core;
 
+
 import com.pouffy.mw_core.content.items.RadiantSheetItem;
 import com.simibubi.create.content.contraptions.itemAssembly.SequencedAssemblyItem;
 import net.minecraft.world.item.Item;
@@ -10,6 +11,16 @@ import net.minecraftforge.registries.RegistryObject;
 public class AllSheets {
     public static final DeferredRegister<Item> SHEETS = DeferredRegister.create(ForgeRegistries.ITEMS, MWCore.MODID);
     public static final RegistryObject<Item> SLIMESTEEL_SHEET = SHEETS.register("slimesteel_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> QUEENS_SLIME_SHEET = SHEETS.register("queens_slime_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> HEPATIZON_SHEET = SHEETS.register("hepatizon_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CONSTANTAN_SHEET = SHEETS.register("constantan_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ROSE_GOLD_SHEET = SHEETS.register("rose_gold_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> AMETHYST_BRONZE_SHEET = SHEETS.register("amethyst_bronze_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> COBALT_SHEET = SHEETS.register("cobalt_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
@@ -37,17 +48,21 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> TIN_SHEET = SHEETS.register("tin_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> RADIANT_QUARTZ_SHEET = SHEETS.register("radiant_quartz_sheet",
+            () -> new RadiantSheetItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
     //INCOMPLETE SHEETS
     public static final RegistryObject<Item> UNPROCESSED_BRASS_SHEET = SHEETS.register("unprocessed_brass_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final RegistryObject<Item> UNPROCESSED_GOLD_SHEET = SHEETS.register("unprocessed_gold_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final RegistryObject<Item> UNPROCESSED_COPPER_SHEET = SHEETS.register("unprocessed_copper_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final RegistryObject<Item> UNPROCESSED_IRON_SHEET = SHEETS.register("unprocessed_iron_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final RegistryObject<Item> UNPROCESSED_STEEL_SHEET = SHEETS.register("unprocessed_steel_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final RegistryObject<Item> UNPROCESSED_TIN_SHEET = SHEETS.register("unprocessed_tin_sheet",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     //UPGRADED SHEETS
     public static final RegistryObject<Item> STURDY_BRASS_SHEET = SHEETS.register("sturdy_brass_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
@@ -59,6 +74,8 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> STURDY_STEEL_SHEET = SHEETS.register("sturdy_steel_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> STURDY_TIN_SHEET = SHEETS.register("sturdy_tin_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REINFORCED_BRASS_SHEET = SHEETS.register("reinforced_brass_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REINFORCED_GOLD_SHEET = SHEETS.register("reinforced_gold_sheet",
@@ -69,8 +86,8 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REINFORCED_STEEL_SHEET = SHEETS.register("reinforced_steel_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-    public static final RegistryObject<Item> RADIANT_QUARTZ_SHEET = SHEETS.register("radiant_quartz_sheet",() ->
-            new RadiantSheetItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
+
+    
 
 
     public static final RegistryObject<Item> REINFORCED_TIN_SHEET = SHEETS.register("reinforced_tin_sheet",
