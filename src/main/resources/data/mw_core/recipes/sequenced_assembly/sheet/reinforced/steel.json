@@ -4,24 +4,24 @@
     "item": "mw_core:sturdy_steel_sheet"
   },
   "transitionalItem": {
-    "item": "mw_core:unprocessed_steel_sheet"
+    "item": "mw_core:reprocessed_steel_sheet"
   },
   "sequence": [
     {
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         },
         {
-          "fluid": "thermal:creosote",
+          "fluid": "thermal:crude_oil",
           "nbt": {},
           "amount": 500
         }
       ],
       "results": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         }
       ]
     },
@@ -29,7 +29,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         },
         {
           "item": "mw_core:sturdy_steel_sheet"
@@ -37,7 +37,7 @@
       ],
       "results": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         }
       ]
     },
@@ -45,7 +45,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         },
         {
           "fluid": "tconstruct:molten_steel",
@@ -55,7 +55,7 @@
       ],
       "results": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         }
       ]
     },
@@ -63,7 +63,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         },
         {
           "fluid": "minecraft:water",
@@ -73,7 +73,7 @@
       ],
       "results": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         }
       ]
     },
@@ -81,12 +81,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         }
       ],
       "results": [
         {
-          "item": "mw_core:unprocessed_steel_sheet"
+          "item": "mw_core:reprocessed_steel_sheet"
         }
       ]
     }

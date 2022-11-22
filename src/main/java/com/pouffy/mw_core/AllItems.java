@@ -76,6 +76,8 @@ public class AllItems {
             () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.SALT).tab(MWCore.MISC)));
     public static final RegistryObject<Item> RADIANT_QUARTZ = ITEMS.register("radiant_quartz",
             () -> new RadiantQuartzItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
+    public static final RegistryObject<Item> STURDY_SHEET_CAST = ITEMS.register("sturdy_sheet_cast",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
     //INCOMPLETE ITEMS
 

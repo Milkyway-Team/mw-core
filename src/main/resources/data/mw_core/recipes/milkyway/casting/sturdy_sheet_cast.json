@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "forge:sturdy_plates"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:molten_invar",
+    "amount": 90
+  },
+  "result": "mw_core:sturdy_sheet_cast",
+  "cooling_time": 40
+}

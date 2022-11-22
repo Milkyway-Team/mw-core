@@ -2,7 +2,7 @@
   "parent": "mw_core:root",
   "display": {
     "icon": {
-      "item": "mw_core:chromatic_dust"
+      "item": "mw_core:rave_tube"
     },
     "title": {
       "translate": "advancement.mw.chromatic_dust"
@@ -22,7 +22,7 @@
         "items": [
           {
             "items": [
-              "mw_core:chromatic_dust"
+              "mw_core:rave_tube"
             ]
           }
         ]

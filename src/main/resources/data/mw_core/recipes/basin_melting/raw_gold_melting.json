@@ -1,0 +1,16 @@
+{
+  "type": "createbigcannons:melting",
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/gold"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:molten_gold",
+      "amount": 90
+    }
+  ],
+  "processingTime": 440,
+  "heatRequirement": "heated"
+}

@@ -10,7 +10,7 @@
       "item": "mw_core:lead_sheet"
     },
     "4": {
-      "item": "mw_core:tin_sheet"
+      "tag": "forge:plates/reinforced/tin"
     },
     "1": {
       "item": "refinedstorage:construction_core"

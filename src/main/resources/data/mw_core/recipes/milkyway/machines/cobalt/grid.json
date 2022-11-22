@@ -16,7 +16,7 @@
       "item": "ae2:quartz_glass"
     },
     "E": {
-      "item": "mw_core:tin_sheet"
+      "tag": "forge:plates/reinforced/tin"
     },
     "M": {
       "item": "mw_core:cobalt_mechanism"
