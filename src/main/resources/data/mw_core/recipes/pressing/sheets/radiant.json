@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "mw_core:radiant_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:radiant_quartz_sheet"
+    }
+  ]
+}

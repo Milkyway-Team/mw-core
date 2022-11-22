@@ -1,5 +1,7 @@
 package com.pouffy.mw_core;
 
+
+import com.pouffy.mw_core.content.items.RadiantSheetItem;
 import com.simibubi.create.content.contraptions.itemAssembly.SequencedAssemblyItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
@@ -46,6 +48,8 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> TIN_SHEET = SHEETS.register("tin_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> RADIANT_QUARTZ_SHEET = SHEETS.register("radiant_quartz_sheet",
+            () -> new RadiantSheetItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
     //INCOMPLETE SHEETS
     public static final RegistryObject<Item> UNPROCESSED_BRASS_SHEET = SHEETS.register("unprocessed_brass_sheet",
             () -> new SequencedAssemblyItem(new Item.Properties()));
@@ -82,6 +86,10 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REINFORCED_STEEL_SHEET = SHEETS.register("reinforced_steel_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+
+    
+
+
     public static final RegistryObject<Item> REINFORCED_TIN_SHEET = SHEETS.register("reinforced_tin_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
