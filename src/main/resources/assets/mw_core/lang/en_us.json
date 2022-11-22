@@ -109,6 +109,18 @@
   "item.mw_core.sturdy_iron_sheet": "Sturdy Iron Sheet",
   "item.mw_core.sturdy_steel_sheet": "Sturdy Steel Sheet",
   "item.mw_core.radiant_quartz_sheet": "Radiant Quartz Sheet",
+  "item.mw_core.radiant_quartz_sheet": "Radiant Quartz Sheet",
+
+  "item.mw_core.sturdy_tin_sheet": "Sturdy Tin Sheet",
+
+  "item.mw_core.reprocessed_brass_sheet": "Reprocessed Brass Sheet",
+  "item.mw_core.reprocessed_gold_sheet": "Reprocessed Gold Sheet",
+  "item.mw_core.reprocessed_copper_sheet": "Reprocessed Copper Sheet",
+  "item.mw_core.reprocessed_iron_sheet": "Reprocessed Iron Sheet",
+  "item.mw_core.reprocessed_tin_sheet": "Reprocessed Tin Sheet",
+  "item.mw_core.reprocessed_steel_sheet": "Reprocessed Steel Sheet",
+
+  "item.mw_core.sturdy_sheet_cast": "Sturdy Sheet Invar Cast",
 
   "_": "BLOCKS",
 

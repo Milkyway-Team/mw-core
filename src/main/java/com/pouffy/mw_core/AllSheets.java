@@ -1,6 +1,7 @@
 package com.pouffy.mw_core;
 
 import com.pouffy.mw_core.content.items.RadiantSheetItem;
+import com.simibubi.create.content.contraptions.itemAssembly.SequencedAssemblyItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -70,4 +71,21 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> RADIANT_QUARTZ_SHEET = SHEETS.register("radiant_quartz_sheet",() ->
             new RadiantSheetItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
+
+
+    public static final RegistryObject<Item> REINFORCED_TIN_SHEET = SHEETS.register("reinforced_tin_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+
+    public static final RegistryObject<Item> REPROCESSED_BRASS_SHEET = SHEETS.register("reprocessed_brass_sheet",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final RegistryObject<Item> REPROCESSED_GOLD_SHEET = SHEETS.register("reprocessed_gold_sheet",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final RegistryObject<Item> REPROCESSED_COPPER_SHEET = SHEETS.register("reprocessed_copper_sheet",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final RegistryObject<Item> REPROCESSED_IRON_SHEET = SHEETS.register("reprocessed_iron_sheet",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final RegistryObject<Item> REPROCESSED_STEEL_SHEET = SHEETS.register("reprocessed_steel_sheet",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final RegistryObject<Item> REPROCESSED_TIN_SHEET = SHEETS.register("reprocessed_tin_sheet",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
 }
