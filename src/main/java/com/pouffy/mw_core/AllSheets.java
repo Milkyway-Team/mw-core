@@ -1,5 +1,6 @@
 package com.pouffy.mw_core;
 
+import com.pouffy.mw_core.content.items.RadiantSheetItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -67,4 +68,6 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REINFORCED_STEEL_SHEET = SHEETS.register("reinforced_steel_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> RADIANT_QUARTZ_SHEET = SHEETS.register("radiant_quartz_sheet",() ->
+            new RadiantSheetItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
 }
