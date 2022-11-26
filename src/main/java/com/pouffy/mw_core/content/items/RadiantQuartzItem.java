@@ -7,7 +7,7 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
-public class RadiantQuartzItem extends NoGravMagicalDohickyItem {
+public class RadiantQuartzItem extends NoGravInventoryDohicky {
     public RadiantQuartzItem(Item.Properties properties) {
         super(properties);
         properties.tab(MWCore.MISC);

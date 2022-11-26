@@ -2,7 +2,7 @@
   "type": "create:pressing",
   "ingredients": [
     {
-      "item": "mw_core:radiant_quartz"
+      "item": "mw_core:polished_radiant_quartz"
     }
   ],
   "results": [

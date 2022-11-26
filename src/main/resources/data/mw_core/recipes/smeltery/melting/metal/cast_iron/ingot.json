@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/cast_iron",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/cast_iron"
+  },
+  "result": {
+    "fluid": "mw_core:molten_cast_iron",
+    "amount": 90
+  },
+  "temperature": 1375,
+  "time": 79
+}

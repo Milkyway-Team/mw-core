@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "#forge:storage_blocks/transium"
+    "#forge:storage_blocks/transium",
+    "#forge:storage_blocks/nethersteel"
+
   ]
 }

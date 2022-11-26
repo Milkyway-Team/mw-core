@@ -1,0 +1,16 @@
+{
+  "type": "createbigcannons:melting",
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/copper"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:molten_copper",
+      "amount": 180
+    }
+  ],
+  "processingTime": 440,
+  "heatRequirement": "heated"
+}

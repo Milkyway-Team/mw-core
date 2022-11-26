@@ -6,7 +6,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.ItemStack;
 
-public class RadiantSheetItem extends NoGravMagicalDohickyItem {
+public class RadiantSheetItem extends NoGravInventoryDohicky {
     public RadiantSheetItem(Properties properties) {
         super(properties);
         properties.tab(MWCore.MISC);

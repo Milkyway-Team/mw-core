@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "mw_core:molten_nethersteel",
+    "amount": 90
+  },
+  "temperature": 1375,
+  "output": "mw_core:nethersteel"
+}

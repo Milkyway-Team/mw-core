@@ -37,6 +37,11 @@
   "item.mw_core.molten_creatite_bucket": "Eimer mit geschmolzenem Kreatit",
   "item.mw_core.molten_fluix_bucket": "Eimer mit geschmolzenem Fluix",
   "item.mw_core.molten_certus_bucket": "Eimer mit geschmolzenem Certus-Quarz",
+  "item.mw_core.molten_nethersteel_bucket": "Eimer mit geschmolzenem NetherStahl",
+  "item.mw_core.molten_cast_iron_bucket": "Eimer mit geschmolzenem Guss Eisen",
+
+  "item.mw_core.radiant_quartz_sheet": "Strahlendes Quarz Blech",
+  "item.mw_core.polished_radiant_quartz": "Poliertes Strahlendes Quarz",
 
   "item.mw_core.refined_parts": "Raffinierte Teile",
   "item.mw_core.rough_certus": "Raue Certus Kristalle",
@@ -44,6 +49,9 @@
   "fluid.mw_core.molten_creatite": "Geschmolzenes Kreatit",
   "fluid.mw_core.molten_fluix": "Geschmolzenes Fluix",
   "fluid.mw_core.molten_certus": "Geschmolzenes Certus Quarz",
+  "item.mw_core.radiant_quartz_dust": "Strahlendes Quarz Staub",
+  "fluid.mw_core.molten_nethersteel": "Geschmolzenes NetherStahl",
+  "fluid.mw_core.molten_cast_iron": "Geschmolzenes Guss Eisen",
 
   "_": "TOOLS",
   "item.mw_core.aluminium_axe": "Aluminium Axt",

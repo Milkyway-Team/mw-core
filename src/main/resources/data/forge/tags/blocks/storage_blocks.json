@@ -3,6 +3,9 @@
   "values": [
     "#forge:storage_blocks/transium",
     "#forge:storage_blocks/aluminum",
-    "#forge:storage_blocks/creatite"
+    "#forge:storage_blocks/creatite",
+    "#forge:storage_blocks/cast_iron",
+    "#forge:storage_blocks/nethersteel"
+
   ]
 }

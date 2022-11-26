@@ -56,10 +56,6 @@ public class AllItems {
     //ITEMS
     public static final RegistryObject<Item> CAN = ITEMS.register("can",
             () -> new Item(new Item.Properties().stacksTo(32).tab(MWCore.MISC)));
-    public static final RegistryObject<Item> ROUGH_CERTUS = ITEMS.register("rough_certus",
-            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-    public static final RegistryObject<Item> ROUGH_FLUIX = ITEMS.register("rough_fluix",
-            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> DIAMOND_QUARTZ = ITEMS.register("diamond_quartz",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> POLISHED_DIAMOND_QUARTZ = ITEMS.register("polished_diamond_quartz",
@@ -78,6 +74,10 @@ public class AllItems {
             () -> new RadiantQuartzItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
     public static final RegistryObject<Item> STURDY_SHEET_CAST = ITEMS.register("sturdy_sheet_cast",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> POLISHED_RADIANT_QUARTZ = ITEMS.register("polished_radiant_quartz",
+            () -> new RadiantQuartzItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
+    public static final RegistryObject<Item> RADIANT_QUARTZ_DUST = ITEMS.register("radiant_quartz_dust",
+            () -> new RadiantQuartzItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
 
     //INCOMPLETE ITEMS
 

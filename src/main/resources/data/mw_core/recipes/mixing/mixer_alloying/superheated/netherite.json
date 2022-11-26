@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "tconstruct:molten_gold",
+      "amount": 20
+    },
+    {
+      "fluid": "tconstruct:molten_debris",
+      "amount": 40
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:molten_netherite",
+      "amount": 10
+    }
+  ],
+  "heatRequirement": "superheated"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mw_core:block/fluid/metal/alloy/molten_cast_iron"
+    }
+  }
+}

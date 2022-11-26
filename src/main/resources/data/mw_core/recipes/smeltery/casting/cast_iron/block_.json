@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "mw_core:molten_cast_iron",
+    "amount": 810
+  },
+  "result": "createbigcannons:cast_iron_block",
+  "cooling_time": 225
+}

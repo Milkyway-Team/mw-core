@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mw_core:radiant_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:radiant_quartz_dust",
+      "chance": 0.75
+    },
+    {
+      "item": "thermal:lumium_dust",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

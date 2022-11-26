@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/nethersteel"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "mw_core:nethersteel",
+  "leftover": {
+    "tag": "forge:ingots/transium"
+  }
+}

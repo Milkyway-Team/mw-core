@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:storage_blocks/nethersteel",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/nethersteel"
+  },
+  "result": {
+    "fluid": "mw_core:molten_nethersteel",
+    "amount": 810
+  },
+  "temperature": 1375,
+  "time": 236
+}

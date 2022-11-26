@@ -1,0 +1,16 @@
+{
+  "type": "createbigcannons:melting",
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/creatite"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:molten_creatite",
+      "amount": 200
+    }
+  ],
+  "processingTime": 440,
+  "heatRequirement": "superheated"
+}

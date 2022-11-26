@@ -1,0 +1,16 @@
+{
+  "type": "createbigcannons:melting",
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/tin"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:molten_tin",
+      "amount": 180
+    }
+  ],
+  "processingTime": 440,
+  "heatRequirement": "heated"
+}

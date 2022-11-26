@@ -2,7 +2,6 @@ package com.pouffy.mw_core;
 
 
 import com.pouffy.mw_core.content.items.RadiantSheetItem;
-import com.simibubi.create.content.contraptions.itemAssembly.SequencedAssemblyItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -52,17 +51,17 @@ public class AllSheets {
             () -> new RadiantSheetItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
     //INCOMPLETE SHEETS
     public static final RegistryObject<Item> UNPROCESSED_BRASS_SHEET = SHEETS.register("unprocessed_brass_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNPROCESSED_GOLD_SHEET = SHEETS.register("unprocessed_gold_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNPROCESSED_COPPER_SHEET = SHEETS.register("unprocessed_copper_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNPROCESSED_IRON_SHEET = SHEETS.register("unprocessed_iron_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNPROCESSED_STEEL_SHEET = SHEETS.register("unprocessed_steel_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> UNPROCESSED_TIN_SHEET = SHEETS.register("unprocessed_tin_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     //UPGRADED SHEETS
     public static final RegistryObject<Item> STURDY_BRASS_SHEET = SHEETS.register("sturdy_brass_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
@@ -94,15 +93,15 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
     public static final RegistryObject<Item> REPROCESSED_BRASS_SHEET = SHEETS.register("reprocessed_brass_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REPROCESSED_GOLD_SHEET = SHEETS.register("reprocessed_gold_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REPROCESSED_COPPER_SHEET = SHEETS.register("reprocessed_copper_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REPROCESSED_IRON_SHEET = SHEETS.register("reprocessed_iron_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REPROCESSED_STEEL_SHEET = SHEETS.register("reprocessed_steel_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REPROCESSED_TIN_SHEET = SHEETS.register("reprocessed_tin_sheet",
-            () -> new SequencedAssemblyItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
 }

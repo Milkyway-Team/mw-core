@@ -1,0 +1,7 @@
+{
+  "loader": "mantle:fluid_texture",
+  "textures": {
+    "still": "mw_core:block/fluid/cast_iron/still",
+    "flowing": "mw_core:block/fluid/cast_iron/flowing"
+  }
+}

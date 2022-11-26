@@ -15,6 +15,10 @@ public class AllFluids {
 
     public static FluidObject<ForgeFlowingFluid> creatite = register("molten_creatite", 1200);
 
+    public static FluidObject<ForgeFlowingFluid> nethersteel = register("molten_nethersteel", 1200);
+
+    public static FluidObject<ForgeFlowingFluid> cast_iron = register("molten_cast_iron", 1200);
+
     public static FluidObject<ForgeFlowingFluid> fluix = register("molten_fluix", 1200);
 
     public static FluidObject<ForgeFlowingFluid> certus = register("molten_certus", 1200);
