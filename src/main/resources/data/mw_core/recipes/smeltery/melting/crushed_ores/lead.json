@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:ore_melting",
+  "rate": "metal",
+  "ingredient": {
+    "tag": "create:crushed_ores/lead"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_lead",
+    "amount": 90
+  },
+  "temperature": 425,
+  "time": 71,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_silver",
+      "amount": 90
+    }
+  ]
+}

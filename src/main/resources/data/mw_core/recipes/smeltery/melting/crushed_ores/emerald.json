@@ -1,0 +1,30 @@
+{
+  "type": "tconstruct:ore_melting",
+  "rate": "gem",
+  "ingredient": {
+    "type": "forge:difference",
+    "base": {
+      "tag": "create:crushed_ores/emerald"
+    },
+    "subtracted": [
+      {
+        "tag": "forge:ore_rates/sparse"
+      },
+      {
+        "tag": "forge:ore_rates/dense"
+      }
+    ]
+  },
+  "result": {
+    "fluid": "tconstruct:molten_emerald",
+    "amount": 100
+  },
+  "temperature": 1450,
+  "time": 118,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_diamond",
+      "amount": 100
+    }
+  ]
+}

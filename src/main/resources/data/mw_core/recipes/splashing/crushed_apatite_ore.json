@@ -1,0 +1,24 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mw_core:crushed_apatite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:apatite",
+      "count": 2
+    },
+    {
+      "item": "thermal:apatite",
+      "chance": 0.5
+    }
+  ],
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

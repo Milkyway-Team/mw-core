@@ -1,7 +1,6 @@
 package com.pouffy.mw_core;
 
 import com.mojang.logging.LogUtils;
-import com.pouffy.mw_core.common.mod_compats.tconstruct.datagen.tcon.MWTags;
 import com.pouffy.mw_core.common.mod_compats.tconstruct.modifiers.MWCoreModifiers;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -47,8 +46,6 @@ public class MWCore
 
     public MWCore()
     {
-        MWTags.init();
-
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

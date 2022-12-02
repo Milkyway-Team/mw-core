@@ -1,0 +1,20 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+    	{
+    		"item": "ae2:deepslate_quartz_ore"
+    	}
+    ],
+	"results": [
+		{
+			"item": "ae2:certus_quartz_dust",
+			"count": 6
+		},
+		{
+			"item": "mw_core:crushed_certus_quartz_ore",
+			"count": 1,
+			"chance": 0.5
+		}
+	],
+	"processingTime": 300
+}

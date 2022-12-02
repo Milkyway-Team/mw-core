@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tconstruct:raw_cobalt"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:crushed_cobalt_ore"
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ],
+  "processingTime": 400
+}

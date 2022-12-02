@@ -1,0 +1,24 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mw_core:crushed_certus_quartz_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:certus_quartz_crystal",
+      "count": 2
+    },
+    {
+      "item": "ae2:certus_quartz_crystal",
+      "chance": 0.5
+    }
+  ],
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

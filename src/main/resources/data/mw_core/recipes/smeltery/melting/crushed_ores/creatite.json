@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:ore_melting",
+  "rate": "metal",
+  "ingredient": {
+    "tag": "create:crushed_ores/creatite"
+  },
+  "result": {
+    "fluid": "mw_core:molten_creatite",
+    "amount": 90
+  },
+  "temperature": 425,
+  "time": 71,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_signalum",
+      "amount": 90
+    }
+  ]
+}

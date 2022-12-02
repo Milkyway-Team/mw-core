@@ -7,15 +7,15 @@
   ],
   "results": [
     {
-      "item": "minecraft:quartz",
+      "item": "mw_core:crushed_nether_quartz_ore",
       "count": 2
     },
     {
-      "item": "minecraft:quartz",
+      "item": "mw_core:crushed_nether_quartz_ore",
       "chance": 0.5
     },
     {
-      "item": "thermal:sulfur",
+      "item": "mw_core:crushed_sulfur_ore",
       "chance": 0.25
     },
     {

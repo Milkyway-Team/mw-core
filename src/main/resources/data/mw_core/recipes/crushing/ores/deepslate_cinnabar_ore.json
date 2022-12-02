@@ -7,11 +7,11 @@
     ],
 	"results": [
 		{
-			"item": "thermal:cinnabar",
+			"item": "mw_core:crushed_cinnabar_ore",
 			"count": 2
 		},
 		{
-			"item": "thermal:cinnabar",
+			"item": "mw_core:crushed_cinnabar_ore",
 			"count": 1,
 			"chance": 0.25
 		},

@@ -23,6 +23,8 @@ public class AllItems {
 
     public static final RegistryObject<Item> RAVE_TUBE = ITEMS.register("rave_tube",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_COBALT_ORE = ITEMS.register("crushed_cobalt_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> TRANSIUM_INGOT = ITEMS.register("transium_ingot",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> TRANSIUM_NUGGET = ITEMS.register("transium_nugget",
@@ -49,7 +51,7 @@ public class AllItems {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
     //GEARS
-    public static final RegistryObject<Item> TRANSIUM_GEAR = ITEMS.register("transium_gear",
+    public static final RegistryObject<Item> COBALT_GEAR = ITEMS.register("cobalt_gear",
             () -> new Item(new Item.Properties().tab(ThermalItemGroups.THERMAL_ITEMS)));
     public static final RegistryObject<Item> ALUMINIUM_GEAR = ITEMS.register("aluminium_gear",
             () -> new Item(new Item.Properties().tab(ThermalItemGroups.THERMAL_ITEMS)));
@@ -65,7 +67,7 @@ public class AllItems {
             () -> new DrinkableItem(new Item.Properties().food(TastyFoodValues.SODA)
                     .craftRemainder(AllItems.CAN.get()).tab(MWCore.MISC)));
     public static final RegistryObject<Item> MILKYWAY_BAR = ITEMS.register("milkyway_bar",
-            () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.MILKYWAY_BAR).tab(MWCore.MISC)));
+            () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.MILKYWAY_BAR).tab(MWCore.MISC), true));
     public static final RegistryObject<Item> SALT = ITEMS.register("salt",
             () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.SALT).tab(MWCore.MISC)));
     public static final RegistryObject<Item> SALTED_BEEF = ITEMS.register("salted_beef",
@@ -82,6 +84,25 @@ public class AllItems {
     //INCOMPLETE ITEMS
 
 //BLOCKS
-//EXTRA SHEETS
-
+//CRUSHED STUFF
+    public static final RegistryObject<Item> CRUSHED_CINNABAR_ORE = ITEMS.register("crushed_cinnabar_ore",
+        () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_NETHER_QUARTZ_ORE = ITEMS.register("crushed_nether_quartz_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_CERTUS_QUARTZ_ORE = ITEMS.register("crushed_certus_quartz_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_SULFUR_ORE = ITEMS.register("crushed_sulfur_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_COAL_ORE = ITEMS.register("crushed_coal_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_EMERALD_ORE = ITEMS.register("crushed_emerald_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_DIAMOND_ORE = ITEMS.register("crushed_diamond_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_APATITE_ORE = ITEMS.register("crushed_apatite_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_LAPIS_ORE = ITEMS.register("crushed_lapis_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CRUSHED_NITER_ORE = ITEMS.register("crushed_niter_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 }

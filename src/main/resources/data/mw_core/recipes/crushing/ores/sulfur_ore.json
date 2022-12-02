@@ -7,11 +7,11 @@
     ],
 	"results": [
 		{
-			"item": "thermal:sulfur",
+			"item": "mw_core:crushed_sulfur_ore",
 			"count": 6
 		},
 		{
-			"item": "thermal:sulfur",
+			"item": "mw_core:crushed_sulfur_ore",
 			"count": 1,
 			"chance": 0.5
 		}

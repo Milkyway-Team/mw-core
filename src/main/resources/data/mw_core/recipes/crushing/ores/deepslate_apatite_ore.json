@@ -7,11 +7,11 @@
     ],
 	"results": [
 		{
-			"item": "thermal:apatite",
+			"item": "mw_core:crushed_apatite_ore",
 			"count": 12
 		},
 		{
-			"item": "thermal:apatite",
+			"item": "mw_core:crushed_apatite_ore",
 			"count": 1,
 			"chance": 0.5
 		},

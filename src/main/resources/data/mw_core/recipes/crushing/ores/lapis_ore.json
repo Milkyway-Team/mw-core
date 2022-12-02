@@ -7,15 +7,15 @@
   ],
   "results": [
     {
-      "item": "minecraft:lapis_lazuli",
+      "item": "mw_core:crushed_lapis_ore",
       "count": 12
     },
     {
-      "item": "minecraft:lapis_lazuli",
+      "item": "mw_core:crushed_lapis_ore",
       "chance": 0.5
     },
     {
-      "item": "thermal:sulfur",
+      "item": "mw_core:crushed_sulfur_ore",
       "chance": 0.25
     },
     {

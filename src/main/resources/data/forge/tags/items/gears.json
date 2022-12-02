@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#forge:gears/transium",
+    "#forge:gears/cobalt",
     "#forge:gears/aluminum"
   ]
 }

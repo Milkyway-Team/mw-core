@@ -7,11 +7,11 @@
   ],
   "results": [
     {
-      "item": "minecraft:diamond",
+      "item": "mw_core:crushed_diamond_ore",
       "count": 2
     },
     {
-      "item": "minecraft:diamond",
+      "item": "mw_core:crushed_diamond_ore",
       "chance": 0.5
     },
     {
