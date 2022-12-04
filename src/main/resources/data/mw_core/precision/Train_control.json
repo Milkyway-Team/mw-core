@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "CH",
+        "LL"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lever"
+        },
+        "C": {
+            "item": "create:electron_tube"
+        },
+        "H": {
+            "item": "create:precision_mechanism"
+        },
+        "L": {
+            "item": "create:railway_casing"
+        }
+    },
+    "result": {
+        "item": "create:controls",
+        "count": 1
+    }
+}
