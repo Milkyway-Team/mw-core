@@ -11,7 +11,7 @@
       "count": 2
     },
     {
-      "item": "minecraft:emerald",
+      "item": "mw_core:rock_lump",
       "chance": 0.5
     }
   ],

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "mw_core:crushed_certus_quartz_ore"
+  },
+  "result": "ae2:certus_quartz_crystal",
+  "experience": 0.1,
+  "cookingtime": 100
+}

@@ -38,3 +38,6 @@
 <recipetype:create:crushing>.removeByName("create:compat/thermal/crushing/cinnabar_ore");
 <recipetype:create:crushing>.removeByName("create:compat/thermal/crushing/niter_ore");
 <recipetype:create:crushing>.removeByName("create:compat/thermal/crushing/sulfur_ore");
+
+<recipetype:create:crushing>.removeByName("create:crushing/emerald_ore");
+<recipetype:create:crushing>.removeByName("create:crushing/deepslate_emerald_ore");

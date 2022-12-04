@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mw_core:crushed_nether_quartz_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:quartz_dust"
+    },
+    {
+      "item": "thermal:quartz_dust",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

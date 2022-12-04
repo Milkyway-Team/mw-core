@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:crushed_iron_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:iron_dust"
+    },
+    {
+      "item": "thermal:iron_dust",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

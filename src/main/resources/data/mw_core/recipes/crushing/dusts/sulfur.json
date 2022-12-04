@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mw_core:crushed_sulfur_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:sulfur_dust"
+    },
+    {
+      "item": "thermal:sulfur_dust",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

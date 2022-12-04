@@ -5,6 +5,12 @@
   "item.mw_core.screw": "Screw",
   "item.mw_core.salt": "Salt",
   "item.mw_core.salted_beef": "Salted Beef",
+  "item.mw_core.coal_dust": "Coal Dust",
+  "item.mw_core.cobalt_dust": "Cobalt Dust",
+  "item.mw_core.creatite_dust": "Creatite Dust",
+  "item.mw_core.zinc_dust": "Zinc Dust",
+
+  "item.mw_core.rock_lump": "Rock Lump",
 
   "itemGroup.mw_core": "Create: Milkyway",
   "_": "MATERIALS",

@@ -7,11 +7,12 @@
   ],
   "results": [
     {
-      "item": "mw_core:crushed_cobalt_ore"
+      "item": "mw_core:crushed_cobalt_ore",
+      "count": 2
     },
     {
-      "item": "mw_core:crushed_cobalt_ore",
-      "chance": 0.75
+      "item": "create:crushed_iron_ore",
+      "chance": 0.1
     },
     {
       "item": "create:cinder_flour",

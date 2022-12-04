@@ -2,7 +2,9 @@ package com.pouffy.mw_core;
 
 import cofh.thermal.lib.common.ThermalItemGroups;
 import com.pouffy.mw_core.common.mod_compats.farmersdelight.TastyFoodValues;
+import com.pouffy.mw_core.content.items.CrushedCoalItem;
 import com.pouffy.mw_core.content.items.RadiantQuartzItem;
+import com.simibubi.create.content.curiosities.tools.SandPaperItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
@@ -10,6 +12,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
+import vectorwing.farmersdelight.common.item.FuelItem;
+
 @SuppressWarnings("unused")
 public class AllItems {
     public static Item.Properties foodItem(FoodProperties food) {
@@ -94,7 +98,7 @@ public class AllItems {
     public static final RegistryObject<Item> CRUSHED_SULFUR_ORE = ITEMS.register("crushed_sulfur_ore",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> CRUSHED_COAL_ORE = ITEMS.register("crushed_coal_ore",
-            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+            () -> new CrushedCoalItem(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> CRUSHED_EMERALD_ORE = ITEMS.register("crushed_emerald_ore",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> CRUSHED_DIAMOND_ORE = ITEMS.register("crushed_diamond_ore",
@@ -104,5 +108,15 @@ public class AllItems {
     public static final RegistryObject<Item> CRUSHED_LAPIS_ORE = ITEMS.register("crushed_lapis_ore",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> CRUSHED_NITER_ORE = ITEMS.register("crushed_niter_ore",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coal_dust",
+            () -> new CrushedCoalItem(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ROCK_LUMP = ITEMS.register("rock_lump",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> COBALT_DUST = ITEMS.register("cobalt_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CREATITE_DUST = ITEMS.register("creatite_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ZINC_DUST = ITEMS.register("zinc_dust",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 }

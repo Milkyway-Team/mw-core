@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "mw_core:crushed_emerald_ore"
+  },
+  "result": "minecraft:emerald",
+  "experience": 0.1,
+  "cookingtime": 100
+}

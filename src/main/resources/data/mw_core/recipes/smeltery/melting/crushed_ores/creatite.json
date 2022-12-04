@@ -1,15 +1,37 @@
 {
   "type": "tconstruct:ore_melting",
-  "rate": "metal",
+  "conditions": [
+    {
+      "registry": "minecraft:item",
+      "base": "forge:raw_materials/creatite",
+      "subtracted": [
+        "forge:ore_rates/sparse",
+        "forge:ore_rates/dense"
+      ],
+      "type": "tconstruct:tag_difference_present"
+    }
+  ],
+  "rate": "gem",
   "ingredient": {
-    "tag": "create:crushed_ores/creatite"
+    "type": "forge:difference",
+    "base": {
+      "tag": "create:crushed_ores/creatite"
+    },
+    "subtracted": [
+      {
+        "tag": "forge:ore_rates/sparse"
+      },
+      {
+        "tag": "forge:ore_rates/dense"
+      }
+    ]
   },
   "result": {
     "fluid": "mw_core:molten_creatite",
-    "amount": 90
+    "amount": 100
   },
-  "temperature": 425,
-  "time": 71,
+  "temperature": 1450,
+  "time": 118,
   "byproducts": [
     {
       "fluid": "tconstruct:molten_signalum",

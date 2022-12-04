@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mw_core:crushed_apatite_ore"
+  },
+  "result": "thermal:apatite",
+  "experience": 0.1,
+  "cookingtime": 200
+}

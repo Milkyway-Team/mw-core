@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mw_core:crushed_coal_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:coal_dust"
+    },
+    {
+      "item": "mw_core:coal_dust",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

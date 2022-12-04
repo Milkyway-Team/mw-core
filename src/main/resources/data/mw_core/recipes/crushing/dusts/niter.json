@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mw_core:crushed_niter_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:niter_dust"
+    },
+    {
+      "item": "thermal:niter_dust",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

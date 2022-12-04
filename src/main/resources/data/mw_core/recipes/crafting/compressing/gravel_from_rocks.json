@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:rock_lump"
+    }
+  },
+  "result": {
+    "item": "minecraft:gravel"
+  }
+}

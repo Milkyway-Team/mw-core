@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "mw_core:crushed_niter_ore"
+  },
+  "result": "thermal:niter",
+  "experience": 0.1,
+  "cookingtime": 100
+}
