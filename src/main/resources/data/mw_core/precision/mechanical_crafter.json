@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "UQU",
+        "NON"
+    ],
+    "key": {
+        "#": {
+            "item": "create:brass_hand"
+        },
+        "C": {
+            "item": "create:crafter_slot_cover"
+        },
+        "U": {
+            "item": "create:small_cogwheel"
+        },
+        "Q": {
+            "item": "minecraft:crafting_table"
+        },
+        "N": {
+            "item": "create:brass_casing"
+        },
+        "O": {
+            "item": "create:precision_mechanism"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_crafter",
+        "count": 1
+    }
+}
