@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##C",
+        "#LX",
+        "YVX"
+    ],
+    "key": {
+        "#": {
+            "item": "create:brass_sheet"
+        },
+        "C": {
+            "item": "create:brass_hand"
+        },
+        "L": {
+            "item": "create:small_cogwheel"
+        },
+        "X": {
+            "item": "create:precision_mechanism"
+        },
+        "Y": {
+            "item": "create:electron_tube"
+        },
+        "V": {
+            "item": "create:brass_casing"
+        }
+    },
+    "result": {
+        "item": "create:mechanical_arm",
+        "count": 1
+    }
+}

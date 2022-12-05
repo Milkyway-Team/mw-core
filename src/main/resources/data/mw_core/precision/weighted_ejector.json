@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "CAC",
+        "EHE"
+    ],
+    "key": {
+        "#": {
+            "item": "create:brass_sheet"
+        },
+        "C": {
+            "item": "create:shaft"
+        },
+        "A": {
+            "item": "create:depot"
+        },
+        "E": {
+            "item": "create:andesite_casing"
+        },
+        "H": {
+            "item": "create:precision_mechanism"
+        }
+    },
+    "result": {
+        "item": "create:weighted_ejector",
+        "count": 1
+    }
+}

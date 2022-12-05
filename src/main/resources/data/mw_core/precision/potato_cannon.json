@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "TPSFFF",
+    "#M#",
+    
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:plates/copper"
+    }
+    "T": {
+      "tag": "create:fluid_tank"
+    }
+    "P": {
+      "tag": "create:mechanical_pump"
+    }
+    "S": {
+      "tag": "create:smart_tube"
+    }
+    "F": {
+      "tag": "create:fluid_pipe"
+    }
+    "M": {
+      "tag": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:potato_cannon"
+  },
+  "acceptMirrored": true
+}

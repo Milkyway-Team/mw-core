@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B",
+        "CO",
+        "BB"
+    ],
+    "key": {
+        "#": {
+            "item": "create:precision_mechanism"
+        },
+        "B": {
+            "item": "minecraft:blackstone"
+        },
+        "C": {
+            "item": "create:small_cogwheel"
+        },
+        "O": {
+            "item": "create:electron_tube"
+        }
+    },
+    "result": {
+        "item": "create:display_board",
+        "count": 1
+    }
+}

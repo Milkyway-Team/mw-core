@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  G  ",
+    "GHEHG",
+    "  P  ",
+    "  B  ",
+    "  O  "
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:nether_star"
+    },
+    "G": {
+      tag": "forge:glass"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "H": {
+      "item": "create:brass_hand"
+    },
+    "O": {
+      "tag": "create:sturdy_sheet"
+    },
+    "B": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "result": {
+    "item": "create:wand_of_symmetry"
+  },
+  "acceptMirrored": true
+}
