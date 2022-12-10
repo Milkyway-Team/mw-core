@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "202",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:scorched_brick"
+    },
+    "0": {
+      "item": "mw_core:scorched_mechanism"
+    },
+    "2": {
+      "item": "mw_core:cobalt_sheet"
+    }
+  },
+  "result": {
+    "item": "tconstruct:scorched_duct"
+  }
+}

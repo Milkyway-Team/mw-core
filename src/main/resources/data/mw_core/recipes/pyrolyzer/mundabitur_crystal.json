@@ -1,0 +1,16 @@
+{
+  "type": "thermal:pyrolyzer",
+  "ingredient": {
+    "item": "mw_core:radiant_quartz"
+  },
+  "result": [
+    {
+      "item": "mw_core:mundabitur_crystal"
+    },
+    {
+      "fluid": "mw_core:molten_radiance",
+      "amount": 250
+    }
+  ],
+  "experience": 0.15
+}

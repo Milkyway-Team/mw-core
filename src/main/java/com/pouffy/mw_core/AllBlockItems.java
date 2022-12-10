@@ -31,4 +31,10 @@ public class AllBlockItems {
             () -> new BlockItem(AllBlocks.DEEPSLATE_HALITE_ORE.get(), new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> CREATITE_BLOCK = BLOCK_ITEMS.register("creatite_block",
             () -> new BlockItem(AllBlocks.CREATITE_BLOCK.get(), new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> RADIANT_CASING = BLOCK_ITEMS.register("radiant_casing",
+            () -> new BlockItem(AllBlocks.RADIANT_CASING.get(), new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> RADIANT_LAMP = BLOCK_ITEMS.register("radiant_lamp",
+            () -> new BlockItem(AllBlocks.RADIANT_LAMP.get(), new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> RADIANT_QUARTZ_BLOCK = BLOCK_ITEMS.register("radiant_quartz_block",
+            () -> new BlockItem(AllBlocks.RADIANT_QUARTZ_BLOCK.get(), new Item.Properties().tab(MWCore.MISC)));
 }

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/hepatizon"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:hepatizon_sheet"
+    }
+  ]
+}

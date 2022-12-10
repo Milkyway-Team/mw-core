@@ -10,6 +10,13 @@ public class TastyFoodValues extends FoodValues {
     public static final FoodProperties SODA = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1200, 0);
     }, 1.0F).build();
+    public static final FoodProperties MOTIVATIONAL_STEW = (new FoodProperties.Builder()).effect(() -> {
+        return new MobEffectInstance(MobEffects.DIG_SPEED, 1200, 2);
+    }, 1.0F).effect(() -> {
+        return new MobEffectInstance(MobEffects.REGENERATION, 1200, 0);
+    }, 1.0F).effect(() -> {
+        return new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1200, 1);
+    }, 1.0F).build();
 
     public static final FoodProperties MILKYWAY_BAR = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(ModEffects.COMFORT.get(), 1200, 0);

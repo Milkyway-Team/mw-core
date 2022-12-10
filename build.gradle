@@ -151,6 +151,9 @@ dependencies {
     implementation fg.deobf("curse.maven:mantle-74924:${project.mantle}")
     implementation fg.deobf("curse.maven:cofhcore-69162:${project.CoFH}")
     implementation fg.deobf("curse.maven:ae2-223794:4013849")
+    //implementation fg.deobf("curse.maven:ctm-267602:3933537")
+    implementation fg.deobf("curse.maven:forbidden-arcanus-309858:3712899")
+    implementation fg.deobf("curse.maven:valhelsia-core-416935:3886212")
 
 
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.18.2-5.0.7.1")

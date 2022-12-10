@@ -1,0 +1,30 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:unprocessed_steel_sheet"
+  },
+  "transitionalItem": {
+    "item": "mw_core:unprocessed_steel_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_steel_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:sturdy_steel_sheet"
+    }
+  ],
+  "loops": 15
+}

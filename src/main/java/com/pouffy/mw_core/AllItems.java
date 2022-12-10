@@ -7,6 +7,7 @@ import com.pouffy.mw_core.content.items.RadiantQuartzItem;
 import com.simibubi.create.content.curiosities.tools.SandPaperItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -69,13 +70,16 @@ public class AllItems {
     //FOODS
     public static final RegistryObject<Item> SODA = ITEMS.register("soda",
             () -> new DrinkableItem(new Item.Properties().food(TastyFoodValues.SODA)
-                    .craftRemainder(AllItems.CAN.get()).tab(MWCore.MISC)));
+                    .craftRemainder(AllItems.CAN.get()).tab(MWCore.MISC), true, false));
     public static final RegistryObject<Item> MILKYWAY_BAR = ITEMS.register("milkyway_bar",
             () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.MILKYWAY_BAR).tab(MWCore.MISC), true));
     public static final RegistryObject<Item> SALT = ITEMS.register("salt",
             () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.SALT).tab(MWCore.MISC)));
     public static final RegistryObject<Item> SALTED_BEEF = ITEMS.register("salted_beef",
             () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.SALT).tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MOTIVATIONAL_STEW = ITEMS.register("motivational_stew",
+            () -> new DrinkableItem(new Item.Properties().food(TastyFoodValues.MOTIVATIONAL_STEW)
+                    .craftRemainder(Items.BOWL).tab(MWCore.MISC), false, true));
     public static final RegistryObject<Item> RADIANT_QUARTZ = ITEMS.register("radiant_quartz",
             () -> new RadiantQuartzItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
     public static final RegistryObject<Item> STURDY_SHEET_CAST = ITEMS.register("sturdy_sheet_cast",
@@ -118,5 +122,7 @@ public class AllItems {
     public static final RegistryObject<Item> CREATITE_DUST = ITEMS.register("creatite_dust",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> ZINC_DUST = ITEMS.register("zinc_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MUNDABITUR_CRYSTAL = ITEMS.register("mundabitur_crystal",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 }

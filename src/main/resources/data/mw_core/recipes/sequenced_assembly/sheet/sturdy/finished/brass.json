@@ -1,0 +1,30 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:unprocessed_brass_sheet"
+  },
+  "transitionalItem": {
+    "item": "mw_core:unprocessed_brass_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_brass_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:sturdy_brass_sheet"
+    }
+  ],
+  "loops": 15
+}

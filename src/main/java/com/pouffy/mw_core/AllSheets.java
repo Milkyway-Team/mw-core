@@ -51,17 +51,19 @@ public class AllSheets {
             () -> new RadiantSheetItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
     //INCOMPLETE SHEETS
     public static final RegistryObject<Item> UNPROCESSED_BRASS_SHEET = SHEETS.register("unprocessed_brass_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> UNPROCESSED_GOLD_SHEET = SHEETS.register("unprocessed_gold_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> UNPROCESSED_COPPER_SHEET = SHEETS.register("unprocessed_copper_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> UNPROCESSED_IRON_SHEET = SHEETS.register("unprocessed_iron_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> UNPROCESSED_STEEL_SHEET = SHEETS.register("unprocessed_steel_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> UNPROCESSED_TIN_SHEET = SHEETS.register("unprocessed_tin_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> UNPROCESSED_LEAD_SHEET = SHEETS.register("unprocessed_lead_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     //UPGRADED SHEETS
     public static final RegistryObject<Item> STURDY_BRASS_SHEET = SHEETS.register("sturdy_brass_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
@@ -75,6 +77,8 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> STURDY_TIN_SHEET = SHEETS.register("sturdy_tin_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> STURDY_LEAD_SHEET = SHEETS.register("sturdy_lead_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REINFORCED_BRASS_SHEET = SHEETS.register("reinforced_brass_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REINFORCED_GOLD_SHEET = SHEETS.register("reinforced_gold_sheet",
@@ -85,7 +89,8 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REINFORCED_STEEL_SHEET = SHEETS.register("reinforced_steel_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-
+    public static final RegistryObject<Item> REINFORCED_LEAD_SHEET = SHEETS.register("reinforced_lead_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     
 
 
@@ -93,15 +98,17 @@ public class AllSheets {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
     public static final RegistryObject<Item> REPROCESSED_BRASS_SHEET = SHEETS.register("reprocessed_brass_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REPROCESSED_GOLD_SHEET = SHEETS.register("reprocessed_gold_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REPROCESSED_COPPER_SHEET = SHEETS.register("reprocessed_copper_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REPROCESSED_IRON_SHEET = SHEETS.register("reprocessed_iron_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REPROCESSED_STEEL_SHEET = SHEETS.register("reprocessed_steel_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REPROCESSED_TIN_SHEET = SHEETS.register("reprocessed_tin_sheet",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> REPROCESSED_LEAD_SHEET = SHEETS.register("reprocessed_lead_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 }

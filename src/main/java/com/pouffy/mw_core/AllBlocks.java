@@ -1,9 +1,16 @@
 package com.pouffy.mw_core;
 
+import cofh.lib.util.helpers.BlockHelper;
 import com.simibubi.create.content.contraptions.base.CasingBlock;
+import com.simibubi.create.content.logistics.block.redstone.RoseQuartzLampBlock;
 import com.simibubi.create.foundation.data.BuilderTransformers;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,8 +18,19 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import slimeknights.tconstruct.shared.TinkerMaterials;
 
+import java.util.function.ToIntFunction;
+
 @SuppressWarnings("unused")
 public class AllBlocks {
+
+    private static ToIntFunction<BlockState> litBlockEmission(int lightValue) {
+        return (state) -> {
+            return (Boolean)state.getValue(BlockStateProperties.LIT) ? lightValue : 0;
+        };
+    }
+    private static Boolean always(BlockState p_50810_, BlockGetter p_50811_, BlockPos p_50812_, EntityType<?> p_50813_) {
+        return (boolean)true;
+    }
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MWCore.MODID);
 
     public static final RegistryObject<Block> TRANSIUM_BLOCK = BLOCKS.register("transium_block",
@@ -36,7 +54,12 @@ public class AllBlocks {
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F)));
     public static final RegistryObject<Block> DEEPSLATE_HALITE_ORE = BLOCKS.register("deepslate_halite_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).color(MaterialColor.DEEPSLATE).strength(3.0F).sound(SoundType.DEEPSLATE)));
-
     public static final RegistryObject<Block> CREATITE_BLOCK = BLOCKS.register("creatite_block",
             () -> new Block(Block.Properties.copy(Blocks.NETHERITE_BLOCK).strength(2.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> RADIANT_CASING = BLOCKS.register("radiant_casing",
+            () -> new CasingBlock(Block.Properties.copy(Blocks.OAK_WOOD).lightLevel(BlockHelper.lightValue(15)).strength(1.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> RADIANT_LAMP = BLOCKS.register("radiant_lamp",
+            () -> new RedstoneLampBlock(BlockBehaviour.Properties.of(Material.BUILDABLE_GLASS).lightLevel(litBlockEmission(20)).strength(0.3F).sound(SoundType.GLASS).isValidSpawn(AllBlocks::always)));
+    public static final RegistryObject<Block> RADIANT_QUARTZ_BLOCK = BLOCKS.register("radiant_quartz_block",
+            () -> new Block(Block.Properties.copy(Blocks.GLASS).lightLevel(BlockHelper.lightValue(15)).strength(2.0F).requiresCorrectToolForDrops()));
 }

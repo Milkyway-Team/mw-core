@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/queens_slime"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:queens_slime_sheet"
+    }
+  ]
+}

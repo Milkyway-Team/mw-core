@@ -1,0 +1,10 @@
+{
+  "loader": "mantle:connected",
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mw_core:block/radiant_casing"
+  },
+  "connection": {
+    "textures": {"all": "cornerless_full"}
+  }
+}

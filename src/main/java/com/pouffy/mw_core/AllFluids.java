@@ -24,6 +24,8 @@ public class AllFluids {
     public static FluidObject<ForgeFlowingFluid> certus = register("molten_certus", 1200);
 
     public static FluidObject<ForgeFlowingFluid> chromatic = register("chromatic_waste", 1200);
+    public static FluidObject<ForgeFlowingFluid> radiance = register("molten_radiance", 1200);
+
     private static FluidObject<ForgeFlowingFluid> register(String name, int temp) {
         String still = String.format("mw_core:block/fluid/%s/still", name);
         String flow = String.format("mw_core:block/fluid/%s/flowing", name);

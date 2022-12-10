@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/amethyst_bronze"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:amethyst_bronze_sheet"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LIL",
+    "YCY",
+    "IPI"
+  ],
+  "key": {
+    "C": {
+      "item": "create:fluid_tank"
+    },
+    "I": {
+      "tag": "forge:plates/sturdy/steel"
+    },
+    "L": {
+      "item": "mw_core:lead_sheet"
+    },
+    "P": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "Y": {
+      "item": "create:mechanical_pump"
+    }
+  },
+  "result": {
+    "item": "thermal:device_rock_gen"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "202",
+    "#2#"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:seared_bricks"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "0": {
+      "item": "mw_core:seared_mechanism"
+    },
+    "2": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "result": {
+    "item": "tconstruct:smeltery_controller"
+  }
+}

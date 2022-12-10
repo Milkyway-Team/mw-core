@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "202",
+    "#2#"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:scorched_bricks"
+    },
+    "1": {
+      "item": "tconstruct:scorched_glass"
+    },
+    "0": {
+      "item": "mw_core:scorched_mechanism"
+    },
+    "2": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "result": {
+    "item": "tconstruct:foundry_controller"
+  }
+}

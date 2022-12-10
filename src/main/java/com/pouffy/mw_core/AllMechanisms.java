@@ -23,8 +23,14 @@ public class AllMechanisms {
             () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final RegistryObject<Item> SEARED = MECHANISMS.register("seared_mechanism",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> INCOMPLETE_SEARED = MECHANISMS.register("incomplete_seared_mechanism",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
+    public static final RegistryObject<Item> FILLED_SEARED = MECHANISMS.register("filled_seared_mechanism",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final RegistryObject<Item> SCORCHED = MECHANISMS.register("scorched_mechanism",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> INCOMPLETE_SCORCHED = MECHANISMS.register("incomplete_scorched_mechanism",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final RegistryObject<Item> COBALT = MECHANISMS.register("cobalt_mechanism",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> INCOMPLETE_COBALT = MECHANISMS.register("incomplete_cobalt_mechanism",
@@ -51,4 +57,7 @@ public class AllMechanisms {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> FLUIX_CORE = MECHANISMS.register("fluix_core",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+
+    public static final RegistryObject<Item> INCOMPLETE_SECURITY_CARD = MECHANISMS.register("incomplete_security_card",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
 }

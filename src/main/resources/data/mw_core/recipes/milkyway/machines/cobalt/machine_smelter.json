@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BXB",
+    "YCY",
+    "IPI"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:blast_furnace"
+    },
+    "B": {
+      "tag": "forge:plates/sturdy/brass"
+    },
+    "I": {
+      "tag": "forge:plates/sturdy/iron"
+    },
+    "P": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "X": {
+      "item": "create:blaze_burner"
+    },
+    "Y": {
+      "tag": "forge:gears/invar"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_smelter"
+  }
+}

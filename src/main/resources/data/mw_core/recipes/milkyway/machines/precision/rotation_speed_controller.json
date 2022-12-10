@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "CRS",
+        "LWL"
+    ],
+    "key": {
+        "#": {
+            "item": "create:brass_casing"
+        },
+        "C": {
+            "item": "create:large_cogwheel"
+        },
+        "R": {
+            "item": "minecraft:repeater"
+        },
+        "S": {
+            "item": "create:cogwheel"
+        },
+        "L": {
+            "item": "create:shaft"
+        },
+        "W": {
+            "item": "create:precision_mechanism"
+        }
+    },
+    "result": {
+        "item": "create:rotation_speed_controller",
+        "count": 1
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "thermal:rock_gen",
+  "adjacent": "tconstruct:blood_congealed_slime",
+  "result": {
+    "item": "minecraft:netherrack"
+  }
+}
