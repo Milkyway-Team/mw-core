@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BYB",
+    "YCY",
+    "BMB"
+  ],
+  "key": {
+    "M": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "B": {
+      "tag": "forge:plates/reinforced/lead"
+    },
+    "Y": {
+      "item": "thermal:signalum_ingot"
+    },
+    "C": {
+      "item": "create:portable_storage_interface"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:interface"
+  }
+}

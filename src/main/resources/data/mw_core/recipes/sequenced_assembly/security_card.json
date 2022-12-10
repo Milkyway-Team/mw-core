@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "thermal:invar_ingot"
+  },
+  "transitionalItem": {
+    "item": "mw_core:incomplete_security_card"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_security_card"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_security_card"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_security_card"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_security_card"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_security_card"
+        },
+        {
+          "item": "refinedstorage:network_card"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_security_card"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_security_card"
+        },
+        {
+          "fluid": "tconstruct:molten_enderium",
+          "nbt": {},
+          "amount": 180
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_security_card"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:security_card",
+      "chance": 1.0
+    }
+  ],
+  "loops": 1
+}

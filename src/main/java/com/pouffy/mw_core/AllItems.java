@@ -119,4 +119,6 @@ public class AllItems {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> ZINC_DUST = ITEMS.register("zinc_dust",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MUNDABITUR_CRYSTAL = ITEMS.register("mundabitur_crystal",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 }

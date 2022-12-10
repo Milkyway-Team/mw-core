@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BXB",
+    "YCY",
+    "IPI"
+  ],
+  "key": {
+    "C": {
+      "item": "create:item_vault"
+    },
+    "B": {
+      "tag": "forge:plates/sturdy/brass"
+    },
+    "I": {
+      "tag": "forge:plates/sturdy/iron"
+    },
+    "P": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "X": {
+      "item": "create:mechanical_piston"
+    },
+    "Y": {
+      "item": "create:crushing_wheel"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_pulverizer"
+  }
+}

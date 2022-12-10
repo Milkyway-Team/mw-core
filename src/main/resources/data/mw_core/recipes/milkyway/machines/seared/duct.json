@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "202",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:seared_brick"
+    },
+    "0": {
+      "item": "mw_core:seared_mechanism"
+    },
+    "2": {
+      "item": "mw_core:cobalt_sheet"
+    }
+  },
+  "result": {
+    "item": "tconstruct:seared_duct"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:unprocessed_gold_sheet"
+  },
+  "transitionalItem": {
+    "item": "mw_core:unprocessed_gold_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_gold_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_gold_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:sturdy_gold_sheet"
+    }
+  ],
+  "loops": 15
+}

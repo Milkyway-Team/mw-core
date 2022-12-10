@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "DQN",
+        "LCL"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:repeater"
+        },
+        "C": {
+            "item": "create:brass_casing"
+        },
+        "D": {
+            "item": "create:cogwheel"
+        },
+        "Q": {
+            "item": "create:precision_mechanism"
+        },
+        "N": {
+            "item": "create:shaft"
+        },
+        "L": {
+            "item": "create:brass_sheet"
+        }
+    },
+    "result": {
+        "item": "create:sequenced_gearshift"
+    }
+}

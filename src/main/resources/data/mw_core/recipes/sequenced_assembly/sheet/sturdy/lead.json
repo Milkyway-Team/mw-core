@@ -1,0 +1,84 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:lead_sheet"
+  },
+  "transitionalItem": {
+    "item": "mw_core:unprocessed_lead_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_lead_sheet"
+        },
+        {
+          "fluid": "thermal:creosote",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_lead_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_lead_sheet"
+        },
+        {
+          "fluid": "tconstruct:molten_lead",
+          "nbt": {},
+          "amount": 90
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_lead_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_lead_sheet"
+        },
+        {
+          "fluid": "minecraft:water",
+          "nbt": {},
+          "amount": 500
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_lead_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:unprocessed_lead_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:unprocessed_lead_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:unprocessed_lead_sheet"
+    }
+  ],
+  "loops": 1
+}

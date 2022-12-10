@@ -17,7 +17,7 @@
   ],
   "textures": {
     "particle": "thermal:block/machines/machine_top",
-    "down": "thermal:block/machines/fluid_machine_bottom",
+    "down": "mw_core:block/fluid_machine_bottom",
     "up": "thermal:block/machines/machine_top",
     "east": "thermal:block/machines/fluid_machine_side",
     "west": "thermal:block/machines/fluid_machine_side",

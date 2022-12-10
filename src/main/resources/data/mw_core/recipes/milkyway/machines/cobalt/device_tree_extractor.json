@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IXI",
+    "YCY",
+    "IPI"
+  ],
+  "key": {
+    "C": {
+      "item": "create:fluid_tank"
+    },
+    "I": {
+      "tag": "forge:plates/steel"
+    },
+    "P": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "X": {
+      "item": "create:mechanical_pump"
+    },
+    "Y": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "thermal:device_tree_extractor"
+  }
+}

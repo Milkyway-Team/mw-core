@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LYL",
+    "BCB",
+    "BMB"
+  ],
+  "key": {
+    "M": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "B": {
+      "tag": "forge:ingots/invar"
+    },
+    "Y": {
+      "item": "refinedstorage:security_card"
+    },
+    "C": {
+      "tag": "forge:chests"
+    },
+    "L": {
+      "tag": "forge:plates/reinforced/lead"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:security_manager"
+  }
+}
