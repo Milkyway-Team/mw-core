@@ -9,6 +9,8 @@
   "item.mw_core.cobalt_dust": "Cobalt Dust",
   "item.mw_core.creatite_dust": "Creatite Dust",
   "item.mw_core.zinc_dust": "Zinc Dust",
+  "item.mw_core.motivational_stew": "Motivational Stew",
+  "farmersdelight.tooltip.motivational_stew": "Motivation (1:00)",
 
   "item.mw_core.rock_lump": "Rock Lump",
 
@@ -56,6 +58,7 @@
   "item.mw_core.crushed_apatite_ore": "Crushed Apatite Ore",
   "item.mw_core.crushed_lapis_ore": "Crushed Lapis Ore",
   "item.mw_core.crushed_niter_ore": "Crushed Niter Ore",
+  "item.mw_core.mundabitur_crystal": "Mundabitur Crystal",
 
 
   "item.mw_core.refined_parts": "Refined Parts",
@@ -67,6 +70,8 @@
   "item.mw_core.radiant_quartz_dust": "Radiant Quartz Dust",
   "fluid.mw_core.molten_nethersteel": "Molten Nethersteel",
   "fluid.mw_core.molten_cast_iron": "Molten Cast Iron",
+  "fluid.mw_core.molten_radiance": "Molten Radiance",
+  "item.mw_core.molten_radiance_bucket": "Bucket of Molten Radiance",
 
   "_": "TOOLS",
   "item.mw_core.aluminium_axe": "Aluminium Axe",
@@ -97,6 +102,10 @@
   "item.mw_core.incomplete_action_mechanism": "Incomplete Action Mechanism",
   "item.mw_core.incomplete_logic_mechanism": "Incomplete Logic Mechanism",
   "item.mw_core.incomplete_cobalt_mechanism": "Incomplete Cobalt Mechanism",
+  "item.mw_core.incomplete_seared_mechanism": "Incomplete Seared Mechanism",
+  "item.mw_core.filled_seared_mechanism": "Filled Seared Mechanism",
+  "item.mw_core.incomplete_scorched_mechanism": "Incomplete Scorched Mechanism",
+  "item.mw_core.incomplete_security_card": "Incomplete Security Card",
 
 
   "_": "SHEETS",
@@ -127,6 +136,7 @@
   "item.mw_core.reinforced_iron_sheet": "Reinforced Iron Sheet",
   "item.mw_core.reinforced_steel_sheet": "Reinforced Steel Sheet",
   "item.mw_core.reinforced_tin_sheet": "Reinforced Tin Sheet",
+  "item.mw_core.reinforced_lead_sheet": "Reinforced Lead Sheet",
 
   "item.mw_core.unprocessed_brass_sheet": "Unprocessed Brass Sheet",
   "item.mw_core.unprocessed_gold_sheet": "Unprocessed Gold Sheet",
@@ -134,12 +144,14 @@
   "item.mw_core.unprocessed_iron_sheet": "Unprocessed Iron Sheet",
   "item.mw_core.unprocessed_tin_sheet": "Unprocessed Tin Sheet",
   "item.mw_core.unprocessed_steel_sheet": "Unprocessed Steel Sheet",
+  "item.mw_core.unprocessed_lead_sheet": "Unprocessed Lead Sheet",
 
   "item.mw_core.sturdy_brass_sheet": "Sturdy Brass Sheet",
   "item.mw_core.sturdy_gold_sheet": "Sturdy Gold Sheet",
   "item.mw_core.sturdy_copper_sheet": "Sturdy Copper Sheet",
   "item.mw_core.sturdy_iron_sheet": "Sturdy Iron Sheet",
   "item.mw_core.sturdy_steel_sheet": "Sturdy Steel Sheet",
+  "item.mw_core.sturdy_lead_sheet": "Sturdy Lead Sheet",
 
   "item.mw_core.polished_radiant_quartz": "Polished Radiant Quartz",
   "item.mw_core.radiant_quartz_sheet": "Radiant Quartz Sheet",
@@ -152,6 +164,7 @@
   "item.mw_core.reprocessed_iron_sheet": "Reprocessed Iron Sheet",
   "item.mw_core.reprocessed_tin_sheet": "Reprocessed Tin Sheet",
   "item.mw_core.reprocessed_steel_sheet": "Reprocessed Steel Sheet",
+  "item.mw_core.reprocessed_lead_sheet": "Reprocessed Lead Sheet",
 
   "item.mw_core.sturdy_sheet_cast": "Sturdy Sheet Invar Cast",
 
@@ -167,6 +180,9 @@
   "block.mw_core.transium_block": "Block of Transium",
   "block.mw_core.creatite_ore": "Nether Creatite Ore",
   "block.mw_core.creatite_block": "Block of Creatite",
+  "block.mw_core.radiant_casing": "Radiant Casing",
+  "block.mw_core.radiant_lamp": "Radiant Quartz Lamp",
+  "block.mw_core.radiant_quartz_block": "Block of Radiant Quartz",
 
   "_": "DISC",
   "item.mw_core.music_disc_venture": "Music Disc",

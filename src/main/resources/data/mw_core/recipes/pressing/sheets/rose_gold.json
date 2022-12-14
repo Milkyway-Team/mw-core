@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/rose_gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:rose_gold_sheet"
+    }
+  ]
+}

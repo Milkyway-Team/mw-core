@@ -4,7 +4,6 @@ import cofh.thermal.lib.common.ThermalItemGroups;
 import com.pouffy.mw_core.common.mod_compats.farmersdelight.TastyFoodValues;
 import com.pouffy.mw_core.content.items.CrushedCoalItem;
 import com.pouffy.mw_core.content.items.RadiantQuartzItem;
-import com.simibubi.create.content.curiosities.tools.SandPaperItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,7 +11,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
-import vectorwing.farmersdelight.common.item.FuelItem;
 
 @SuppressWarnings("unused")
 public class AllItems {

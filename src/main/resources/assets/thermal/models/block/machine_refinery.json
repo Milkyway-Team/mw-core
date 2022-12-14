@@ -1,6 +1,7 @@
 {
   "parent": "thermal:block/fluid_machine_base",
   "textures": {
-    "north": "thermal:block/machines/machine_refinery"
+    "north": "thermal:block/machines/machine_refinery",
+    "down": "mw_core:block/fluid_machine_bottom"
   }
 }

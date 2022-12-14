@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/constantan"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:constantan_sheet"
+    }
+  ]
+}

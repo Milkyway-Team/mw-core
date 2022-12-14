@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/manyullyn"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:manyullyn_sheet"
+    }
+  ]
+}
