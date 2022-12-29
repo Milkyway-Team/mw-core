@@ -1,0 +1,17 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:deepslate"
+  },
+  "result": [
+    {
+      "item": "thermal:diamond_dust",
+      "chance": 0.2
+    },
+    {
+      "item": "minecraft:gravel",
+      "chance": 3.0
+    }
+  ],
+  "experience": 0.2
+}

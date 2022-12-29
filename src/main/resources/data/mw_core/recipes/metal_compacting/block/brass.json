@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/brass"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:brass_block"
+    }
+  ],
+  "heatRequirement": "heated"
+}

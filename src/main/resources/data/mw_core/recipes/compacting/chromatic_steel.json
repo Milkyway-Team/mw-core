@@ -1,0 +1,31 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "mw_core:chromatic_dust",
+      "count": 1
+    },
+    {
+      "item": "mw_core:chromatic_dust",
+      "count": 1
+    },
+    {
+      "item": "mw_core:chromatic_dust",
+      "count": 1
+    },
+    {
+      "item": "mw_core:chromatic_dust",
+      "count": 1
+    },
+    {
+      "fluid": "tconstruct:molten_steel",
+      "amount": 180
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:chromatic_steel"
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "CCIIICC",
+    "CAAAAAC",
+    "IAWBEAI",
+    "IABEWAI",
+    "IAEWBAI",
+    "CAAAAAC",
+    "CCIIICC"
+  ],
+  "key": {
+    "A": {
+      "item": "mw_core:creative_alloy"
+    },
+    "C": {
+      "item": "mw_core:creative_alloy_plating"
+    },
+    "I": {
+      "item": "mw_core:manyullyn_mechanism"
+    },
+    "W": {
+      "item": "create:water_wheel"
+    },
+    "B": {
+      "item": "create:windmill_bearing"
+    },
+    "E": {
+      "item": "create:steam_engine"
+    }
+  },
+  "result": {
+    "item": "create:creative_motor"
+  },
+  "acceptMirrored": true
+}

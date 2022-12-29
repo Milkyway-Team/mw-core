@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "tconstruct:ender_slime",
+      "amount": 1000
+    },
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 500
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "mw_core:liquid_magic",
+      "amount": 50
+    }
+  ],
+  "heatRequirement": "heated"
+}

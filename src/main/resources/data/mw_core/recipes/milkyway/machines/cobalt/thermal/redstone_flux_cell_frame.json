@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TST",
+    "SMS",
+    "TST"
+  ],
+  "key": {
+    "S": {
+      "item": "mw_core:electrum_sheet"
+    },
+    "M": {
+      "item": "thermal:rf_coil"
+    },
+    "T": {
+      "item": "mw_core:sturdy_lead_sheet"
+    }
+  },
+  "result": {
+    "item": "thermal:energy_cell_frame",
+    "count": 1
+  }
+}

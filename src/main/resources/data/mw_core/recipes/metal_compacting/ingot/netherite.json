@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/netherite"
+    },
+    {
+      "tag": "forge:nuggets/netherite"
+    },
+    {
+      "tag": "forge:nuggets/netherite"
+    },
+    {
+      "tag": "forge:nuggets/netherite"
+    },
+    {
+      "tag": "forge:nuggets/netherite"
+    },
+    {
+      "tag": "forge:nuggets/netherite"
+    },
+    {
+      "tag": "forge:nuggets/netherite"
+    },
+    {
+      "tag": "forge:nuggets/netherite"
+    },
+    {
+      "tag": "forge:nuggets/netherite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

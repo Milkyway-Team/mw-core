@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:obsidian_fibre"
+  },
+  "transitionalItem": {
+    "item": "mw_core:incomplete_insulation_cube"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_insulation_cube"
+        },
+        {
+          "fluid": "tconstruct:ender_slime",
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_insulation_cube"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_insulation_cube"
+        },
+        {
+          "fluid": "thermal:ender",
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_insulation_cube"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_insulation_cube"
+        },
+        {
+          "fluid": "tconstruct:molten_enderium",
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_insulation_cube"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_insulation_cube"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_insulation_cube"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:insulation_cube"
+    }
+  ],
+  "loops": 5
+}

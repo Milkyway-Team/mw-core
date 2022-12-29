@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "404",
+    "#3#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_steel_sheet"
+    },
+    "0": {
+      "item": "refinedstorage:security_manager"
+    },
+    "1": {
+      "item": "ae2:chest"
+    },
+    "3": {
+      "item": "mw_core:logic_mechanism"
+    },
+    "4": {
+      "item": "ae2:engineering_processor"
+    }
+  },
+  "result": {
+    "item": "ae2:security_station"
+  }
+}

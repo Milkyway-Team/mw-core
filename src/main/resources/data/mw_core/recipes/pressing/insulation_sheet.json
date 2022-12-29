@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "mw_core:insulation_cube"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:insulation_sheet"
+    }
+  ]
+}

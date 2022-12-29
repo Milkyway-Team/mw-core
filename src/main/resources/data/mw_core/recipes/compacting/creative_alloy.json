@@ -1,0 +1,23 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "mw_core:creative_ingot",
+      "count": 1
+    },
+    {
+      "item": "mw_core:insulation_sheet",
+      "count": 1
+    },
+    {
+      "fluid": "mw_core:liquid_magic",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:creative_alloy"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

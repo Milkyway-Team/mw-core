@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "AAMAA",
+    "ARRRA",
+    "G   G",
+    "G W G",
+    "G   G",
+    "ARRRA",
+    "AAMAA"
+  ],
+  "key": {
+    "A": {
+      "item": "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+    },
+    "M": {
+      "item": "mw_core:manyullyn_mechanism"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "R": {
+      "item": "forbidden_arcanus:rune_block"
+    },
+    "G": {
+      "item": "forbidden_arcanus:arcane_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "waystones:sharestone"
+  },
+  "acceptMirrored": true
+}

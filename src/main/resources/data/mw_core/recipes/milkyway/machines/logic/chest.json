@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "4 4",
+    "#3#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_steel_sheet"
+    },
+    "1": {
+      "item": "ae2:terminal"
+    },
+    "3": {
+      "item": "mw_core:logic_mechanism"
+    },
+    "4": {
+      "item": "mw_core:fluix_core"
+    }
+  },
+  "result": {
+    "item": "ae2:chest"
+  }
+}

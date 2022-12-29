@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " RRR ",
+    " RWR ",
+    "GRMRG",
+    "GAMAG"
+  ],
+  "key": {
+    "A": {
+      "item": "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+    },
+    "M": {
+      "item": "mw_core:manyullyn_mechanism"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "R": {
+      "item": "forbidden_arcanus:rune_block"
+    },
+    "G": {
+      "item": "forbidden_arcanus:arcane_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "waystones:portstone"
+  },
+  "acceptMirrored": true
+}

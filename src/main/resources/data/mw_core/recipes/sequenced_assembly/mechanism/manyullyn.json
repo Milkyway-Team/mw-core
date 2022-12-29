@@ -1,0 +1,100 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:cobalt_mechanism"
+  },
+  "transitionalItem": {
+    "item": "mw_core:incomplete_manyullyn_mechanism"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        },
+        {
+          "item": "mw_core:manyullyn_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        },
+        {
+          "item": "create:brass_nugget"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        },
+        {
+          "item": "tconstruct:manyullyn_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        },
+        {
+          "fluid": "tconstruct:molten_ender",
+          "nbt": {},
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        },
+        {
+          "item": "thermal:emerald_gear"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_manyullyn_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:manyullyn_mechanism",
+      "chance": 1.0
+    }
+  ],
+  "loops": 1
+}

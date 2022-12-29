@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "tag": "mw_core:molten_creativity",
+    "amount": 360
+  },
+  "result": "mw_core:creative_alloy_plating",
+  "cooling_time": 111
+}

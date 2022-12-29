@@ -16,11 +16,28 @@
 
   "itemGroup.mw_core": "Create: Milkyway",
   "_": "MATERIALS",
+  "item.mw_core.obsidian_fibre": "Obsidian Fibre",
+  "item.mw_core.insulation_cube": "Insulation Cube",
+  "item.mw_core.incomplete_insulation_cube": "Incomplete Insulation Cube",
+  "item.mw_core.insulation_sheet": "Insulation Sheet",
+
+  "item.mw_core.creative_alloy": "Creative Alloy",
+  "item.mw_core.creative_alloy_plating": "Creative Alloy Plating",
+
   "item.mw_core.creatite": "Creatite",
   "item.mw_core.chromatic_dust": "Chromatic Dust",
   "item.mw_core.rave_tube": "Rave Tube",
   "fluid.mw_core.chromatic_waste": "Chromatic Waste",
   "item.mw_core.chromatic_waste_bucket": "Bucket of Chromatic Waste",
+  "fluid.mw_core.molten_creativity": "Molten Creativity",
+  "item.mw_core.molten_creativity_bucket": "Bucket of Molten Creativity",
+  "item.mw_core.chromatic_steel": "Chromatic Steel",
+  "item.mw_core.creatite_infused_chromatic_steel": "Creatite Infused Chromatic Steel",
+  "item.mw_core.creative_ingot": "Ingot of Creativity",
+
+  "fluid.mw_core.molten_pure_creatite": "Molten Refined Creatite",
+  "item.mw_core.molten_pure_creatite_bucket": "Bucket of Refined Creatite",
+
 
   "item.mw_core.aluminium_ingot": "Aluminium Ingot",
   "item.mw_core.aluminium_nugget": "Aluminium Nugget",
@@ -72,6 +89,8 @@
   "fluid.mw_core.molten_cast_iron": "Molten Cast Iron",
   "fluid.mw_core.molten_radiance": "Molten Radiance",
   "item.mw_core.molten_radiance_bucket": "Bucket of Molten Radiance",
+  "fluid.mw_core.liquid_magic": "Liquid Magic",
+  "item.mw_core.liquid_magic_bucket": "Bucket of Liquid Magic",
 
   "_": "TOOLS",
   "item.mw_core.aluminium_axe": "Aluminium Axe",

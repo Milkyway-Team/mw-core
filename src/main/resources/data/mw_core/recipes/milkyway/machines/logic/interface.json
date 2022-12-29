@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "402",
+    "#3#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_steel_sheet"
+    },
+    "0": {
+      "item": "refinedstorage:interface"
+    },
+    "1": {
+      "item": "mw_core:certus_core"
+    },
+    "2": {
+      "item": "ae2:formation_core"
+    },
+    "3": {
+      "item": "mw_core:logic_mechanism"
+    },
+    "4": {
+      "item": "ae2:annihilation_core"
+    }
+  },
+  "result": {
+    "item": "ae2:interface"
+  }
+}

@@ -13,7 +13,7 @@
       "item": "mw_core:copper_mechanism"
     },
     "T": {
-      "item": "minecraft:copper_ingot"
+      "item": "mw_core:sturdy_copper_sheet"
     }
   },
   "result": {

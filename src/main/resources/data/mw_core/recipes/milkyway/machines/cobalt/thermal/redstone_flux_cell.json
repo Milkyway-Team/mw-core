@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "YBY",
+    "IPI"
+  ],
+  "key": {
+    "C": {
+      "item": "thermal:rf_coil"
+    },
+    "B": {
+      "item": "thermal:energy_cell_frame"
+    },
+    "I": {
+      "item": "thermal:cured_rubber"
+    },
+    "P": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "Y": {
+      "tag": "forge:plates/sturdy/iron"
+    }
+  },
+  "result": {
+    "item": "thermal:energy_cell"
+  }
+}

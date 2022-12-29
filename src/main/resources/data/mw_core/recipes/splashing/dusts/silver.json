@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "thermal:silver_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:silver_nugget",
+      "count": 9
+    },
+    {
+      "item": "thermal:sulfur",
+      "chance": 0.75
+    }
+  ]
+}

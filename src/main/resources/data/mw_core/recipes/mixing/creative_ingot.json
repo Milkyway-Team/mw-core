@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mw_core:radiant_quartz_dust"
+    },
+    {
+      "item": "mw_core:radiant_quartz_dust"
+    },
+    {
+      "item": "mw_core:radiant_quartz_dust"
+    },
+    {
+      "item": "mw_core:radiant_quartz_dust"
+    },
+    {
+      "item": "mw_core:creatite_infused_chromatic_steel"
+    },
+    {
+      "fluid": "mw_core:liquid_magic",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:creative_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

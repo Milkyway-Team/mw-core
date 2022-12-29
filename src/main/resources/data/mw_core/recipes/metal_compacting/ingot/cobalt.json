@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/cobalt"
+    },
+    {
+      "tag": "forge:nuggets/cobalt"
+    },
+    {
+      "tag": "forge:nuggets/cobalt"
+    },
+    {
+      "tag": "forge:nuggets/cobalt"
+    },
+    {
+      "tag": "forge:nuggets/cobalt"
+    },
+    {
+      "tag": "forge:nuggets/cobalt"
+    },
+    {
+      "tag": "forge:nuggets/cobalt"
+    },
+    {
+      "tag": "forge:nuggets/cobalt"
+    },
+    {
+      "tag": "forge:nuggets/cobalt"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:cobalt_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

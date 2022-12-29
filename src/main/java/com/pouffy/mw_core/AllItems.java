@@ -22,6 +22,24 @@ public class AllItems {
 
     public static final RegistryObject<Item> CHROMATIC_DUST = ITEMS.register("chromatic_dust",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CHROMATIC_STEEL = ITEMS.register("chromatic_steel",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CREATITE_INFUSED_CHROMATIC_STEEL = ITEMS.register("creatite_infused_chromatic_steel",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CREATIVE_INGOT = ITEMS.register("creative_ingot",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> OBSIDIAN_FIBRE = ITEMS.register("obsidian_fibre",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> INCOMPLETE_INSULATION_CUBE = ITEMS.register("incomplete_insulation_cube",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> INSULATION_CUBE = ITEMS.register("insulation_cube",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CREATIVE_ALLOY = ITEMS.register("creative_alloy",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> CREATIVE_ALLOY_PLATING = ITEMS.register("creative_alloy_plating",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> INSULATION_SHEET = ITEMS.register("insulation_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
     public static final RegistryObject<Item> RAVE_TUBE = ITEMS.register("rave_tube",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mw_core:creative_alloy_plating"
+  },
+  "result": {
+    "fluid": "mw_core:molten_creativity",
+    "amount": 360
+  },
+  "temperature": 1500,
+  "time": 360
+}

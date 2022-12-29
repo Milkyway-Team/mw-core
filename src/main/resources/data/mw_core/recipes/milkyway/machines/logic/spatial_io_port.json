@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "202",
+    "#4#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_iron_sheet"
+    },
+    "1": {
+      "item": "ae2:engineering_processor"
+    },
+    "0": {
+      "item": "ae2:io_port"
+    },
+    "2": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "4": {
+      "item": "mw_core:logic_mechanism"
+    }
+  },
+  "result": {
+    "item": "ae2:spatial_io_port"
+  }
+}

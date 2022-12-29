@@ -35,6 +35,8 @@ public class AllMechanisms {
             () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final RegistryObject<Item> MANYULLYN = MECHANISMS.register("manyullyn_mechanism",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> INCOMPLETE_MANYULLYN = MECHANISMS.register("incomplete_manyullyn_mechanism",
+            () -> new SequencedAssemblyItem(new Item.Properties()));
     public static final RegistryObject<Item> LOGIC = MECHANISMS.register("logic_mechanism",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> INCOMPLETE_LOGIC = MECHANISMS.register("incomplete_logic_mechanism",

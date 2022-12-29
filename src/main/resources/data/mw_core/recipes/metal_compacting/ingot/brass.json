@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/brass"
+    },
+    {
+      "tag": "forge:nuggets/brass"
+    },
+    {
+      "tag": "forge:nuggets/brass"
+    },
+    {
+      "tag": "forge:nuggets/brass"
+    },
+    {
+      "tag": "forge:nuggets/brass"
+    },
+    {
+      "tag": "forge:nuggets/brass"
+    },
+    {
+      "tag": "forge:nuggets/brass"
+    },
+    {
+      "tag": "forge:nuggets/brass"
+    },
+    {
+      "tag": "forge:nuggets/brass"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:brass_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

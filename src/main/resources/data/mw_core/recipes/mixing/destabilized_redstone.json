@@ -21,7 +21,8 @@
     },
     {
       "item": "minecraft:redstone"
-    },    {
+    },
+    {
       "item": "minecraft:redstone"
     },
     {
@@ -32,7 +33,7 @@
   "results": [
     {
       "fluid": "thermal:redstone",
-      "amount": 80
+      "amount": 320
     }
   ],
   "heatRequirement": "superheated"

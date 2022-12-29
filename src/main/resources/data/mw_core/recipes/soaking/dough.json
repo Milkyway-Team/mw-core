@@ -4,7 +4,7 @@
     "item": "create:wheat_flour"
   },
   "fluid": "mw_core:dough_soaker",
-  "source": false,
+  "source": true,
   "remove": false,
   "result": {
     "item": "create:dough",

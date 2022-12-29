@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "thermal:lead_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:lead_nugget",
+      "count": 9
+    },
+    {
+      "item": "create:crushed_zinc_ore",
+      "chance": 0.75
+    }
+  ]
+}

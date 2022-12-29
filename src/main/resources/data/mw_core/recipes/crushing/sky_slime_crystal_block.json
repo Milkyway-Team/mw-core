@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tconstruct:sky_slime_crystal_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:sky_slime_crystal",
+      "count": 3
+    },
+    {
+      "item": "tconstruct:sky_slime_crystal",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "tconstruct:molten_iron",
+      "amount": 270
+    },
+    {
+     "item": "thermal:coal_coke"
+    },
+    {
+      "item": "thermal:coal_coke"
+    },
+    {
+      "item": "thermal:coal_coke"
+    },
+    {
+      "item": "thermal:coal_coke"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:molten_steel",
+      "amount": 270
+    }
+  ],
+  "heatRequirement": "heated"
+}

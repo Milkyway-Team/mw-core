@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "mw_core:chromatic_steel"
+    },
+    {
+      "fluid": "mw_core:molten_pure_creatite",
+      "nbt": {},
+      "amount": 810
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:creatite_infused_chromatic_steel"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "mw_core:creative_alloy"
+  },
+  "result": {
+    "fluid": "mw_core:molten_creativity",
+    "amount": 90
+  },
+  "temperature": 1500,
+  "time": 360
+}

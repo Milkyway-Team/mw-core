@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "mw_core:nethersteel_metal_fluid",
+      "amount": 270
+    },
+    {
+      "name": "tconstruct:molten_debris",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "fluid": "mw_core:molten_nethersteel",
+    "amount": 360
+  },
+  "temperature": 1375
+}

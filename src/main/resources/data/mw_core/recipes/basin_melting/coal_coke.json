@@ -1,0 +1,17 @@
+{
+  "type": "createbigcannons:melting",
+  "ingredients": [
+    {
+      "fluid": "thermal:crude_oil",
+      "amount": 50
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:coal_coke",
+      "count": 4
+    }
+  ],
+  "processingTime": 440,
+  "heatRequirement": "heated"
+}

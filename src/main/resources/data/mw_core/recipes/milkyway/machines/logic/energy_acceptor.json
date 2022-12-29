@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "101",
+    "#1#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_steel_sheet"
+    },
+    "0": {
+      "item": "mw_core:logic_mechanism"
+    },
+    "1": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "result": {
+    "item": "ae2:energy_acceptor"
+  }
+}

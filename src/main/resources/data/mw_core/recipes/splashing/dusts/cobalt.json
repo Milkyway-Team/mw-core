@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "mw_core:cobalt_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:cobalt_nugget",
+      "count": 9
+    },
+    {
+      "item": "create:crushed_iron_ore",
+      "chance": 0.75
+    }
+  ]
+}

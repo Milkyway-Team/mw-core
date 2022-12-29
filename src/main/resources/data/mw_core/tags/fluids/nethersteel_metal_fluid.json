@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mw_core:molten_cast_iron",
+    "tconstruct:molten_steel"
+
+  ]
+}

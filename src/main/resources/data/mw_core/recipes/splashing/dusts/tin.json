@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "thermal:tin_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:tin_nugget",
+      "count": 9
+    },
+    {
+      "item": "thermal:apatite",
+      "chance": 0.75
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "thermal:cured_rubber"
+    },
+    {
+      "item": "thermal:cured_rubber"
+    },
+    {
+      "item": "thermal:cured_rubber"
+    },
+    {
+      "item": "thermal:cured_rubber"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "fluid": "tconstruct:molten_obsidian",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:obsidian_fibre"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

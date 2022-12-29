@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:scorchia"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_lead_ore",
+      "chance": 0.8
+    },
+    {
+      "item": "thermal:lead_nugget",
+      "chance": 0.8
+    }
+  ],
+  "processingTime": 250
+}
