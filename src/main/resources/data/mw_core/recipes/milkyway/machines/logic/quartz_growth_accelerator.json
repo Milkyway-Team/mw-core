@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "202",
+    "#3#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_steel_sheet"
+    },
+    "1": {
+      "item": "mw_core:fluix_core"
+    },
+    "0": {
+      "item": "ae2:fluix_block"
+    },
+    "2": {
+      "item": "ae2:quartz_glass"
+    },
+    "3": {
+      "item": "mw_core:logic_mechanism"
+    }
+  },
+  "result": {
+    "item": "ae2:quartz_growth_accelerator"
+  }
+}

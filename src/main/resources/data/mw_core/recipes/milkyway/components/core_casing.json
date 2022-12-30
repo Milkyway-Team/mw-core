@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "B B",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "tag": "mw_core:white_metal_sheets"
+    }
+  },
+  "result": {
+    "item": "mw_core:core_casing"
+  }
+}

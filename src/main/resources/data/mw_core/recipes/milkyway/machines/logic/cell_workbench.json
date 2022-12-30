@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+"pattern": [
+"141",
+"#0#",
+"###"
+],
+"key": {
+"#": {
+"item": "mw_core:reinforced_steel_sheet"
+},
+"1": {
+"item": "mw_core:certus_core"
+},
+"0": {
+"item": "ae2:chest"
+},
+"4": {
+"item": "mw_core:logic_mechanism"
+}
+},
+"result": {
+"item": "ae2:cell_workbench"
+}
+}

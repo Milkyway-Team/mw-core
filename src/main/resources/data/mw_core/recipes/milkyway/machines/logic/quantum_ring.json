@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "202",
+    "#3#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_steel_sheet"
+    },
+    "1": {
+      "item": "mw_core:logic_mechanism"
+    },
+    "0": {
+      "item": "ae2:energy_cell"
+    },
+    "2": {
+      "tag": "ae2:smart_dense_cable"
+    },
+    "3": {
+      "item": "ae2:engineering_processor"
+    }
+  },
+  "result": {
+    "item": "ae2:quantum_ring"
+  }
+}

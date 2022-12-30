@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bmb"
+  ],
+  "key": {
+    "b": {
+      "item": "mw_core:reinforced_steel_sheet"
+    },
+    "c": {
+      "item": "ae2:quartz_fiber"
+    },
+    "m": {
+      "item": "mw_core:logic_mechanism"
+    },
+    "a": {
+      "item": "ae2:fluix_pearl"
+    }
+  },
+  "result": {
+    "item": "ae2:wireless_receiver"
+  }
+}

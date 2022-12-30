@@ -6,5 +6,13 @@
         "stream": true
       }
     ]
+  },
+  "space_pirates": {
+    "sounds": [
+      {
+        "name": "mw_core:space_pirates",
+        "stream": true
+      }
+    ]
   }
 }

@@ -11,13 +11,13 @@
   ],
   "key": {
     "A": {
-      "item": "mw_core:creative_alloy"
+      "item": "mw_core:manyullyn_mechanism"
     },
     "C": {
       "item": "mw_core:creative_alloy_plating"
     },
     "I": {
-      "item": "mw_core:manyullyn_mechanism"
+      "item": "mw_core:creative_alloy"
     },
     "W": {
       "item": "create:water_wheel"

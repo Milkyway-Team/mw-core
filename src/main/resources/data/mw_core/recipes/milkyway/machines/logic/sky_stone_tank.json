@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "232",
+    "#1#"
+  ],
+  "key": {
+    "#": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "1": {
+      "item": "ae2:quartz_glass"
+    },
+    "2": {
+      "item": "create:fluid_tank"
+    },
+    "3": {
+      "item": "mw_core:logic_mechanism"
+    }
+  },
+  "result": {
+    "item": "ae2:sky_stone_tank"
+  }
+}

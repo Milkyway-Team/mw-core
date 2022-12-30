@@ -15,4 +15,6 @@ public class AllDiscs {
     public static final DeferredRegister<Item> DISCS = DeferredRegister.create(ForgeRegistries.ITEMS, MWCore.MODID);
     public static final RegistryObject<Item> VENTURE = DISCS.register("music_disc_venture",
             () -> new RecordItem(4, AllSounds.VENTURE ,new Item.Properties().tab(MWCore.MISC).stacksTo(1)));
+    public static final RegistryObject<Item> SPACE_PIRATES = DISCS.register("music_disc_space_pirates",
+            () -> new RecordItem(4, AllSounds.SPACE_PIRATES ,new Item.Properties().tab(MWCore.MISC).stacksTo(1)));
 }

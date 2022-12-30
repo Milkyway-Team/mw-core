@@ -206,7 +206,8 @@
   "_": "DISC",
   "item.mw_core.music_disc_venture": "Music Disc",
   "item.mw_core.music_disc_venture.desc": "Shelltune - Venture",
-
+  "item.mw_core.music_disc_space_pirates": "Music Disc",
+  "item.mw_core.music_disc_space_pirates.desc": "Shelltune - Space Pirates",
 
   "_": "ADVANCEMENT",
   "advancements.mw.root": "Create: Milkyway",

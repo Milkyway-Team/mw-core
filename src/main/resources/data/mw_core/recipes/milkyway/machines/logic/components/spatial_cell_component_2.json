@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "ae2:engineering_processor"
+    },
+    "b": {
+      "item": "mw_core:fluix_core"
+    },
+    "c": {
+      "item": "mw_core:logic_mechanism"
+    }
+  },
+  "result": {
+    "item": "ae2:spatial_cell_component_2"
+  }
+}

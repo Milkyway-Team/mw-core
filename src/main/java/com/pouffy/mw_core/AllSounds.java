@@ -11,6 +11,7 @@ public class AllSounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MWCore.MODID);
 
     public static RegistryObject<SoundEvent> VENTURE = registerSoundEvent("venture");
+    public static RegistryObject<SoundEvent> SPACE_PIRATES = registerSoundEvent("space_pirates");
 
 
 

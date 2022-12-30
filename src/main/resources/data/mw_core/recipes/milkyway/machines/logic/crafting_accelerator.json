@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "202",
+    "#3#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:fluix_core"
+    },
+    "1": {
+      "item": "ae2:engineering_processor"
+    },
+    "0": {
+      "item": "ae2:crafting_unit"
+    },
+    "2": {
+      "item": "ae2:calculation_processor"
+    },
+    "3": {
+      "item": "mw_core:logic_mechanism"
+    }
+  },
+  "result": {
+    "item": "ae2:crafting_accelerator"
+  }
+}

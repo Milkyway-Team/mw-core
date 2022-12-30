@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+"pattern": [
+" # ",
+"#4#",
+"111"
+],
+"key": {
+"#": {
+"item": "mw_core:reinforced_steel_sheet"
+},
+"1": {
+"item": "mw_core:fluix_core"
+},
+"4": {
+"item": "mw_core:logic_mechanism"
+}
+},
+"result": {
+"item": "ae2:me_p2p_tunnel"
+}
+}
