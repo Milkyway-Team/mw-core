@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "result": {
+    "item": "create:brass_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

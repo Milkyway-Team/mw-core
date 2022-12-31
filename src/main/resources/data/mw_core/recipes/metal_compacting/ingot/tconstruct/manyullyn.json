@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/manyullyn"
+    },
+    {
+      "tag": "forge:nuggets/manyullyn"
+    },
+    {
+      "tag": "forge:nuggets/manyullyn"
+    },
+    {
+      "tag": "forge:nuggets/manyullyn"
+    },
+    {
+      "tag": "forge:nuggets/manyullyn"
+    },
+    {
+      "tag": "forge:nuggets/manyullyn"
+    },
+    {
+      "tag": "forge:nuggets/manyullyn"
+    },
+    {
+      "tag": "forge:nuggets/manyullyn"
+    },
+    {
+      "tag": "forge:nuggets/manyullyn"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:manyullyn_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

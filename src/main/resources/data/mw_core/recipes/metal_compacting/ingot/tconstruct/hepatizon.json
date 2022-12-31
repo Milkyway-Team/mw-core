@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/hepatizon"
+    },
+    {
+      "tag": "forge:nuggets/hepatizon"
+    },
+    {
+      "tag": "forge:nuggets/hepatizon"
+    },
+    {
+      "tag": "forge:nuggets/hepatizon"
+    },
+    {
+      "tag": "forge:nuggets/hepatizon"
+    },
+    {
+      "tag": "forge:nuggets/hepatizon"
+    },
+    {
+      "tag": "forge:nuggets/hepatizon"
+    },
+    {
+      "tag": "forge:nuggets/hepatizon"
+    },
+    {
+      "tag": "forge:nuggets/hepatizon"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:hepatizon_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

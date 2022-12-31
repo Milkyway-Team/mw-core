@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "createbigcannons:cast_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "createbigcannons:cast_iron_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

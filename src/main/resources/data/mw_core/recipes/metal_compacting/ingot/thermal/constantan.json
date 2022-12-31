@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/constantan"
+    },
+    {
+      "tag": "forge:nuggets/constantan"
+    },
+    {
+      "tag": "forge:nuggets/constantan"
+    },
+    {
+      "tag": "forge:nuggets/constantan"
+    },
+    {
+      "tag": "forge:nuggets/constantan"
+    },
+    {
+      "tag": "forge:nuggets/constantan"
+    },
+    {
+      "tag": "forge:nuggets/constantan"
+    },
+    {
+      "tag": "forge:nuggets/constantan"
+    },
+    {
+      "tag": "forge:nuggets/constantan"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:constantan_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

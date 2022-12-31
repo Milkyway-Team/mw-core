@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "thermal:lumium_ingot"
+    }
+  },
+  "result": {
+    "item": "thermal:lumium_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

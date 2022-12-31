@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "alloyed:bronze_block"
+    }
+  },
+  "result": {
+    "item": "alloyed:bronze_ingot",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

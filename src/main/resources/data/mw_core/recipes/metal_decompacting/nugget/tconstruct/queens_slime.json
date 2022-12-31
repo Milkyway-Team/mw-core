@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:queens_slime_ingot"
+    }
+  },
+  "result": {
+    "item": "tconstruct:queens_slime_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

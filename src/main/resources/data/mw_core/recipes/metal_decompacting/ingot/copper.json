@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:copper_ingot",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

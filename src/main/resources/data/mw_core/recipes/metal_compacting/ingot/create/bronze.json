@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    },
+    {
+      "tag": "forge:nuggets/bronze"
+    }
+  ],
+  "results": [
+    {
+      "item": "alloyed:bronze_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

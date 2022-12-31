@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/tin"
+    },
+    {
+      "tag": "forge:nuggets/tin"
+    },
+    {
+      "tag": "forge:nuggets/tin"
+    },
+    {
+      "tag": "forge:nuggets/tin"
+    },
+    {
+      "tag": "forge:nuggets/tin"
+    },
+    {
+      "tag": "forge:nuggets/tin"
+    },
+    {
+      "tag": "forge:nuggets/tin"
+    },
+    {
+      "tag": "forge:nuggets/tin"
+    },
+    {
+      "tag": "forge:nuggets/tin"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:tin_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

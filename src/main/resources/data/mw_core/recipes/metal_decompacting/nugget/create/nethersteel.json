@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "createbigcannons:nethersteel_ingot"
+    }
+  },
+  "result": {
+    "item": "createbigcannons:nethersteel_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

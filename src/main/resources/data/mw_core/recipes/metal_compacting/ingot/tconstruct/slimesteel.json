@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/slimesteel"
+    },
+    {
+      "tag": "forge:nuggets/slimesteel"
+    },
+    {
+      "tag": "forge:nuggets/slimesteel"
+    },
+    {
+      "tag": "forge:nuggets/slimesteel"
+    },
+    {
+      "tag": "forge:nuggets/slimesteel"
+    },
+    {
+      "tag": "forge:nuggets/slimesteel"
+    },
+    {
+      "tag": "forge:nuggets/slimesteel"
+    },
+    {
+      "tag": "forge:nuggets/slimesteel"
+    },
+    {
+      "tag": "forge:nuggets/slimesteel"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:slimesteel_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

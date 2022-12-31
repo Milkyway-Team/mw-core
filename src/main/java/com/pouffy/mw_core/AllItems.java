@@ -1,11 +1,12 @@
 package com.pouffy.mw_core;
 
 import cofh.thermal.lib.common.ThermalItemGroups;
-import com.pouffy.mw_core.common.mod_compats.farmersdelight.TastyFoodValues;
+import com.pouffy.mw_core.common.mod_compats.farmersdelight.MilkywayFoodValues;
 import com.pouffy.mw_core.content.items.CrushedCoalItem;
 import com.pouffy.mw_core.content.items.RadiantQuartzItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -84,14 +85,22 @@ public class AllItems {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     //FOODS
     public static final RegistryObject<Item> SODA = ITEMS.register("soda",
-            () -> new DrinkableItem(new Item.Properties().food(TastyFoodValues.SODA)
-                    .craftRemainder(AllItems.CAN.get()).tab(MWCore.MISC)));
+            () -> new DrinkableItem(new Item.Properties().food(MilkywayFoodValues.SODA)
+                    .craftRemainder(AllItems.CAN.get()).tab(MWCore.MISC), true));
     public static final RegistryObject<Item> MILKYWAY_BAR = ITEMS.register("milkyway_bar",
-            () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.MILKYWAY_BAR).tab(MWCore.MISC), true));
+            () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.MILKYWAY_BAR).tab(MWCore.MISC), true));
     public static final RegistryObject<Item> SALT = ITEMS.register("salt",
-            () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.SALT).tab(MWCore.MISC)));
+            () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.SALT).tab(MWCore.MISC)));
     public static final RegistryObject<Item> SALTED_BEEF = ITEMS.register("salted_beef",
-            () -> new ConsumableItem(new Item.Properties().food(TastyFoodValues.SALT).tab(MWCore.MISC)));
+            () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.SALT).tab(MWCore.MISC)));
+    public static final RegistryObject<Item> SWEET_BERRY_JUICE = ITEMS.register("sweet_berry_juice",
+            () -> new DrinkableItem(new Item.Properties().food(MilkywayFoodValues.SWEET_BERRY_JUICE)
+                    .craftRemainder(Items.GLASS_BOTTLE).tab(MWCore.MISC), true));
+    public static final RegistryObject<Item> SYRUP_GLAZED_APPLE = ITEMS.register("syrup_glazed_apple",
+            () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.SYRUP_GLAZED_APPLE).tab(MWCore.MISC)));
+    public static final RegistryObject<Item> SYRUP_BERRIES = ITEMS.register("syrup_glazed_berries",
+            () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.SYRUP_GLAZED_BERRIES).tab(MWCore.MISC)));
+
     public static final RegistryObject<Item> RADIANT_QUARTZ = ITEMS.register("radiant_quartz",
             () -> new RadiantQuartzItem(new Item.Properties().tab(MWCore.MISC).fireResistant()));
     public static final RegistryObject<Item> STURDY_SHEET_CAST = ITEMS.register("sturdy_sheet_cast",

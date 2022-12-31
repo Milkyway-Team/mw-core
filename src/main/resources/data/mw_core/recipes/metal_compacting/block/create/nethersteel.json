@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/nethersteel"
+    },
+    {
+      "tag": "forge:ingots/nethersteel"
+    },
+    {
+      "tag": "forge:ingots/nethersteel"
+    },
+    {
+      "tag": "forge:ingots/nethersteel"
+    },
+    {
+      "tag": "forge:ingots/nethersteel"
+    },
+    {
+      "tag": "forge:ingots/nethersteel"
+    },
+    {
+      "tag": "forge:ingots/nethersteel"
+    },
+    {
+      "tag": "forge:ingots/nethersteel"
+    },
+    {
+      "tag": "forge:ingots/nethersteel"
+    }
+  ],
+  "results": [
+    {
+      "item": "createbigcannons:nethersteel_block"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

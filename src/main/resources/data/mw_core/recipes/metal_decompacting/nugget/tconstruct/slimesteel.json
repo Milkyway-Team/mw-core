@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:slimesteel_ingot"
+    }
+  },
+  "result": {
+    "item": "tconstruct:slimesteel_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

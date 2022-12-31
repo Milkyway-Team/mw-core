@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/electrum"
+    },
+    {
+      "tag": "forge:nuggets/electrum"
+    },
+    {
+      "tag": "forge:nuggets/electrum"
+    },
+    {
+      "tag": "forge:nuggets/electrum"
+    },
+    {
+      "tag": "forge:nuggets/electrum"
+    },
+    {
+      "tag": "forge:nuggets/electrum"
+    },
+    {
+      "tag": "forge:nuggets/electrum"
+    },
+    {
+      "tag": "forge:nuggets/electrum"
+    },
+    {
+      "tag": "forge:nuggets/electrum"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:electrum_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

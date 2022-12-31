@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    },
+    {
+      "tag": "forge:ingots/signalum"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:signalum_block"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

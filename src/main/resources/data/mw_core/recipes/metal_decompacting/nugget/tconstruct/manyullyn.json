@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:manyullyn_ingot"
+    }
+  },
+  "result": {
+    "item": "tconstruct:manyullyn_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

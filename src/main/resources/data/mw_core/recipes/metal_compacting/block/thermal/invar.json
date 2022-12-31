@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/invar"
+    },
+    {
+      "tag": "forge:ingots/invar"
+    },
+    {
+      "tag": "forge:ingots/invar"
+    },
+    {
+      "tag": "forge:ingots/invar"
+    },
+    {
+      "tag": "forge:ingots/invar"
+    },
+    {
+      "tag": "forge:ingots/invar"
+    },
+    {
+      "tag": "forge:ingots/invar"
+    },
+    {
+      "tag": "forge:ingots/invar"
+    },
+    {
+      "tag": "forge:ingots/invar"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:invar_block"
+    }
+  ],
+  "heatRequirement": "heated"
+}

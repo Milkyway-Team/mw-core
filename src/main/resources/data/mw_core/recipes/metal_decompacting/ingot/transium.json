@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:transium_block"
+    }
+  },
+  "result": {
+    "item": "mw_core:transium_ingot",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "tconstruct:netherite_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

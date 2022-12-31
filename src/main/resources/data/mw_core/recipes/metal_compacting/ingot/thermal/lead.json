@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/lead"
+    },
+    {
+      "tag": "forge:nuggets/lead"
+    },
+    {
+      "tag": "forge:nuggets/lead"
+    },
+    {
+      "tag": "forge:nuggets/lead"
+    },
+    {
+      "tag": "forge:nuggets/lead"
+    },
+    {
+      "tag": "forge:nuggets/lead"
+    },
+    {
+      "tag": "forge:nuggets/lead"
+    },
+    {
+      "tag": "forge:nuggets/lead"
+    },
+    {
+      "tag": "forge:nuggets/lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:lead_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

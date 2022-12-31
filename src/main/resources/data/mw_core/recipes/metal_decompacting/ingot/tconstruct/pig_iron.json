@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:pig_iron_block"
+    }
+  },
+  "result": {
+    "item": "tconstruct:pig_iron_ingot",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

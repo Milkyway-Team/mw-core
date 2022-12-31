@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "alloyed:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "alloyed:steel_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

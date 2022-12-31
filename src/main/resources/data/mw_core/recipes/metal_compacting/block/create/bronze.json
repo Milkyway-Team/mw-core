@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    }
+  ],
+  "results": [
+    {
+      "item": "alloyed:bronze_block"
+    }
+  ],
+  "heatRequirement": "heated"
+}

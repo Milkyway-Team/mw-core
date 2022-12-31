@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/amethyst_bronze"
+    },
+    {
+      "tag": "forge:nuggets/amethyst_bronze"
+    },
+    {
+      "tag": "forge:nuggets/amethyst_bronze"
+    },
+    {
+      "tag": "forge:nuggets/amethyst_bronze"
+    },
+    {
+      "tag": "forge:nuggets/amethyst_bronze"
+    },
+    {
+      "tag": "forge:nuggets/amethyst_bronze"
+    },
+    {
+      "tag": "forge:nuggets/amethyst_bronze"
+    },
+    {
+      "tag": "forge:nuggets/amethyst_bronze"
+    },
+    {
+      "tag": "forge:nuggets/amethyst_bronze"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:amethyst_bronze_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:aluminium_ingot"
+    }
+  },
+  "result": {
+    "item": "mw_core:aluminium_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

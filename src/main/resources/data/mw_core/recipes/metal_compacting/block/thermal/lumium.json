@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/lumium"
+    },
+    {
+      "tag": "forge:ingots/lumium"
+    },
+    {
+      "tag": "forge:ingots/lumium"
+    },
+    {
+      "tag": "forge:ingots/lumium"
+    },
+    {
+      "tag": "forge:ingots/lumium"
+    },
+    {
+      "tag": "forge:ingots/lumium"
+    },
+    {
+      "tag": "forge:ingots/lumium"
+    },
+    {
+      "tag": "forge:ingots/lumium"
+    },
+    {
+      "tag": "forge:ingots/lumium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:lumium_block"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

@@ -6,14 +6,17 @@ import net.minecraft.world.food.FoodProperties;
 import vectorwing.farmersdelight.common.FoodValues;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
-public class TastyFoodValues extends FoodValues {
+public class MilkywayFoodValues extends FoodValues {
     public static final FoodProperties SODA = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1200, 0);
+    }, 1.0F).build();
+    public static final FoodProperties SWEET_BERRY_JUICE = (new FoodProperties.Builder()).effect(() -> {
+        return new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1200, 1);
     }, 1.0F).build();
 
     public static final FoodProperties MILKYWAY_BAR = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(ModEffects.COMFORT.get(), 1200, 0);
-    }, 1.0F).build();
+    }, 1.0F).nutrition(6).saturationMod(0.2F).build();
     public static final FoodProperties SALT = (new FoodProperties.Builder()).effect(() -> {
         return new MobEffectInstance(MobEffects.CONFUSION, 300, 0);
     }, 1.0F).build();
@@ -21,5 +24,8 @@ public class TastyFoodValues extends FoodValues {
         return new MobEffectInstance(ModEffects.COMFORT.get(), 300, 0);
     }, 0.5F).effect(() -> {
         return new MobEffectInstance(MobEffects.CONFUSION, 300, 0);
-    }, 0.5F).build();
+    }, 0.5F).nutrition(2).saturationMod(0.6F).meat().build();
+
+    public static final FoodProperties SYRUP_GLAZED_APPLE = (new FoodProperties.Builder()).nutrition(8).saturationMod(0.8F).build();
+    public static final FoodProperties SYRUP_GLAZED_BERRIES = (new FoodProperties.Builder()).nutrition(7).saturationMod(0.8F).build();
 }

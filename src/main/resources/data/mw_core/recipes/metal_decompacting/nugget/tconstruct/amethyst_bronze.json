@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:amethyst_bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "tconstruct:amethyst_bronze_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

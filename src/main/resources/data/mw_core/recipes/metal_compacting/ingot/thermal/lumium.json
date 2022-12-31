@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/lumium"
+    },
+    {
+      "tag": "forge:nuggets/lumium"
+    },
+    {
+      "tag": "forge:nuggets/lumium"
+    },
+    {
+      "tag": "forge:nuggets/lumium"
+    },
+    {
+      "tag": "forge:nuggets/lumium"
+    },
+    {
+      "tag": "forge:nuggets/lumium"
+    },
+    {
+      "tag": "forge:nuggets/lumium"
+    },
+    {
+      "tag": "forge:nuggets/lumium"
+    },
+    {
+      "tag": "forge:nuggets/lumium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:lumium_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

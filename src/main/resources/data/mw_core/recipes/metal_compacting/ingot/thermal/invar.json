@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/invar"
+    },
+    {
+      "tag": "forge:nuggets/invar"
+    },
+    {
+      "tag": "forge:nuggets/invar"
+    },
+    {
+      "tag": "forge:nuggets/invar"
+    },
+    {
+      "tag": "forge:nuggets/invar"
+    },
+    {
+      "tag": "forge:nuggets/invar"
+    },
+    {
+      "tag": "forge:nuggets/invar"
+    },
+    {
+      "tag": "forge:nuggets/invar"
+    },
+    {
+      "tag": "forge:nuggets/invar"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:invar_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

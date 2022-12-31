@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/aluminum"
+    },
+    {
+      "tag": "forge:nuggets/aluminum"
+    },
+    {
+      "tag": "forge:nuggets/aluminum"
+    },
+    {
+      "tag": "forge:nuggets/aluminum"
+    },
+    {
+      "tag": "forge:nuggets/aluminum"
+    },
+    {
+      "tag": "forge:nuggets/aluminum"
+    },
+    {
+      "tag": "forge:nuggets/aluminum"
+    },
+    {
+      "tag": "forge:nuggets/aluminum"
+    },
+    {
+      "tag": "forge:nuggets/aluminum"
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:aluminium_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

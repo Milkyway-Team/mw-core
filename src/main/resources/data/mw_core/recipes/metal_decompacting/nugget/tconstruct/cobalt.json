@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "tconstruct:cobalt_ingot"
+    }
+  },
+  "result": {
+    "item": "tconstruct:cobalt_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/pig_iron"
+    },
+    {
+      "tag": "forge:nuggets/pig_iron"
+    },
+    {
+      "tag": "forge:nuggets/pig_iron"
+    },
+    {
+      "tag": "forge:nuggets/pig_iron"
+    },
+    {
+      "tag": "forge:nuggets/pig_iron"
+    },
+    {
+      "tag": "forge:nuggets/pig_iron"
+    },
+    {
+      "tag": "forge:nuggets/pig_iron"
+    },
+    {
+      "tag": "forge:nuggets/pig_iron"
+    },
+    {
+      "tag": "forge:nuggets/pig_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:pig_iron_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

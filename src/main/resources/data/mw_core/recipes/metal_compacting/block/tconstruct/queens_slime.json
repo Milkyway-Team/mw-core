@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/queens_slime"
+    },
+    {
+      "tag": "forge:ingots/queens_slime"
+    },
+    {
+      "tag": "forge:ingots/queens_slime"
+    },
+    {
+      "tag": "forge:ingots/queens_slime"
+    },
+    {
+      "tag": "forge:ingots/queens_slime"
+    },
+    {
+      "tag": "forge:ingots/queens_slime"
+    },
+    {
+      "tag": "forge:ingots/queens_slime"
+    },
+    {
+      "tag": "forge:ingots/queens_slime"
+    },
+    {
+      "tag": "forge:ingots/queens_slime"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:queens_slime_block"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

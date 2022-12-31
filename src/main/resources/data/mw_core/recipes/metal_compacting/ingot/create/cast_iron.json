@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/cast_iron"
+    },
+    {
+      "tag": "forge:nuggets/cast_iron"
+    },
+    {
+      "tag": "forge:nuggets/cast_iron"
+    },
+    {
+      "tag": "forge:nuggets/cast_iron"
+    },
+    {
+      "tag": "forge:nuggets/cast_iron"
+    },
+    {
+      "tag": "forge:nuggets/cast_iron"
+    },
+    {
+      "tag": "forge:nuggets/cast_iron"
+    },
+    {
+      "tag": "forge:nuggets/cast_iron"
+    },
+    {
+      "tag": "forge:nuggets/cast_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "createbigcannons:cast_iron_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

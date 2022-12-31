@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/steel"
+    },
+    {
+      "tag": "forge:nuggets/steel"
+    },
+    {
+      "tag": "forge:nuggets/steel"
+    },
+    {
+      "tag": "forge:nuggets/steel"
+    },
+    {
+      "tag": "forge:nuggets/steel"
+    },
+    {
+      "tag": "forge:nuggets/steel"
+    },
+    {
+      "tag": "forge:nuggets/steel"
+    },
+    {
+      "tag": "forge:nuggets/steel"
+    },
+    {
+      "tag": "forge:nuggets/steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "alloyed:steel_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

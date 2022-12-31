@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/rose_gold"
+    },
+    {
+      "tag": "forge:nuggets/rose_gold"
+    },
+    {
+      "tag": "forge:nuggets/rose_gold"
+    },
+    {
+      "tag": "forge:nuggets/rose_gold"
+    },
+    {
+      "tag": "forge:nuggets/rose_gold"
+    },
+    {
+      "tag": "forge:nuggets/rose_gold"
+    },
+    {
+      "tag": "forge:nuggets/rose_gold"
+    },
+    {
+      "tag": "forge:nuggets/rose_gold"
+    },
+    {
+      "tag": "forge:nuggets/rose_gold"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:rose_gold_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

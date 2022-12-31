@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    },
+    {
+      "tag": "forge:nuggets/nickel"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:nickel_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

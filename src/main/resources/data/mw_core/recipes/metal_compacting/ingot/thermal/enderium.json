@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/enderium"
+    },
+    {
+      "tag": "forge:nuggets/enderium"
+    },
+    {
+      "tag": "forge:nuggets/enderium"
+    },
+    {
+      "tag": "forge:nuggets/enderium"
+    },
+    {
+      "tag": "forge:nuggets/enderium"
+    },
+    {
+      "tag": "forge:nuggets/enderium"
+    },
+    {
+      "tag": "forge:nuggets/enderium"
+    },
+    {
+      "tag": "forge:nuggets/enderium"
+    },
+    {
+      "tag": "forge:nuggets/enderium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:enderium_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

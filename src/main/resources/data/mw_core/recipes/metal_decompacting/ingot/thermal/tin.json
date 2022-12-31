@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "thermal:tin_block"
+    }
+  },
+  "result": {
+    "item": "thermal:tin_ingot",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

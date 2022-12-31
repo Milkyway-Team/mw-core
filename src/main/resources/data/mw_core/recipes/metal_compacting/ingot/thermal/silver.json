@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/silver"
+    },
+    {
+      "tag": "forge:nuggets/silver"
+    },
+    {
+      "tag": "forge:nuggets/silver"
+    },
+    {
+      "tag": "forge:nuggets/silver"
+    },
+    {
+      "tag": "forge:nuggets/silver"
+    },
+    {
+      "tag": "forge:nuggets/silver"
+    },
+    {
+      "tag": "forge:nuggets/silver"
+    },
+    {
+      "tag": "forge:nuggets/silver"
+    },
+    {
+      "tag": "forge:nuggets/silver"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:silver_ingot"
+    }
+  ],
+  "heatRequirement": "heated"
+}

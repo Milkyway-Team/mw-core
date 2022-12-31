@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "thermal:nickel_ingot"
+    }
+  },
+  "result": {
+    "item": "thermal:nickel_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}

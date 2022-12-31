@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "thermal:electrum_ingot"
+    }
+  },
+  "result": {
+    "item": "thermal:electrum_nugget",
+    "count": 9
+  },
+  "acceptMirrored": false
+}
