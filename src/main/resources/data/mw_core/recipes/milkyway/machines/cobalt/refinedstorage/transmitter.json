@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "EME",
+    "ECE"
+  ],
+  "key": {
+    "E": {
+      "item": "mw_core:lead_sheet"
+    },
+    "T": {
+      "item": "refinedstorage:advanced_processor"
+    },
+    "C": {
+      "tag": "forge:ingots/netherite"
+    },
+    "M": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "P": {
+      "item": "thermal:enderium_gear"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:network_transmitter"
+  }
+}

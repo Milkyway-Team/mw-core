@@ -252,6 +252,8 @@
   "jei.mw_core.soaking.catalyst.tooltip.source": "Accepts source block only",
   "jei.mw_core.soaking.catalyst.tooltip.remove": "Fluid is depleted",
 
-  "mw_core.jei.info.radiant_quartz": "Created by dropping Quartz into a very luminous molten metal"
+  "mw_core.jei.info.radiant_quartz": "Created by dropping Quartz into a very luminous molten metal",
+  "mw_core.jei.info.tinker.table": "Used to create Ingots, Nuggets and other Items from molten fluids early in progression.",
+  "mw_core.jei.info.tinker.basin": "Used to create Storage Blocks and other Items from molten fluids early in progression."
 
 }

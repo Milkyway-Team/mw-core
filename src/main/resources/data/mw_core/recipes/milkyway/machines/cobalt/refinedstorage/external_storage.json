@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C#D",
+    "202",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_iron_sheet"
+    },
+    "0": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "2": {
+      "item": "minecraft:chest"
+    },
+    "C": {
+      "item": "refinedstorage:construction_core"
+    },
+    "D": {
+      "item": "refinedstorage:destruction_core"
+    },
+    "W": {
+      "item": "refinedstorage:cable"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:external_storage"
+  }
+}

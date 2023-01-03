@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#1#",
+    "202",
+    "#2#"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_tin_sheet"
+    },
+    "1": {
+      "item": "minecraft:redstone_torch"
+    },
+    "0": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "2": {
+      "item": "mw_core:certus_core"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:relay"
+  }
+}

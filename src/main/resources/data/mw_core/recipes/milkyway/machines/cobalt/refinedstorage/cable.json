@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "202",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:reinforced_iron_sheet"
+    },
+    "0": {
+      "item": "mw_core:cobalt_mechanism"
+    },
+    "2": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:cable"
+  }
+}

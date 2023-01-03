@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "thermal:copper_dust"
+    },
+    {
+      "item": "thermal:nickel_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:constantan_dust",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}

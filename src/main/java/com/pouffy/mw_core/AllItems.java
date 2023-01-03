@@ -91,8 +91,8 @@ public class AllItems {
             () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.MILKYWAY_BAR).tab(MWCore.MISC), true));
     public static final RegistryObject<Item> SALT = ITEMS.register("salt",
             () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.SALT).tab(MWCore.MISC)));
-    public static final RegistryObject<Item> SALTED_BEEF = ITEMS.register("salted_beef",
-            () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.SALT).tab(MWCore.MISC)));
+    //public static final RegistryObject<Item> SALTED_BEEF = ITEMS.register("salted_beef",
+    //        () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.SALT).tab(MWCore.MISC)));
     public static final RegistryObject<Item> SWEET_BERRY_JUICE = ITEMS.register("sweet_berry_juice",
             () -> new DrinkableItem(new Item.Properties().food(MilkywayFoodValues.SWEET_BERRY_JUICE)
                     .craftRemainder(Items.GLASS_BOTTLE).tab(MWCore.MISC), true));

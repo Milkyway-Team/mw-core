@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "fluid": {
+    "tag": "tconstruct:molten_bronze",
+    "amount": 90
+  },
+  "result": "alloyed:bronze_ingot",
+  "cooling_time": 57
+}

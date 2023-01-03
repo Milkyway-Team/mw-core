@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "mw_core:certus_core"
+    },
+    {
+      "fluid": "mw_core:molten_fluix",
+      "nbt": {},
+      "amount": 400
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:fluix_core"
+    }
+  ]
+}

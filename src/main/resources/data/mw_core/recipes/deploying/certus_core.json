@@ -2,7 +2,7 @@
   "type": "create:deploying",
   "ingredients": [
     {
-      "item": "mw_core:core_casing"
+      "item": "refinedstorage:advanced_processor"
     },
     {
       "item": "ae2:certus_quartz_crystal"

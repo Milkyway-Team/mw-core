@@ -1,0 +1,19 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "minecraft:red_sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 3,
+      "chance": 0.6
+    },
+    {
+      "item": "minecraft:flint",
+      "chance": 0.05
+    }
+  ]
+}

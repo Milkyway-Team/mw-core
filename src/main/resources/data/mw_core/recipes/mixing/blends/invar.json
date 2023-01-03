@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "thermal:iron_dust"
+    },
+    {
+      "item": "thermal:iron_dust"
+    },
+    {
+      "item": "thermal:nickel_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:invar_dust",
+      "count": 3
+    }
+  ],
+  "heatRequirement": "heated"
+}

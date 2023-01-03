@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "thermal:lead_dust"
+    },
+    {
+      "item": "thermal:lead_dust"
+    },
+    {
+      "item": "thermal:lead_dust"
+    },
+    {
+      "item": "thermal:ender_pearl_dust"
+    },
+    {
+      "item": "thermal:ender_pearl_dust"
+    },
+    {
+      "item": "thermal:diamond_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:enderium_dust",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "superheated"
+}

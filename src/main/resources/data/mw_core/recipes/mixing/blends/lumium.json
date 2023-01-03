@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "thermal:tin_dust"
+    },
+    {
+      "item": "thermal:tin_dust"
+    },
+    {
+      "item": "thermal:tin_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "thermal:silver_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:lumium_dust",
+      "count": 4
+    }
+  ],
+  "heatRequirement": "superheated"
+}
