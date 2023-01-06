@@ -1,0 +1,177 @@
+{
+  "customCategories": {
+    "crops": {
+      "name": "Crops",
+      "icon": {
+        "item": "farmersdelight:rice_panicle"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "minecraft:wheat",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "minecraft:beetroot",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "minecraft:melon_slice",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "minecraft:sweet_berries",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "minecraft:glow_berries",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:pumpkin_slice",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:cabbage",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:rice_panicle",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:onion",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:tomato",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:rotten_tomato",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 2
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:cabbage_leaf",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 2
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "minecraft:apple",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "minecraft:kelp",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    },
+    {
+      "output": {
+        "item": "minecraft:sugar_cane",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "crops"
+    }
+  ]
+}

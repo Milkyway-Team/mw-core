@@ -2,6 +2,12 @@
   "replace": false,
   "values": [
     "#forge:dusts/transium",
-    "#forge:dusts/aluminum"
+    "#forge:dusts/aluminum",
+    "#forge:dusts/zinc",
+    "#forge:dusts/creatite",
+    "#forge:dusts/cobalt",
+    "#forge:dusts/coal",
+    "mw_core:radiant_quartz_dust",
+    "mw_core:chromatic_dust"
   ]
 }

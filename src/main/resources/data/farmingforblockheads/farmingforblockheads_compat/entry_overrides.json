@@ -1,0 +1,81 @@
+{
+  "groupOverrides": {
+    "Vanilla Seeds": {
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      }
+    },
+    "Vanilla Saplings": {
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      }
+    },
+    "Bone Meal": {
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 2
+      }
+    },
+    "Create Fertilizer": {
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 2
+      }
+    },
+    "Farmers Delight Seeds": {
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      }
+    }
+  },
+  "entryOverrides": {
+    "minecraft:wheat_seeds": {
+      "amount": 4
+    },
+    "minecraft:pumpkin_seeds": {
+      "amount": 4
+    },
+    "minecraft:melon_seeds": {
+      "amount": 4
+    },
+    "minecraft:beetroot_seeds": {
+      "amount": 4
+    },
+    "farmersdelight:cabbage_seeds": {
+      "amount": 4
+    },
+    "farmersdelight:tomato_seeds": {
+      "amount": 4
+    },
+    "farmersdelight:rice": {
+      "amount": 4
+    },
+    "minecraft:oak_sapling": {
+      "amount": 4
+    },
+    "minecraft:spruce_sapling": {
+      "amount": 4
+    },
+    "minecraft:birch_sapling": {
+      "amount": 4
+    },
+    "minecraft:jungle_sapling": {
+      "amount": 4
+    },
+    "minecraft:acacia_sapling": {
+      "amount": 4
+    },
+    "minecraft:dark_oak_sapling": {
+      "amount": 4
+    },
+    "minecraft:carrot": {
+      "amount": 4
+    },
+    "minecraft:potato": {
+      "amount": 4
+    }
+  }
+}

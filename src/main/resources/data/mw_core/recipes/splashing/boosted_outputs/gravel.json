@@ -2,7 +2,7 @@
   "type": "create:splashing",
   "ingredients": [
     {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:gravel"
     }
   ],
   "results": [

@@ -1,0 +1,415 @@
+{
+  "customCategories": {
+    "snacks": {
+      "name": "Snacks",
+      "icon": {
+        "item": "mw_core:sweet_berry_juice"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "mw_core:sweet_berry_juice",
+        "count": 1
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:melon_juice",
+        "count": 1
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:apple_cider",
+        "count": 1
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:hot_cocoa",
+        "count": 1
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:glow_berry_custard",
+        "count": 1
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "create:builders_tea",
+        "count": 1
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "thermal:syrup_bottle",
+        "count": 2
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "minecraft:honey_bottle",
+        "count": 2
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "mw_core:syrup_glazed_apple",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "mw_core:syrup_glazed_berries",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:honey_cookie",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:sweet_berry_cookie",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:chocolate_pie_slice",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:sweet_berry_cheesecake_slice",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:apple_pie_slice",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:cake_slice",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:melon_popsicle",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:mutton_wrap",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:bacon_sandwich",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:barbecue_stick",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:cabbage_rolls",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:dumplings",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:kelp_roll",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:kelp_roll_slice",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:cod_roll",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:salmon_roll",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "create:bar_of_chocolate",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "create:sweet_roll",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "create:chocolate_glazed_berries",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "minecraft:bread",
+        "count": 8
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 1
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "create:honeyed_apple",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "minecraft:cookie",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 2
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "mw_core:syrup_glazed_berries",
+        "count": 2
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 6
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "minecraft:cake"
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 28
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:chocolate_pie"
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 16
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:sweet_berry_cheesecake"
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 16
+      },
+      "category": "snacks"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:apple_pie"
+      },
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 16
+      },
+      "category": "snacks"
+    }
+  ]
+}

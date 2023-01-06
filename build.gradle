@@ -152,6 +152,8 @@ dependencies {
     implementation fg.deobf("curse.maven:cofhcore-69162:${project.CoFH}")
     implementation fg.deobf("curse.maven:ae2-223794:4013849")
 
+    runtimeOnly fg.deobf("curse.maven:blockhead_farming-261924:3830914")
+    runtimeOnly fg.deobf("curse.maven:balm-531761:4162605")
 
     runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.18.2-5.0.7.1")
     compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:1.18.2-5.0.7.1:api")

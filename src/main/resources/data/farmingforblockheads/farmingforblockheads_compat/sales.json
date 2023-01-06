@@ -1,0 +1,255 @@
+{
+  "customCategories": {
+    "sales": {
+      "name": "Sales",
+      "icon": {
+        "item": "thermal:iron_coin"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "payment": {
+        "item": "mw_core:basic_mechanism",
+        "count": 1
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:raw_iron",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 6
+      },
+      "payment": {
+        "item": "minecraft:raw_copper",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 8
+      },
+      "payment": {
+        "item": "minecraft:raw_gold",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "payment": {
+        "item": "create:raw_zinc",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 6
+      },
+      "payment": {
+        "item": "mw_core:raw_aluminium",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 8
+      },
+      "payment": {
+        "item": "minecraft:raw_gold",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 6
+      },
+      "payment": {
+        "item": "thermal:raw_tin",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 6
+      },
+      "payment": {
+        "item": "thermal:raw_lead",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 8
+      },
+      "payment": {
+        "item": "thermal:raw_silver",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 10
+      },
+      "payment": {
+        "item": "thermal:raw_nickel",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "payment": {
+        "item": "tconstruct:raw_cobalt",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 14
+      },
+      "payment": {
+        "item": "mw_core:raw_creatite",
+        "count": 2
+      },
+      "category": "sales"
+    },
+
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 4
+      },
+      "payment": {
+        "item": "minecraft:diamond",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 2
+      },
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 4
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:iron_coin",
+        "count": 16
+      },
+      "payment": {
+        "item": "minecraft:lapis_lazuli",
+        "count": 8
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 1
+      },
+      "payment": {
+        "item": "minecraft:quartz",
+        "count": 6
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 2
+      },
+      "payment": {
+        "item": "minecraft:amethyst_shard",
+        "count": 2
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 2
+      },
+      "payment": {
+        "item": "thermal:apatite",
+        "count": 16
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 2
+      },
+      "payment": {
+        "item": "thermal:cinnabar",
+        "count": 16
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 2
+      },
+      "payment": {
+        "item": "thermal:niter",
+        "count": 16
+      },
+      "category": "sales"
+    },
+    {
+      "output": {
+        "item": "thermal:gold_coin",
+        "count": 2
+      },
+      "payment": {
+        "item": "thermal:sulfur",
+        "count": 16
+      },
+      "category": "sales"
+    }
+  ]
+}

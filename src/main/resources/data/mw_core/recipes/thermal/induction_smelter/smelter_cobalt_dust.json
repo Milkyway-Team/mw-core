@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": {
+    "tag": "forge:dusts/cobalt"
+  },
+  "result": [
+    {
+      "item": "tconstruct:cobalt_ingot",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

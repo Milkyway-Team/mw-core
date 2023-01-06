@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:reinforced_iron_sheet"
+  },
+  "transitionalItem": {
+    "item": "mw_core:incomplete_upgrade"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_upgrade"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_upgrade"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_upgrade"
+        },
+        {
+          "fluid": "thermal:heavy_oil",
+          "nbt": {},
+          "amount": 400
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_upgrade"
+        },
+        {
+          "item": "refinedstorage:improved_processor"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_upgrade"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "refinedstorage:upgrade",
+      "chance": 1.0
+    }
+  ],
+  "loops": 1
+}

@@ -1,0 +1,21 @@
+{
+  "itemGroup.Milkyway Capsules": "Milkyway Capsules",
+
+  "item.mw_capsules.empty_fluid": "Fluid Capsule",
+  "mw.tooltip.empty_fluid": "Empty",
+
+  "item.mw_capsules.aluminium_fluid": "Fluid Capsule",
+  "mw.tooltip.aluminium_fluid": "Molten Aluminium",
+
+  "item.mw_capsules.amethyst_fluid": "Fluid Capsule",
+  "mw.tooltip.amethyst_fluid": "Molten Amethyst",
+
+  "item.mw_capsules.amethyst_bronze_fluid": "Fluid Capsule",
+  "mw.tooltip.amethyst_bronze_fluid": "Molten Amethyst Bronze",
+
+  "item.mw_capsules.brass_fluid": "Fluid Capsule",
+  "mw.tooltip.brass_fluid": "Molten Brass",
+
+  "item.mw_capsules.bronze_fluid": "Fluid Capsule",
+  "mw.tooltip.bronze_fluid": "Molten Bronze"
+}

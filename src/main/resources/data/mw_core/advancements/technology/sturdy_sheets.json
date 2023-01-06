@@ -75,6 +75,18 @@
           }
         ]
       }
+    },
+    "tin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mw_core:sturdy_tin_sheet"
+            ]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -83,7 +95,8 @@
       "gold",
       "copper",
       "brass",
-      "steel"
+      "steel",
+      "tin"
     ]
   ]
 }

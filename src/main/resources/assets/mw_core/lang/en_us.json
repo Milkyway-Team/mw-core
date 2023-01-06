@@ -235,6 +235,8 @@
   "advancements.mw.inscriber.desc": "Use sturdy iron sheets to make an inscriber for basic creation of circuits",
   "advancements.mw.industrial_inscriber": "Industrial Inscriber",
   "advancements.mw.industrial_inscriber.desc": "An upgraded inscriber, capable of more efficient production of circuits.",
+  "advancements.mw.nickel": "If I Had a Nickel",
+  "advancements.mw.nickel.desc": "Compress your coins many times to create a nickel coin",
   "_": "TOOLTIPS",
   "item.mw_core.logic_mechanism.tooltip": "LOGIC MECHANISM",
   "item.mw_core.logic_mechanism.tooltip.summary": "Used for the production of technological storage utilities from _Applied_ _Energistics_ _2_",

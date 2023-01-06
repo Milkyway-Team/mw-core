@@ -1,0 +1,122 @@
+{
+  "customCategories": {
+    "meat": {
+      "name": "Meat",
+      "icon": {
+        "item": "farmersdelight:ham"
+      }
+    }
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "minecraft:beef",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    },
+    {
+      "output": {
+        "item": "minecraft:mutton",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    },
+    {
+      "output": {
+        "item": "minecraft:rabbit",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    },
+    {
+      "output": {
+        "item": "minecraft:chicken",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    },
+    {
+      "output": {
+        "item": "minecraft:porkchop",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:minced_beef",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:mutton_chops",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:chicken_cuts",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:bacon",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    },
+    {
+      "output": {
+        "item": "farmersdelight:ham",
+        "count": 4
+      },
+      "payment": {
+        "item": "thermal:iron_coin",
+        "count": 4
+      },
+      "category": "meat"
+    }
+  ]
+}

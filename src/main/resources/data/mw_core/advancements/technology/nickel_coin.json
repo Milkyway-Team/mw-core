@@ -1,0 +1,37 @@
+{
+  "parent": "mw_core:technology/tech_root",
+  "display": {
+    "icon": {
+      "item": "thermal:nickel_coin"
+    },
+    "title": {
+      "translate": "advancements.mw.nickel"
+    },
+    "description": {
+      "translate": "advancements.mw.nickel.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thermal:nickel_coin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coin"
+    ]
+  ]
+}

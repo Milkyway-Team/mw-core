@@ -2,6 +2,9 @@ package com.pouffy.mw_core;
 
 import com.mojang.logging.LogUtils;
 import com.pouffy.mw_core.common.mod_compats.tconstruct.modifiers.MWCoreModifiers;
+import com.pouffy.mw_core.datagen.ModItemModelProvider;
+import com.pouffy.mw_core.datagen.custom.FillingRecipeGen;
+import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -10,6 +13,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
@@ -18,6 +22,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 import org.slf4j.Logger;
 
 import javax.annotation.Nonnull;
@@ -33,6 +38,14 @@ public class MWCore
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(AllItems.RAW_CREATITE.get());
+        }
+    };
+    public static final CreativeModeTab CAPSULES = new CreativeModeTab("Milkyway Capsules")
+    {
+        @Nonnull
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(AllFluidCapsules.EMPTY.get());
         }
     };
 
@@ -68,6 +81,10 @@ public class MWCore
         AllTools.TOOLS.register(modEventBus);
         AllRecipes.RECIPE_SERIALIZERS.register(modEventBus);
         AllRecipes.RECIPE_TYPES.register(modEventBus);
+        AllIncompleteItems.INCOMPLETE_ITEMS.register(modEventBus);
+        AllFluidCapsules.FLUID_CAPSULE.register(modEventBus);
+
+        modEventBus.addListener(EventPriority.LOWEST, MWCore::gatherData);
     }
 
 
@@ -111,6 +128,10 @@ public class MWCore
             // Register a new block here
             LOGGER.info("HELLO from Register Block");
         }
+    }
+
+    public static void gatherData(GatherDataEvent event) {
+        DataGenerator gen = event.getGenerator();
     }
     public static ResourceLocation asResource(String path) {
         return new ResourceLocation(MODID, path);
