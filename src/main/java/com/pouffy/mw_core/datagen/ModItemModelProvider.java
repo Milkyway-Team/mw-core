@@ -1,6 +1,6 @@
 package com.pouffy.mw_core.datagen;
 
-import com.pouffy.mw_core.AllFluidCapsules;
+//import com.pouffy.mw_core.AllFluidCapsules;
 import com.pouffy.mw_core.MWCore;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;

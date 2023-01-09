@@ -1,6 +1,6 @@
 package com.pouffy.mw_core.datagen.custom;
 
-import com.pouffy.mw_core.AllFluidCapsules;
+//import com.pouffy.mw_core.AllFluidCapsules;
 import com.pouffy.mw_core.compat.Mods;
 import com.simibubi.create.AllRecipeTypes;
 import com.simibubi.create.foundation.data.recipe.ProcessingRecipeGen;

@@ -1,0 +1,13 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "tag": "capsules:coin_values/8_iron"
+  },
+  "result": [
+    {
+      "item": "thermal:iron_coin",
+      "count": 8
+    }
+  ],
+  "energy": 1600
+}

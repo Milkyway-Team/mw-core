@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "capsules:empty_fluid"
+    },
+    {
+      "fluid": "tconstruct:molten_brass",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "capsules:brass_fluid"
+    }
+  ]
+}

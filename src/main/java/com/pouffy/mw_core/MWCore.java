@@ -4,6 +4,8 @@ import com.mojang.logging.LogUtils;
 import com.pouffy.mw_core.common.mod_compats.tconstruct.modifiers.MWCoreModifiers;
 import com.pouffy.mw_core.datagen.ModItemModelProvider;
 import com.pouffy.mw_core.datagen.custom.FillingRecipeGen;
+import com.pouffy.mw_core.mw_capsules.AllFluidCapsules;
+import com.pouffy.mw_core.util.config.MWCommonConfig;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,7 +19,9 @@ import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
@@ -82,9 +86,10 @@ public class MWCore
         AllRecipes.RECIPE_SERIALIZERS.register(modEventBus);
         AllRecipes.RECIPE_TYPES.register(modEventBus);
         AllIncompleteItems.INCOMPLETE_ITEMS.register(modEventBus);
-        AllFluidCapsules.FLUID_CAPSULE.register(modEventBus);
+        //AllFluidCapsules.FLUID_CAPSULE.register(modEventBus);
 
         modEventBus.addListener(EventPriority.LOWEST, MWCore::gatherData);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MWCommonConfig.SPEC, "mw_core-common.toml");
     }
 
 

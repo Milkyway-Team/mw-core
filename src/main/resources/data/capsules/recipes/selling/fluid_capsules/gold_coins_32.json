@@ -1,0 +1,13 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "tag": "capsules:coin_values/32_gold"
+  },
+  "result": [
+    {
+      "item": "thermal:gold_coin",
+      "count": 32
+    }
+  ],
+  "energy": 12800
+}

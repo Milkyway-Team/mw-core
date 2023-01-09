@@ -1030,7 +1030,7 @@
 
   "block.thermal.machine_bottler": "Fluid Encapsulator",
   "block.thermal.machine_brewer": "Alchemical Imbuer",
-  "block.thermal.machine_centrifuge": "Centrifugal Separator",
+  "block.thermal.machine_centrifuge": "Sales Device",
   "block.thermal.machine_chiller": "Blast Chiller",
   "block.thermal.machine_crafter": "Sequential Fabricator",
   "block.thermal.machine_crucible": "Magma Crucible",

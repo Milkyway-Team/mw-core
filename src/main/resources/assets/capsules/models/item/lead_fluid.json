@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mw_core:sale_capsules/fluid/molten/lead"
+  }
+}

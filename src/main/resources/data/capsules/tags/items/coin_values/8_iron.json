@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "capsules:aluminium_fluid",
+    "capsules:copper_fluid",
+    "capsules:gold_fluid",
+    "capsules:iron_fluid",
+    "capsules:lead_fluid",
+    "capsules:nickel_fluid",
+    "capsules:silver_fluid",
+    "capsules:zinc_fluid"
+  ]
+}
