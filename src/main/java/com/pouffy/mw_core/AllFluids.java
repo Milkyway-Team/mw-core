@@ -31,7 +31,11 @@ public class AllFluids {
 
     public static FluidObject<ForgeFlowingFluid> creativity = register("molten_creativity", 1450);
 
+    public static FluidObject<ForgeFlowingFluid> milkyway_chocolate = register("milkyway_chocolate", 1450);
 
+    public static FluidObject<ForgeFlowingFluid> refined_magic = register("refined_magic", 1200);
+
+    public static FluidObject<ForgeFlowingFluid> magisteel = register("molten_magisteel", 1200);
 
     private static FluidObject<ForgeFlowingFluid> register(String name, int temp) {
         String still = String.format("mw_core:block/fluid/%s/still", name);

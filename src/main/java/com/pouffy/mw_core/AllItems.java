@@ -1,17 +1,18 @@
 package com.pouffy.mw_core;
 
-import cofh.thermal.lib.common.ThermalItemGroups;
+import com.pouffy.mw_core.common.mod_compats.farmersdelight.ConsumableItem;
+import com.pouffy.mw_core.common.mod_compats.farmersdelight.DrinkableItem;
 import com.pouffy.mw_core.common.mod_compats.farmersdelight.MilkywayFoodValues;
+import com.pouffy.mw_core.content.items.CreativeIngotItem;
 import com.pouffy.mw_core.content.items.CrushedCoalItem;
 import com.pouffy.mw_core.content.items.RadiantQuartzItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import vectorwing.farmersdelight.common.item.ConsumableItem;
-import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 @SuppressWarnings("unused")
 public class AllItems {
@@ -27,18 +28,18 @@ public class AllItems {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> CREATITE_INFUSED_CHROMATIC_STEEL = ITEMS.register("creatite_infused_chromatic_steel",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-    public static final RegistryObject<Item> CREATIVE_INGOT = ITEMS.register("creative_ingot",
-            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<CreativeIngotItem> CREATIVE_INGOT = ITEMS.register("creative_ingot",
+            () -> new CreativeIngotItem(new Item.Properties().tab(MWCore.MISC).rarity(Rarity.EPIC).fireResistant()));
     public static final RegistryObject<Item> OBSIDIAN_FIBRE = ITEMS.register("obsidian_fibre",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> INCOMPLETE_INSULATION_CUBE = ITEMS.register("incomplete_insulation_cube",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> INSULATION_CUBE = ITEMS.register("insulation_cube",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-    public static final RegistryObject<Item> CREATIVE_ALLOY = ITEMS.register("creative_alloy",
-            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-    public static final RegistryObject<Item> CREATIVE_ALLOY_PLATING = ITEMS.register("creative_alloy_plating",
-            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<CreativeIngotItem> CREATIVE_ALLOY = ITEMS.register("creative_alloy",
+            () -> new CreativeIngotItem(new Item.Properties().tab(MWCore.MISC).rarity(Rarity.EPIC).fireResistant()));
+    public static final RegistryObject<CreativeIngotItem> CREATIVE_ALLOY_PLATING = ITEMS.register("creative_alloy_plating",
+            () -> new CreativeIngotItem(new Item.Properties().tab(MWCore.MISC).rarity(Rarity.EPIC).fireResistant()));
     public static final RegistryObject<Item> INSULATION_SHEET = ITEMS.register("insulation_sheet",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
@@ -58,6 +59,12 @@ public class AllItems {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> ALUMINIUM_DUST = ITEMS.register("aluminium_dust",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MAGISTEEL_INGOT = ITEMS.register("magisteel_ingot",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MAGISTEEL_DUST = ITEMS.register("magisteel_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MAGISTEEL_NUGGET = ITEMS.register("magisteel_nugget",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> RAW_CREATITE = ITEMS.register("raw_creatite",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> CREATITE = ITEMS.register("creatite",
@@ -71,17 +78,30 @@ public class AllItems {
     public static final RegistryObject<Item> HALITE_CRYSTALS = ITEMS.register("halite_crystals",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
+    public static final RegistryObject<Item> ENDERSLIME_DUST = ITEMS.register("enderslime_crystal_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> SKYSLIME_DUST = ITEMS.register("skyslime_crystal_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> EARTHSLIME_DUST = ITEMS.register("earthslime_crystal_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ICHOR_DUST = ITEMS.register("ichor_crystal_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MAGIC_COCOAO_POWDER = ITEMS.register("magic_cocoao_powder",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+
     //GEARS
     public static final RegistryObject<Item> COBALT_GEAR = ITEMS.register("cobalt_gear",
-            () -> new Item(new Item.Properties().tab(ThermalItemGroups.THERMAL_ITEMS)));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> ALUMINIUM_GEAR = ITEMS.register("aluminium_gear",
-            () -> new Item(new Item.Properties().tab(ThermalItemGroups.THERMAL_ITEMS)));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     //ITEMS
     public static final RegistryObject<Item> CAN = ITEMS.register("can",
             () -> new Item(new Item.Properties().stacksTo(32).tab(MWCore.MISC)));
     public static final RegistryObject<Item> DIAMOND_QUARTZ = ITEMS.register("diamond_quartz",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> POLISHED_DIAMOND_QUARTZ = ITEMS.register("polished_diamond_quartz",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> STEEL_ROD = ITEMS.register("steel_rod",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     //FOODS
     public static final RegistryObject<Item> SODA = ITEMS.register("soda",
@@ -91,8 +111,6 @@ public class AllItems {
             () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.MILKYWAY_BAR).tab(MWCore.MISC), true));
     public static final RegistryObject<Item> SALT = ITEMS.register("salt",
             () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.SALT).tab(MWCore.MISC)));
-    //public static final RegistryObject<Item> SALTED_BEEF = ITEMS.register("salted_beef",
-    //        () -> new ConsumableItem(new Item.Properties().food(MilkywayFoodValues.SALT).tab(MWCore.MISC)));
     public static final RegistryObject<Item> SWEET_BERRY_JUICE = ITEMS.register("sweet_berry_juice",
             () -> new DrinkableItem(new Item.Properties().food(MilkywayFoodValues.SWEET_BERRY_JUICE)
                     .craftRemainder(Items.GLASS_BOTTLE).tab(MWCore.MISC), true));

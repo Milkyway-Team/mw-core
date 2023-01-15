@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "mw_core:magisteel",
+  "temperature": 1200,
+  "result": {
+    "fluid": "mw_core:molten_magisteel",
+    "amount": 90
+  }
+}

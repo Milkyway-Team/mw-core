@@ -1,18 +1,26 @@
 {
   "replace": false,
   "values": [
-    "mw_core:crushed_creatite_ore",
-    "mw_core:crushed_cobalt_ore",
-    "mw_core:crushed_diamond_ore",
-    "mw_core:crushed_apatite_ore",
-    "mw_core:crushed_certus_quartz_ore",
-    "mw_core:crushed_cinnabar_ore",
-    "mw_core:crushed_coal_ore",
-    "mw_core:crushed_emerald_ore",
-    "mw_core:crushed_lapis_ore",
-    "mw_core:crushed_niter_ore",
-    "mw_core:crushed_nether_quartz_ore",
-    "mw_core:crushed_sulfur_ore"
-
+    "#create:crushed_ores/aluminum",
+    "#create:crushed_ores/apatite",
+    "#create:crushed_ores/certus_quartz",
+    "#create:crushed_ores/cinnabar",
+    "#create:crushed_ores/coal",
+    "#create:crushed_ores/cobalt",
+    "#create:crushed_ores/copper",
+    "#create:crushed_ores/creatite",
+    "#create:crushed_ores/diamond",
+    "#create:crushed_ores/emerald",
+    "#create:crushed_ores/gold",
+    "#create:crushed_ores/iron",
+    "#create:crushed_ores/lapis",
+    "#create:crushed_ores/lead",
+    "#create:crushed_ores/nickel",
+    "#create:crushed_ores/niter",
+    "#create:crushed_ores/quartz",
+    "#create:crushed_ores/silver",
+    "#create:crushed_ores/sulfur",
+    "#create:crushed_ores/tin",
+    "#create:crushed_ores/zinc"
   ]
 }

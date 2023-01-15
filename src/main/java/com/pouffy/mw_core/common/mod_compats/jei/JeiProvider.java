@@ -44,11 +44,5 @@ public class JeiProvider implements IModPlugin {
     public void registerRecipes(IRecipeRegistration registration) {
         RecipeManager recipeManager = Minecraft.getInstance().level.getRecipeManager();
         registration.addRecipes(JeiSoakingCategory.RECIPE_TYPE, recipeManager.getAllRecipesFor(AllRecipes.SOAKING_RECIPE_TYPE.get()));
-        registration.addIngredientInfo(new ItemStack((ItemLike) AllItems.RADIANT_QUARTZ.get()), VanillaTypes.ITEM, TextStuff.getTranslation("jei.info.radiant_quartz"));
-        registration.addIngredientInfo(new ItemStack((ItemLike) TinkerSmeltery.searedTable.get()), VanillaTypes.ITEM, TextStuff.getTranslation("jei.info.tinker.table"));
-        registration.addIngredientInfo(new ItemStack((ItemLike) TinkerSmeltery.scorchedTable.get()), VanillaTypes.ITEM, TextStuff.getTranslation("jei.info.tinker.table"));
-        registration.addIngredientInfo(new ItemStack((ItemLike) TinkerSmeltery.searedBasin.get()), VanillaTypes.ITEM, TextStuff.getTranslation("jei.info.tinker.basin"));
-        registration.addIngredientInfo(new ItemStack((ItemLike) TinkerSmeltery.scorchedBasin.get()), VanillaTypes.ITEM, TextStuff.getTranslation("jei.info.tinker.basin"));
-
     }
 }

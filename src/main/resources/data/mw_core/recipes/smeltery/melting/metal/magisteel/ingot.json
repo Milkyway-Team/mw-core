@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/magisteel",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/magisteel"
+  },
+  "result": {
+    "fluid": "mw_core:molten_magisteel",
+    "amount": 90
+  },
+  "temperature": 1200,
+  "time": 79
+}

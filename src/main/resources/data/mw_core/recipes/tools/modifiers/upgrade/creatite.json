@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:gems/creatite"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "mw_core:creatite",
+    "level": 1
+  },
+  "max_level": 1
+}

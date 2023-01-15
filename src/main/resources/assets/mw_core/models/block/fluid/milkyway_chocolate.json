@@ -1,0 +1,7 @@
+{
+  "loader": "mantle:fluid_texture",
+  "textures": {
+    "still": "mw_core:block/fluid/milkyway_chocolate/still",
+    "flowing": "mw_core:block/fluid/milkyway_chocolate/flowing"
+  }
+}

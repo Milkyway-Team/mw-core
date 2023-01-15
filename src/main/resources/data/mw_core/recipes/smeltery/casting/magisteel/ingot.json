@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "mw_core:chromatic_steel"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "mw_core:refined_magic",
+    "amount": 90
+  },
+  "result": "mw_core:magisteel_ingot",
+  "cooling_time": 57
+}

@@ -1,7 +1,5 @@
 package com.pouffy.mw_core;
 
-import com.refinedmods.refinedstorage.RS;
-import com.simibubi.create.content.contraptions.itemAssembly.SequencedAssemblyItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -39,7 +37,7 @@ public class AllMechanisms {
     public static final RegistryObject<Item> DATA = MECHANISMS.register("data_tube",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> REFINED_PARTS = MECHANISMS.register("refined_parts",
-            () -> new Item(new Item.Properties().tab(RS.CREATIVE_MODE_TAB)));
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> ACTION = MECHANISMS.register("action_mechanism",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 

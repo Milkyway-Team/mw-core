@@ -3,6 +3,8 @@
   "values": [
     "#forge:nuggets/transium",
     "#forge:nuggets/aluminum",
-    "#forge:nuggets/nethersteel"
+    "#forge:nuggets/nethersteel",
+    "#forge:nuggets/magisteel"
+
   ]
 }

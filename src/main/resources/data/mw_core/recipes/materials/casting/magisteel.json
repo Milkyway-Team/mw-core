@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material_fluid",
+  "input": "tconstruct:steel",
+  "fluid": {
+    "tag": "mw_core:refined_magic",
+    "amount": 250
+  },
+  "temperature": 1000,
+  "output": "mw_core:magisteel"
+}

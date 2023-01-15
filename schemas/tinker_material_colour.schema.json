@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "fallbacks": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "color": {
+      "type": "string"
+    },
+    "luminosity": {
+      "type": "integer"
+    },
+    "generator": {
+      "type": "object",
+      "properties": {
+        "transformer": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "color_mapping": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "palette": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "grey": {
+                          "type": "integer"
+                        },
+                        "color": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "grey",
+                        "color"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "grey": {
+                          "type": "integer"
+                        },
+                        "color": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "grey",
+                        "color"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "grey": {
+                          "type": "integer"
+                        },
+                        "color": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "grey",
+                        "color"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "grey": {
+                          "type": "integer"
+                        },
+                        "color": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "grey",
+                        "color"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "grey": {
+                          "type": "integer"
+                        },
+                        "color": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "grey",
+                        "color"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "grey": {
+                          "type": "integer"
+                        },
+                        "color": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "grey",
+                        "color"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "grey": {
+                          "type": "integer"
+                        },
+                        "color": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "grey",
+                        "color"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "type",
+                "palette"
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "color_mapping"
+          ]
+        },
+        "supportedStats": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "ignoreMaterialStats": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "transformer",
+        "supportedStats",
+        "ignoreMaterialStats"
+      ]
+    }
+  },
+  "required": [
+    "fallbacks",
+    "color",
+    "luminosity",
+    "generator"
+  ]
+}

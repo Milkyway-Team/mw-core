@@ -8,6 +8,7 @@
     "#forge:dusts/cobalt",
     "#forge:dusts/coal",
     "mw_core:radiant_quartz_dust",
-    "mw_core:chromatic_dust"
+    "mw_core:chromatic_dust",
+    "#forge:dusts/magisteel"
   ]
 }

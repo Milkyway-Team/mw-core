@@ -23,6 +23,7 @@
   "item.mw_core.insulation_cube": "Insulation Cube",
   "item.mw_core.incomplete_insulation_cube": "Incomplete Insulation Cube",
   "item.mw_core.insulation_sheet": "Insulation Sheet",
+  "item.mw_core.steel_rod": "Steel Rod",
 
   "item.mw_core.creative_alloy": "Creative Alloy",
   "item.mw_core.creative_alloy_plating": "Creative Alloy Plating",
@@ -38,9 +39,19 @@
   "item.mw_core.creatite_infused_chromatic_steel": "Creatite Infused Chromatic Steel",
   "item.mw_core.creative_ingot": "Ingot of Creativity",
 
+  "item.mw_core.enderslime_crystal_dust": "Enderslime Crystal Dust",
+  "item.mw_core.ichor_crystal_dust": "Ichor Crystal Dust",
+  "item.mw_core.skyslime_crystal_dust": "Skyslime Crystal Dust",
+  "item.mw_core.earthslime_crystal_dust": "Earthslime Crystal Dust",
+  "item.mw_core.magic_cocoao_powder": "Magic Cocoao Powder",
+
+
   "fluid.mw_core.molten_pure_creatite": "Molten Refined Creatite",
   "item.mw_core.molten_pure_creatite_bucket": "Bucket of Refined Creatite",
 
+  "item.mw_core.magisteel_ingot": "Magisteel Ingot",
+  "item.mw_core.magisteel_dust": "Magisteel Dust",
+  "item.mw_core.magisteel_nugget": "Magisteel Nugget",
 
   "item.mw_core.aluminium_ingot": "Aluminium Ingot",
   "item.mw_core.aluminium_nugget": "Aluminium Nugget",
@@ -54,6 +65,8 @@
   "item.mw_core.aluminium_gear": "Aluminium Gear",
   "block.mw_core.aluminium_block": "Aluminium Block",
   "material.mw_core.transium": "Transium",
+  "material.mw_core.magisteel": "Magisteel",
+
   "item.mw_core.transium_ingot": "Transium Ingot",
   "item.mw_core.transium_nugget": "Transium Nugget",
   "item.mw_core.cobalt_gear": "Cobalt Gear",
@@ -64,6 +77,7 @@
   "item.mw_core.radiant_quartz": "Radiant Quartz",
   "material.mw_core.creatite": "Creatite",
   "item.mw_core.molten_creatite_bucket": "Bucket of Molten Creatite",
+  "item.mw_core.milkyway_chocolate_bucket": "Bucket of Milkyway Chocolate",
   "item.mw_core.molten_fluix_bucket": "Bucket of Molten Fluix",
   "item.mw_core.molten_certus_bucket": "Bucket of Molten Certus Quartz",
   "item.mw_core.molten_nethersteel_bucket": "Bucket of Molten Nethersteel",
@@ -94,6 +108,11 @@
   "item.mw_core.molten_radiance_bucket": "Bucket of Molten Radiance",
   "fluid.mw_core.liquid_magic": "Liquid Magic",
   "item.mw_core.liquid_magic_bucket": "Bucket of Liquid Magic",
+  "fluid.mw_core.milkyway_chocolate": "Milkyway Chocolate",
+  "fluid.mw_core.refined_magic": "Refined Magic",
+  "item.mw_core.refined_magic_bucket": "Bucket of Refined Magic",
+  "item.mw_core.molten_magisteel_bucket": "Bucket of Molten Magisteel",
+  "fluid.mw_core.molten_magisteel": "Molten Magisteel",
 
   "_": "TOOLS",
   "item.mw_core.aluminium_axe": "Aluminium Axe",
@@ -101,7 +120,11 @@
   "item.mw_core.aluminium_sword": "Aluminium Sword",
   "item.mw_core.aluminium_hoe": "Aluminium Hoe",
   "item.mw_core.aluminium_shovel": "Aluminium Shovel",
-
+  "item.mw_core.creatite_axe": "Creatite Axe",
+  "item.mw_core.creatite_pickaxe": "Creatite Pickaxe",
+  "item.mw_core.creatite_sword": "Creatite Sword",
+  "item.mw_core.creatite_hoe": "Creatite Hoe",
+  "item.mw_core.creatite_shovel": "Creatite Shovel",
 
 
   "_": "MECHANISMS",
@@ -188,7 +211,7 @@
   "item.mw_core.reprocessed_steel_sheet": "Reprocessed Steel Sheet",
   "item.mw_core.reprocessed_lead_sheet": "Reprocessed Lead Sheet",
 
-  "item.mw_core.sturdy_sheet_cast": "Sturdy Sheet Invar Cast",
+  "item.mw_core.sturdy_sheet_cast": "Sturdy Sheet Magisteel Cast",
 
   "_": "BLOCKS",
 
@@ -256,6 +279,11 @@
 
   "mw_core.jei.info.radiant_quartz": "Created by dropping Quartz into a very luminous molten metal",
   "mw_core.jei.info.tinker.table": "Used to create Ingots, Nuggets and other Items from molten fluids early in progression.",
-  "mw_core.jei.info.tinker.basin": "Used to create Storage Blocks and other Items from molten fluids early in progression."
+  "mw_core.jei.info.tinker.basin": "Used to create Storage Blocks and other Items from molten fluids early in progression.",
 
+
+
+  "modifier.mw_core.creatite": "Creatite",
+  "modifier.tconstruct.creatite.flavor": "Creative!",
+  "modifier.tconstruct.creatite.description": "Big increase in durability and stats!"
 }

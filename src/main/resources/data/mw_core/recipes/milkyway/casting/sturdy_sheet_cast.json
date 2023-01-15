@@ -5,7 +5,7 @@
   },
   "cast_consumed": true,
   "fluid": {
-    "tag": "tconstruct:molten_invar",
+    "tag": "mw_core:refined_magic",
     "amount": 90
   },
   "result": "mw_core:sturdy_sheet_cast",

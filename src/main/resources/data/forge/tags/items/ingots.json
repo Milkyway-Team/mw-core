@@ -3,6 +3,7 @@
   "values": [
     "#forge:ingots/transium",
     "#forge:ingots/aluminum",
-    "#forge:ingots/nethersteel"
+    "#forge:ingots/nethersteel",
+    "#forge:ingots/magisteel"
   ]
 }

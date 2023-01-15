@@ -8,9 +8,9 @@ import org.jetbrains.annotations.NotNull;
 import java.util.function.Supplier;
 
 public enum AllTiers implements Tier {
-    ALUMINIUM(2, 100, 6.0F, 2.0F, 14, () -> {
-        return Ingredient.of(AllItems.ALUMINIUM_INGOT.get());
-    });
+    ALUMINIUM(2, 100, 6.0F, 2.0F, 14, () -> Ingredient.of(AllItems.ALUMINIUM_INGOT.get())),
+    CREATITE(5, 7500, 9.0F, 5.0F, 17, () -> Ingredient.of(AllItems.CREATITE.get()));
+
 
     private final int level;
     private final int uses;

@@ -1,0 +1,25 @@
+{
+  "type": "thermal:refinery",
+  "ingredient": {
+    "fluid": "mw_core:liquid_magic",
+    "amount": 2000
+  },
+  "result": [
+    {
+      "fluid": "mw_core:refined_magic",
+      "amount": 100,
+      "chance": 0.75
+    },
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 3000,
+      "chance": 1
+    },
+    {
+      "item": "mw_core:chromatic_dust",
+      "count": 4,
+      "chance": 0.75
+    }
+  ],
+  "energy": 800000
+}

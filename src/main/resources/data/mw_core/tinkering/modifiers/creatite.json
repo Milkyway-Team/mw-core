@@ -1,0 +1,44 @@
+{
+  "type": "tconstruct:stat_boost",
+  "level_display": "tconstruct:single_level",
+  "rarity": "uncommon",
+  "stats": [
+    {
+      "stat": "tconstruct:durability",
+      "type": "add",
+      "value": 1000.0
+    },
+    {
+      "stat": "tconstruct:durability",
+      "type": "add",
+      "value": -125.0,
+      "tags": [
+        "tconstruct:modifiable/armor"
+      ]
+    },
+    {
+      "stat": "tconstruct:armor",
+      "type": "add",
+      "value": 2.0
+    },
+    {
+      "stat": "tconstruct:attack_damage",
+      "type": "add",
+      "value": 0.25
+    },
+    {
+      "stat": "tconstruct:mining_speed",
+      "type": "add",
+      "value": 4.0
+    },
+    {
+      "stat": "tconstruct:harvest_tier",
+      "value": "minecraft:netherite"
+    },
+    {
+      "stat": "tconstruct:projectile_damage",
+      "type": "add",
+      "value": 1.0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "mw_core:chromatic_steel"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "mw_core:molten_pure_creatite",
+    "amount": 810
+  },
+  "result": "mw_core:creatite_infused_chromatic_steel",
+  "cooling_time": 212
+}

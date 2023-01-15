@@ -1,6 +1,6 @@
 package com.pouffy.mw_core;
 
-import cofh.lib.util.helpers.BlockHelper;
+import com.pouffy.mw_core.util.BlockHelper;
 import com.simibubi.create.content.contraptions.base.CasingBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.EntityType;

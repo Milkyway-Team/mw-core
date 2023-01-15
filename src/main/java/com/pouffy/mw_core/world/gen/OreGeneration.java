@@ -16,6 +16,5 @@ public class OreGeneration {
         base.add(PlacedFeatures.ALUMINIUM_ORE_PLACED);
         base.add(PlacedFeatures.CREATITE_ORE_PLACED);
         base.add(PlacedFeatures.HALITE_ORE_PLACED);
-        base.add(PlacedFeatures.CINNABAR_ORE_PLACED);
     }
 }
