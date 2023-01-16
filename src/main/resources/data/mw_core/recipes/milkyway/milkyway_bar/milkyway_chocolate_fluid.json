@@ -1,0 +1,43 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mw_core:magic_cocoao_powder"
+    },
+    {
+      "item": "mw_core:magic_cocoao_powder"
+    },
+    {
+      "item": "mw_core:magic_cocoao_powder"
+    },
+    {
+      "item": "mw_core:magic_cocoao_powder"
+    },
+    {
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:regeneration"
+      },
+      "amount": 25
+    },
+    {
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:regeneration"
+      },
+      "amount": 250
+    },
+    {
+      "fluid": "minecraft:milk",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "mw_core:milkyway_chocolate",
+      "amount": 200
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "tconstruct:ender_slime_crystal"
+  },
+  "result": [
+    {
+      "item": "mw_core:enderslime_crystal_dust"
+    }
+  ],
+  "experience": 0.2
+}

@@ -2,22 +2,22 @@
   "type": "thermal:refinery",
   "ingredient": {
     "fluid": "mw_core:molten_creatite",
-    "amount": 4000
+    "amount": 100
   },
   "result": [
     {
       "fluid": "mw_core:molten_pure_creatite",
-      "amount": 100,
+      "amount": 400,
       "chance": 0.25
     },
     {
       "fluid": "mw_core:chromatic_waste",
-      "amount": 3000,
+      "amount": 1000,
       "chance": 0.5
     },
     {
       "item": "mw_core:chromatic_dust",
-      "count": 4,
+      "count": 1,
       "chance": 0.75
     }
   ],

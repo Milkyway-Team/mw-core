@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "tconstruct:sky_slime_crystal"
+  },
+  "result": [
+    {
+      "item": "mw_core:skyslime_crystal_dust"
+    }
+  ],
+  "experience": 0.2
+}

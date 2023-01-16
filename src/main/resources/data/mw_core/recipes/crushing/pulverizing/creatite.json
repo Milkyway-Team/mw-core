@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:gems/creatite"
+  },
+  "result": [
+    {
+      "item": "mw_core:creatite_dust"
+    }
+  ],
+  "experience": 0.2
+}

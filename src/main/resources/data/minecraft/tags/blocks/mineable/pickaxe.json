@@ -9,6 +9,9 @@
     "mw_core:transium_block",
     "mw_core:aluminium_block",
     "mw_core:raw_aluminium_block",
-    "mw_core:transium_block"
+    "mw_core:transium_block",
+    "mw_core:radiant_quartz_block",
+    "mw_core:radiant_lamp"
+
   ]
 }

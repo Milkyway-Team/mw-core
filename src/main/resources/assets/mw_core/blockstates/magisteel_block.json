@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mw_core:block/magisteel_block"
+    }
+  }
+}

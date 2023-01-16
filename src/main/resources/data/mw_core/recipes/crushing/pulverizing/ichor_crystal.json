@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "tconstruct:ichor_slime_crystal"
+  },
+  "result": [
+    {
+      "item": "mw_core:ichor_crystal_dust"
+    }
+  ],
+  "experience": 0.2
+}

@@ -30,7 +30,7 @@
           "item": "mw_core:incomplete_manyullyn_mechanism"
         },
         {
-          "item": "create:brass_nugget"
+          "item": "mw_core:creative_ingot"
         }
       ],
       "results": [
@@ -80,7 +80,7 @@
           "item": "mw_core:incomplete_manyullyn_mechanism"
         },
         {
-          "item": "thermal:emerald_gear"
+          "item": "mw_core:insulation_sheet"
         }
       ],
       "results": [

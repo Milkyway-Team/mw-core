@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "create_confectionery:full_chocolate_bar"
+    },
+    {
+      "item": "mw_core:creatite_dust"
+    },
+    {
+      "item": "mw_core:creatite_dust"
+    },
+    {
+      "fluid": "mw_core:milkyway_chocolate",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:milkyway_bar"
+    }
+  ]
+}

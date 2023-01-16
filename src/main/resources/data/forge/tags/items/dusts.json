@@ -9,6 +9,10 @@
     "#forge:dusts/coal",
     "mw_core:radiant_quartz_dust",
     "mw_core:chromatic_dust",
-    "#forge:dusts/magisteel"
+    "#forge:dusts/magisteel",
+    "#forge:dusts/ichor",
+    "#forge:dusts/skyslime",
+    "#forge:dusts/enderslime",
+    "#forge:dusts/earthslime"
   ]
 }

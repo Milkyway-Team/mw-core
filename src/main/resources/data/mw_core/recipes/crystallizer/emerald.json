@@ -1,0 +1,19 @@
+{
+  "type": "thermal:crystallizer",
+  "ingredients": [
+    {
+      "fluid": "mw_core:chromatic_waste",
+      "amount": 1000
+    },
+    {
+      "tag": "forge:dusts/emerald"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:emerald",
+      "count": 2
+    }
+  ],
+  "energy": 5000
+}

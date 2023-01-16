@@ -134,7 +134,7 @@ dependencies {
     implementation fg.deobf("curse.maven:create-328085:4007544")
     implementation fg.deobf("curse.maven:flywheel-forge-486392:3934664")
 
-    runtimeOnly fg.deobf("curse.maven:thermalfoundation-222880:${project.thermalFoundation}")
+    implementation fg.deobf("curse.maven:thermalfoundation-222880:${project.thermalFoundation}")
     runtimeOnly fg.deobf("curse.maven:enchantment_industry-688768:${project.enchantmentIndustry}")
     runtimeOnly fg.deobf("curse.maven:create_alloyed-564792:${project.createAlloyed}")
     runtimeOnly fg.deobf("curse.maven:refined_storage-243076:${project.refinedStorage}")
@@ -150,7 +150,7 @@ dependencies {
     implementation fg.deobf("curse.maven:tconstruct-74072:${project.tinkersConstruct}")
     //implementation fg.deobf("curse.maven:buddycards-425991:${project.buddyCards}")
     implementation fg.deobf("curse.maven:mantle-74924:${project.mantle}")
-    runtimeOnly fg.deobf("curse.maven:cofhcore-69162:${project.CoFH}")
+    implementation fg.deobf("curse.maven:cofhcore-69162:${project.CoFH}")
     runtimeOnly fg.deobf("curse.maven:ae2-223794:4013849")
 
     runtimeOnly fg.deobf("curse.maven:blockhead_farming-261924:3830914")

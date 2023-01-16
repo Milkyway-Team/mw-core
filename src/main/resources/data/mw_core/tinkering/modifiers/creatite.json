@@ -6,7 +6,7 @@
     {
       "stat": "tconstruct:durability",
       "type": "add",
-      "value": 1000.0
+      "value": 3000.0
     },
     {
       "stat": "tconstruct:durability",
@@ -19,26 +19,21 @@
     {
       "stat": "tconstruct:armor",
       "type": "add",
-      "value": 2.0
+      "value": 4.0
     },
     {
       "stat": "tconstruct:attack_damage",
       "type": "add",
-      "value": 0.25
+      "value": 4.5
     },
     {
       "stat": "tconstruct:mining_speed",
       "type": "add",
-      "value": 4.0
+      "value": 5.0
     },
     {
       "stat": "tconstruct:harvest_tier",
       "value": "minecraft:netherite"
-    },
-    {
-      "stat": "tconstruct:projectile_damage",
-      "type": "add",
-      "value": 1.0
     }
   ]
 }

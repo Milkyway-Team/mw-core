@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "mw_core:ichor_crystal_dust"
+    },
+    {
+      "fluid": "mw_core:refined_magic",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ]
+}

@@ -59,4 +59,8 @@ public class AllBlocks {
             () -> new RedstoneLampBlock(BlockBehaviour.Properties.of(Material.BUILDABLE_GLASS).lightLevel(litBlockEmission(20)).strength(0.3F).sound(SoundType.GLASS).isValidSpawn(AllBlocks::always)));
     public static final RegistryObject<Block> RADIANT_QUARTZ_BLOCK = BLOCKS.register("radiant_quartz_block",
             () -> new Block(Block.Properties.copy(Blocks.GLASS).lightLevel(BlockHelper.lightValue(15)).strength(2.0F).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MAGISTEEL_BLOCK = BLOCKS.register("magisteel_block",
+            () -> new Block(Block.Properties.copy(Blocks.NETHERITE_BLOCK).strength(2.0F).requiresCorrectToolForDrops()));
+
 }

@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "mw_core:radiant_quartz"
+  },
+  "result": [
+    {
+      "item": "mw_core:radiant_quartz_dust"
+    }
+  ],
+  "experience": 0.2
+}

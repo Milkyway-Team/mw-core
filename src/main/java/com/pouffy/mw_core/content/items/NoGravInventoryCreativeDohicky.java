@@ -24,6 +24,8 @@ public class NoGravInventoryCreativeDohicky extends Item {
             if (world.random.nextFloat() < this.getIdleParticleChance(entity)) {
                 basemotion = VecHelper.offsetRandomly(pos, world.random, 0.5F);
                 world.addParticle(ParticleTypes.REVERSE_PORTAL, basemotion.x, pos.y, basemotion.z, 0.0, -0.10000000149011612, 0.0);
+                world.addParticle(ParticleTypes.PORTAL, basemotion.x, pos.y, basemotion.z, 0.0, -0.10000000149011612, 0.0);
+                world.addParticle(ParticleTypes.DRIPPING_OBSIDIAN_TEAR, basemotion.x, pos.y, basemotion.z, 0.0, -0.10000000149011612, 0.0);
             }
 
             if (entity.isSilent() && !persistentData.getBoolean("PlayEffects")) {

@@ -37,4 +37,6 @@ public class AllBlockItems {
             () -> new BlockItem(AllBlocks.RADIANT_LAMP.get(), new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> RADIANT_QUARTZ_BLOCK = BLOCK_ITEMS.register("radiant_quartz_block",
             () -> new BlockItem(AllBlocks.RADIANT_QUARTZ_BLOCK.get(), new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MAGISTEEL_BLOCK = BLOCK_ITEMS.register("magisteel_block",
+            () -> new BlockItem(AllBlocks.MAGISTEEL_BLOCK.get(), new Item.Properties().tab(MWCore.MISC)));
 }
