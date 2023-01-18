@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "CSC",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "P": {
+      "item": "create:piston_extension_pole"
+    },
+    "I": {
+      "item": "create:brass_hand"
+    },
+    "M": {
+      "item": "mw_core:basic_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:deployer",
+    "count": 1
+  }
+}

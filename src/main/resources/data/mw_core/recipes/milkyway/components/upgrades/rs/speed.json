@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I#I",
+    "#U#",
+    "IRI"
+  ],
+  "key": {
+    "U": {
+      "item": "refinedstorage:upgrade"
+    },
+    "I": {
+      "item": "refinedstorage:silicon"
+    },
+    "R": {
+      "item": "thermal:cured_rubber"
+    },
+    "#": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:speed_upgrade"
+  }
+}

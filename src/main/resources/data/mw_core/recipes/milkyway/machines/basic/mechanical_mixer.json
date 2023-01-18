@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MPM",
+    "CSC",
+    " W "
+  ],
+  "key": {
+    "S": {
+      "item": "create:cogwheel"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "P": {
+      "item": "create:piston_extension_pole"
+    },
+    "W": {
+      "item": "create:whisk"
+    },
+    "M": {
+      "item": "mw_core:basic_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:mechanical_mixer",
+    "count": 1
+  }
+}

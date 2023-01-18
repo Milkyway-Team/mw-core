@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "MSP",
+    "ACA"
+  ],
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "P": {
+      "item": "create:propeller"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "M": {
+      "item": "mw_core:basic_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:encased_fan",
+    "count": 1
+  }
+}

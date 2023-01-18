@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mw_core:item/magic_cocoao_powder"
+    "layer0": "mw_core:item/magic_cocoa_powder"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "ASA",
+    "CMC"
+  ],
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "thermal:saw_blade"
+    },
+    "M": {
+      "item": "mw_core:basic_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:mechanical_saw",
+    "count": 1
+  }
+}

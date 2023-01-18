@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "#C#",
+    "#S#"
+  ],
+  "key": {
+    "S": {
+      "item": "create:andesite_casing"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "#": {
+      "tag": "balm:stones"
+    },
+    "M": {
+      "item": "mw_core:basic_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:millstone",
+    "count": 1
+  }
+}

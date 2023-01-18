@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/nugget"
+  },
+  "fluid": {
+    "name": "create_enchantment_industry:experience",
+    "amount": 3
+  },
+  "result": "create:experience_nugget",
+  "cooling_time": 5
+}

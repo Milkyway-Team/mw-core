@@ -2,24 +2,40 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "mw_core:magic_cocoao_powder"
+      "item": "mw_core:magic_cocoa_powder"
     },
     {
-      "item": "mw_core:magic_cocoao_powder"
+      "item": "mw_core:magic_cocoa_powder"
     },
     {
-      "item": "mw_core:magic_cocoao_powder"
+      "item": "mw_core:magic_cocoa_powder"
     },
     {
-      "item": "mw_core:magic_cocoao_powder"
+      "item": "mw_core:magic_cocoa_powder"
     },
     {
-      "fluid": "create:potion",
-      "nbt": {
-        "Bottle": "REGULAR",
-        "Potion": "minecraft:regeneration"
-      },
-      "amount": 25
+      "item": "mw_core:magic_cocoa_powder"
+    },
+    {
+      "item": "mw_core:magic_cocoa_powder"
+    },
+    {
+      "item": "mw_core:magic_cocoa_powder"
+    },
+    {
+      "item": "mw_core:magic_cocoa_powder"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
     },
     {
       "fluid": "create:potion",

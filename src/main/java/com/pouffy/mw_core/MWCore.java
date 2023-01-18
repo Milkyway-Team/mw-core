@@ -39,6 +39,14 @@ public class MWCore
             return new ItemStack(AllItems.RAW_CREATITE.get());
         }
     };
+    public static final CreativeModeTab KERMITAMINE = new CreativeModeTab("kermitamine")
+    {
+        @Nonnull
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(KermitamineItems.EXAMPLE.get());
+        }
+    };
 
 
     // Directly reference a slf4j logger
@@ -74,6 +82,10 @@ public class MWCore
         AllRecipes.RECIPE_SERIALIZERS.register(modEventBus);
         AllRecipes.RECIPE_TYPES.register(modEventBus);
         AllIncompleteItems.INCOMPLETE_ITEMS.register(modEventBus);
+
+
+        KermitamineItems.KERMIT_ITEMS.register(modEventBus);
+
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MWCommonConfig.SPEC, "mw_core-common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, MWClientConfig.SPEC, "mw_core-client.toml");

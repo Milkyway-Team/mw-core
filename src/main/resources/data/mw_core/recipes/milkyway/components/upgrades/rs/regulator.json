@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I0I",
+    "#U#",
+    "IRI"
+  ],
+  "key": {
+    "U": {
+      "item": "refinedstorage:upgrade"
+    },
+    "I": {
+      "item": "refinedstorage:silicon"
+    },
+    "R": {
+      "item": "thermal:cured_rubber"
+    },
+    "0": {
+      "item": "thermal:rf_coil"
+    },
+    "#": {
+      "item": "thermal:cinnabar"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:regulator_upgrade"
+  }
+}

@@ -86,7 +86,7 @@ public class AllItems {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> ICHOR_DUST = ITEMS.register("ichor_crystal_dust",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-    public static final RegistryObject<Item> MAGIC_COCOAO_POWDER = ITEMS.register("magic_cocoao_powder",
+    public static final RegistryObject<Item> MAGIC_COCOA_POWDER = ITEMS.register("magic_cocoa_powder",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
     //GEARS

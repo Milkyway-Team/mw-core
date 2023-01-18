@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I0I",
+    "#U#",
+    "IRI"
+  ],
+  "key": {
+    "U": {
+      "item": "refinedstorage:upgrade"
+    },
+    "I": {
+      "item": "refinedstorage:silicon"
+    },
+    "R": {
+      "item": "thermal:cured_rubber"
+    },
+    "0": {
+      "item": "refinedstorage:construction_core"
+    },
+    "#": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:crafting_upgrade"
+  }
+}

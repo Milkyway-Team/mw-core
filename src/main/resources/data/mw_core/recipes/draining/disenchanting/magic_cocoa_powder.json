@@ -1,0 +1,17 @@
+{
+  "type": "create_enchantment_industry:disenchanting",
+  "ingredients": [
+    {
+      "item": "mw_core:magic_cocoa_powder"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_confectionery:cocoa_powder"
+    },
+    {
+      "fluid": "mw_core:refined_magic",
+      "amount": 500
+    }
+  ]
+}
