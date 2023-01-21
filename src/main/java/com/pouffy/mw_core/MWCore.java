@@ -4,16 +4,20 @@ import com.mojang.logging.LogUtils;
 import com.pouffy.mw_core.common.mod_compats.tconstruct.modifiers.MWCoreModifiers;
 import com.pouffy.mw_core.util.config.MWClientConfig;
 import com.pouffy.mw_core.util.config.MWCommonConfig;
+import com.simibubi.create.CreateClient;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
@@ -65,6 +69,7 @@ public class MWCore
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
+        IEventBus forgeEventBus = MinecraftForge.EVENT_BUS;
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -81,10 +86,14 @@ public class MWCore
         AllRecipes.RECIPE_SERIALIZERS.register(modEventBus);
         AllRecipes.RECIPE_TYPES.register(modEventBus);
         AllIncompleteItems.INCOMPLETE_ITEMS.register(modEventBus);
-
+        AllParticleTypes.register(modEventBus);
 
         KermitamineItems.KERMIT_ITEMS.register(modEventBus);
-
+        DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> {
+            return () -> {
+                MWClient.onCtorClient(modEventBus, forgeEventBus);
+            };
+        });
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, MWCommonConfig.SPEC, "mw_core-common.toml");
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, MWClientConfig.SPEC, "mw_core-client.toml");
@@ -101,7 +110,7 @@ public class MWCore
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
         // Some example code to dispatch IMC to another mod
-        InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+        InterModComms.sendTo("mw_core", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
     private void processIMC(final InterModProcessEvent event)
@@ -130,6 +139,12 @@ public class MWCore
         {
             // Register a new block here
             LOGGER.info("HELLO from Register Block");
+        }
+        @SubscribeEvent
+        public static void onItemsRegistry(final RegistryEvent.Register<Item> itemRegistryEvent)
+        {
+            // Register a new block here
+            LOGGER.info("HELLO from Register Item");
         }
     }
 
