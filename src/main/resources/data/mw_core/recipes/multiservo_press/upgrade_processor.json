@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "ae2:printed_silicon"
+    },
+    {
+      "item": "mw_core:printed_upgrade_circuit"
+    }
+  ],
+  "result": [
+    {
+      "item": "mw_core:upgrade_processor",
+      "count": 1
+    }
+  ],
+  "energy": 2400
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "fluid": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "amount": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name",
+        "amount"
+      ]
+    },
+    "result": {
+      "type": "string"
+    },
+    "cooling_time": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "type",
+    "fluid",
+    "result",
+    "cooling_time"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "mw_core:magisteel_ingot"
+    },
+    {
+      "item": "mw_core:upgrade_processor_press"
+    }
+  ],
+  "result": [
+    {
+      "item": "mw_core:printed_upgrade_circuit",
+      "count": 1
+    }
+  ],
+  "energy": 2400
+}

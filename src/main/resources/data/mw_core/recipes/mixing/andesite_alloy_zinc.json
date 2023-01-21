@@ -5,14 +5,14 @@
       "item": "minecraft:andesite"
     },
     {
-      "fluid": "tconstruct:molten_iron",
-      "amount": 30
+      "fluid": "tconstruct:molten_zinc",
+      "amount": 20
     }
   ],
   "results": [
     {
       "item": "create:andesite_alloy",
-      "count": 4
+      "count": 2
     }
   ]
 }

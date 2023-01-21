@@ -48,7 +48,6 @@ public class MWCore
         }
     };
 
-
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
     public static final String MODID = "mw_core";
@@ -133,6 +132,7 @@ public class MWCore
             LOGGER.info("HELLO from Register Block");
         }
     }
+
 
     public static ResourceLocation asResource(String path) {
         return new ResourceLocation(MODID, path);

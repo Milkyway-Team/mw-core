@@ -9,6 +9,8 @@ import net.minecraftforge.registries.RegistryObject;
 public class AllBlockItems {
     public static final DeferredRegister<Item> BLOCK_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MWCore.MODID);
 
+    public static final RegistryObject<BlockItem> ROCK_LUMP = BLOCK_ITEMS.register("rock_lump",
+            () -> new BlockItem(AllBlocks.ROCK_LAYER.get(), new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> RAW_ALUMINIUM_BLOCK = BLOCK_ITEMS.register("raw_aluminium_block",
             () -> new BlockItem(AllBlocks.RAW_ALUMINIUM_BLOCK.get(), new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> ALUMINIUM_BLOCK = BLOCK_ITEMS.register("aluminium_block",

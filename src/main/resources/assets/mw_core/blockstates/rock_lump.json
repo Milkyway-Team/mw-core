@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "mw_core:block/rock_height2"
+    },
+    "layers=2": {
+      "model": "mw_core:block/rock_height4"
+    },
+    "layers=3": {
+      "model": "mw_core:block/rock_height6"
+    },
+    "layers=4": {
+      "model": "mw_core:block/rock_height8"
+    },
+    "layers=5": {
+      "model": "mw_core:block/rock_height10"
+    },
+    "layers=6": {
+      "model": "mw_core:block/rock_height12"
+    },
+    "layers=7": {
+      "model": "mw_core:block/rock_height14"
+    },
+    "layers=8": {
+      "model": "mw_core:block/rock_block"
+    }
+  }
+}

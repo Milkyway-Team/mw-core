@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "SSST",
+    "SCST",
+    "SLST",
+    "SMS ",
+    "SSS "
+  ],
+  "key": {
+    "L": {
+      "item": "mw_core:logic_mechanism"
+    },
+    "M": {
+      "item": "mw_core:upgrade_processor"
+    },
+    "C": {
+      "item": "ae2:calculation_processor"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "ae2:basic_card"
+  },
+  "acceptMirrored": false
+}

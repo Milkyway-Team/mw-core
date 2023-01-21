@@ -1,0 +1,18 @@
+{
+  "type": "ae2:inscriber",
+  "mode": "press",
+  "result": {
+    "item": "mw_core:upgrade_processor"
+  },
+  "ingredients": {
+    "middle": {
+      "item": "mw_core:chromatic_dust"
+    },
+    "top": {
+      "item": "mw_core:printed_upgrade_circuit"
+    },
+    "bottom": {
+      "item": "ae2:printed_silicon"
+    }
+  }
+}

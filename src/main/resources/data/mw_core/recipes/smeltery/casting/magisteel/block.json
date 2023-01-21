@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "mw_core:molten_magisteel",
+    "amount": 810
+  },
+  "result": "mw_core:magisteel_block",
+  "cooling_time": 225
+}

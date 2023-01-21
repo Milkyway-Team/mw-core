@@ -1,5 +1,6 @@
 package com.pouffy.mw_core;
 
+import com.pouffy.mw_core.content.block.RockLayerBlock;
 import com.pouffy.mw_core.util.BlockHelper;
 import com.simibubi.create.content.contraptions.base.CasingBlock;
 import net.minecraft.core.BlockPos;
@@ -63,4 +64,8 @@ public class AllBlocks {
     public static final RegistryObject<Block> MAGISTEEL_BLOCK = BLOCKS.register("magisteel_block",
             () -> new Block(Block.Properties.copy(Blocks.NETHERITE_BLOCK).strength(2.0F).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<RockLayerBlock> ROCK_LAYER = BLOCKS.register("rock_lump",
+            () -> new RockLayerBlock(Block.Properties.copy(Blocks.STONE).strength(1.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ROCK_BLOCK = BLOCKS.register("rock_block",
+            () -> new Block(Block.Properties.copy(Blocks.STONE).strength(1.0F).requiresCorrectToolForDrops()));
 }

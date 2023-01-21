@@ -16,8 +16,12 @@
   "item.mw_core.syrup_glazed_berries": "Syrup Glazed Berries",
 
   "item.mw_core.rock_lump": "Rock Lump",
+  "block.mw_core.rock_lump": "Rock Lump",
 
   "itemGroup.mw_core": "Create: Milkyway",
+  "itemGroup.kermitamine": "Kermitamine",
+  "item.mw_core.rock_lump": "Rock Lump",
+
   "_": "MATERIALS",
   "item.mw_core.obsidian_fibre": "Obsidian Fibre",
   "item.mw_core.insulation_cube": "Insulation Cube",
@@ -44,6 +48,10 @@
   "item.mw_core.skyslime_crystal_dust": "Skyslime Crystal Dust",
   "item.mw_core.earthslime_crystal_dust": "Earthslime Crystal Dust",
   "item.mw_core.magic_cocoa_powder": "Magic Cocoa Powder",
+  "item.mw_core.printed_upgrade_circuit": "Printed Upgrade Circuit",
+  "item.mw_core.upgrade_processor": "Upgrade Processor",
+  "block.mw_core.magisteel_block": "Block of Magisteel",
+  "item.mw_core.upgrade_processor_press": "Inscriber Upgrade Press",
 
 
   "fluid.mw_core.molten_pure_creatite": "Molten Refined Creatite",
@@ -66,6 +74,7 @@
   "block.mw_core.aluminium_block": "Aluminium Block",
   "material.mw_core.transium": "Transium",
   "material.mw_core.magisteel": "Magisteel",
+  "material.mw_core.nethersteel": "Nethersteel",
 
   "item.mw_core.transium_ingot": "Transium Ingot",
   "item.mw_core.transium_nugget": "Transium Nugget",

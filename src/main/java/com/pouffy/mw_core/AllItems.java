@@ -20,6 +20,8 @@ public class AllItems {
         return new Item.Properties().food(food).tab(MWCore.MISC);
     }
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MWCore.MODID);
+    //public static final DeferredRegister<Item> AE_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "ae2");
+
     //MISC
 
     public static final RegistryObject<Item> CHROMATIC_DUST = ITEMS.register("chromatic_dust",
@@ -88,7 +90,12 @@ public class AllItems {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> MAGIC_COCOA_POWDER = ITEMS.register("magic_cocoa_powder",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-
+    public static final RegistryObject<Item> MAGISTEEL_CIRCUIT = ITEMS.register("printed_upgrade_circuit",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MAGIC_PROCESSOR = ITEMS.register("upgrade_processor",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> UPGRADE_PRESS = ITEMS.register("upgrade_processor_press",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     //GEARS
     public static final RegistryObject<Item> COBALT_GEAR = ITEMS.register("cobalt_gear",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
@@ -154,8 +161,7 @@ public class AllItems {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> COAL_DUST = ITEMS.register("coal_dust",
             () -> new CrushedCoalItem(new Item.Properties().tab(MWCore.MISC)));
-    public static final RegistryObject<Item> ROCK_LUMP = ITEMS.register("rock_lump",
-            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+
     public static final RegistryObject<Item> COBALT_DUST = ITEMS.register("cobalt_dust",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> CREATITE_DUST = ITEMS.register("creatite_dust",
