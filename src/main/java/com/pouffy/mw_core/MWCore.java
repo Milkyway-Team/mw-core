@@ -4,7 +4,6 @@ import com.mojang.logging.LogUtils;
 import com.pouffy.mw_core.common.mod_compats.tconstruct.modifiers.MWCoreModifiers;
 import com.pouffy.mw_core.util.config.MWClientConfig;
 import com.pouffy.mw_core.util.config.MWCommonConfig;
-import com.simibubi.create.CreateClient;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -89,8 +88,6 @@ public class MWCore
         AllParticleTypes.register(modEventBus);
 
         Kermitamine.KERMIT_ITEMS.register(modEventBus);
-        Kermitamine.KERMIT_FLUIDS.register(modEventBus);
-        Kermitamine.KERMIT_BLOCKS.register(modEventBus);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> {
             return () -> {
                 MWClient.onCtorClient(modEventBus, forgeEventBus);
