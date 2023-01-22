@@ -1,17 +1,30 @@
 package com.pouffy.mw_core;
 
 import com.pouffy.mw_core.kermitamine.KermitamineCrystalItem;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.FlowingFluid;
+import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.Material;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fluids.FluidAttributes;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.Nullable;
 import slimeknights.mantle.registration.deferred.FluidDeferredRegister;
 import slimeknights.mantle.registration.object.FluidObject;
+
+import java.util.List;
+import java.util.function.Supplier;
 
 @SuppressWarnings("unused")
 public class Kermitamine {
@@ -509,12 +522,75 @@ public class Kermitamine {
 
 
     //FLUIDS
-    public static final FluidDeferredRegister KERMIT_FLUIDS = new FluidDeferredRegister("kermitamine");
-    private static FluidObject<ForgeFlowingFluid> register(String name, int temp) {
-        String still = String.format("kermitamine:fluid/%s/still", name);
-        String flow = String.format("kermitamine:fluid/%s/flowing", name);
-        return KERMIT_FLUIDS.register(name, FluidAttributes.builder(new ResourceLocation(still), new ResourceLocation(flow)).density(2000).viscosity(10000).temperature(temp).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA), Material.LAVA, 15);
-    }
-    public static FluidObject<ForgeFlowingFluid> kermitamine = register("liquid_kermitamine", 1200);
+    public static final ResourceLocation WATER_STILL_RL = new ResourceLocation("block/water_still");
+    public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation("block/water_flow");
+    public static final ResourceLocation WATER_OVERLAY_RL = new ResourceLocation("block/water_overlay");
 
+    public static final DeferredRegister<Fluid> KERMIT_FLUIDS
+            = DeferredRegister.create(ForgeRegistries.FLUIDS, "kermitamine");
+
+    public static final RegistryObject<FlowingFluid> LIQUID_KERMITAMINE
+            = KERMIT_FLUIDS.register("liquid_kermitamine", () -> new ForgeFlowingFluid.Source(Kermitamine.LIQUID_KERMITAMINE_PROPERTIES));
+
+    public static final RegistryObject<FlowingFluid> LIQUID_KERMITAMINE_FLOWING
+            = KERMIT_FLUIDS.register("liquid_kermitamine", () -> new ForgeFlowingFluid.Flowing(Kermitamine.LIQUID_KERMITAMINE_PROPERTIES));
+
+    public static final ForgeFlowingFluid.Properties LIQUID_KERMITAMINE_PROPERTIES = new ForgeFlowingFluid.Properties(
+            LIQUID_KERMITAMINE, LIQUID_KERMITAMINE_FLOWING, FluidAttributes.builder(WATER_STILL_RL, WATER_FLOWING_RL)
+            .density(15).luminosity(2).viscosity(5).sound(SoundEvents.HONEY_DRINK).overlay(WATER_OVERLAY_RL)
+            .color(0xbffcba03)).slopeFindDistance(2).levelDecreasePerBlock(2)
+            .block(Kermitamine.KERMITAMINE_BLOCK).bucket(Kermitamine.KERMITAMINE_CRYSTAL_ALPHA);
+
+    public static final RegistryObject<LiquidBlock> KERMITAMINE_BLOCK = Kermitamine.KERMIT_BLOCKS.register("liquid_kermitamine",
+            () -> new LiquidBlock(Kermitamine.LIQUID_KERMITAMINE, BlockBehaviour.Properties.of(Material.WATER)
+                    .noCollission().strength(100f).noDrops()));
+
+
+
+    //BLOCKS
+    public static final DeferredRegister<Block> KERMIT_BLOCKS =
+            DeferredRegister.create(ForgeRegistries.BLOCKS, "kermitamine");
+
+    public static final RegistryObject<Block> EXAMPLE_BLOCK = registerBlock("example_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(9f)), MWCore.KERMITAMINE);
+
+    private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
+        return KERMIT_BLOCKS.register(name, block);
+    }
+
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
+                                                                     CreativeModeTab tab, String tooltipKey) {
+        RegistryObject<T> toReturn = KERMIT_BLOCKS.register(name, block);
+        registerBlockItem(name, toReturn, tab, tooltipKey);
+        return toReturn;
+    }
+
+    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block,
+                                                                            CreativeModeTab tab, String tooltipKey) {
+        return Kermitamine.KERMIT_ITEMS.register(name, () -> new BlockItem(block.get(),
+                new Item.Properties().tab(tab)) {
+            @Override
+            public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
+                pTooltip.add(new TranslatableComponent(tooltipKey));
+            }
+        });
+    }
+
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
+        RegistryObject<T> toReturn = KERMIT_BLOCKS.register(name, block);
+        registerBlockItem(name, toReturn, tab);
+        return toReturn;
+    }
+
+    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block,
+                                                                            CreativeModeTab tab) {
+        return Kermitamine.KERMIT_ITEMS.register(name, () -> new BlockItem(block.get(),
+                new Item.Properties().tab(tab)));
+    }
+
+    public static void register(IEventBus eventBus) {
+        KERMIT_BLOCKS.register(eventBus);
+        KERMIT_FLUIDS.register(eventBus);
+    }
 }

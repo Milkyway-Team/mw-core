@@ -90,6 +90,7 @@ public class MWCore
 
         Kermitamine.KERMIT_ITEMS.register(modEventBus);
         Kermitamine.KERMIT_FLUIDS.register(modEventBus);
+        Kermitamine.KERMIT_BLOCKS.register(modEventBus);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> {
             return () -> {
                 MWClient.onCtorClient(modEventBus, forgeEventBus);
