@@ -48,7 +48,7 @@ public class MWCore
         @Nonnull
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(KermitamineItems.PURE_KERMITAMINE.get());
+            return new ItemStack(Kermitamine.KERMITAMINE_CRYSTAL.get());
         }
     };
 
@@ -88,7 +88,8 @@ public class MWCore
         AllIncompleteItems.INCOMPLETE_ITEMS.register(modEventBus);
         AllParticleTypes.register(modEventBus);
 
-        KermitamineItems.KERMIT_ITEMS.register(modEventBus);
+        Kermitamine.KERMIT_ITEMS.register(modEventBus);
+        Kermitamine.KERMIT_FLUIDS.register(modEventBus);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> {
             return () -> {
                 MWClient.onCtorClient(modEventBus, forgeEventBus);

@@ -1,13 +1,27 @@
 package com.pouffy.mw_core;
 
+import com.pouffy.mw_core.kermitamine.KermitamineCrystalItem;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.material.Material;
+import net.minecraftforge.fluids.FluidAttributes;
+import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-@SuppressWarnings("unused")
-public class KermitamineItems {
-    public static final DeferredRegister<Item> KERMIT_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MWCore.MODID);
+import slimeknights.mantle.registration.deferred.FluidDeferredRegister;
+import slimeknights.mantle.registration.object.FluidObject;
 
+@SuppressWarnings("unused")
+public class Kermitamine {
+    //ITEMS
+    public static final DeferredRegister<Item> KERMIT_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "kermitamine");
+
+    public static final RegistryObject<Item> KERMITAMINE_CRYSTAL = KERMIT_ITEMS.register("kermitamine_crystal",
+            () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
+    public static final RegistryObject<Item> UNSTABLE_KERMITAMINE_CRYSTAL = KERMIT_ITEMS.register("unstable_kermitamine_crystal",
+            () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
     public static final RegistryObject<Item> PURE_KERMITAMINE = KERMIT_ITEMS.register("pure_kermitamine",
             () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
     public static final RegistryObject<Item> IMPURE_KERMITAMINE = KERMIT_ITEMS.register("impure_kermitamine",
@@ -498,5 +512,13 @@ public class KermitamineItems {
     public static final RegistryObject<Item> SCUETRIUMBOCLYX_ALLOY = KERMIT_ITEMS.register("scuetriumboclyx_alloy",
             () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
 
+    //FLUIDS
+    public static final FluidDeferredRegister KERMIT_FLUIDS = new FluidDeferredRegister("kermitamine");
+    private static FluidObject<ForgeFlowingFluid> register(String name, int temp) {
+        String still = String.format("kermitamine:fluid/%s/still", name);
+        String flow = String.format("kermitamine:fluid/%s/flowing", name);
+        return KERMIT_FLUIDS.register(name, FluidAttributes.builder(new ResourceLocation(still), new ResourceLocation(flow)).density(2000).viscosity(10000).temperature(temp).sound(SoundEvents.BUCKET_FILL_LAVA, SoundEvents.BUCKET_EMPTY_LAVA), Material.LAVA, 15);
+    }
+    public static FluidObject<ForgeFlowingFluid> kermitamine = register("liquid_kermitamine", 1200);
 
 }

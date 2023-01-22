@@ -1,0 +1,2 @@
+>>>>>>Kermitamine<<<<<<
+Alloy Types
