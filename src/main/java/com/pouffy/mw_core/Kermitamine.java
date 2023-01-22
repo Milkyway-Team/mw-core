@@ -13,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 import slimeknights.mantle.registration.deferred.FluidDeferredRegister;
 import slimeknights.mantle.registration.object.FluidObject;
 
-@SuppressWarnings("unused")
+@SuppressWarnings({"unused", "SpellCheckingInspection"})
 public class Kermitamine {
     //ITEMS
     public static final DeferredRegister<Item> KERMIT_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "kermitamine");
