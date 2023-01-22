@@ -48,7 +48,7 @@ public class MWCore
         @Nonnull
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Kermitamine.KERMITAMINE_CRYSTAL.get());
+            return new ItemStack(Kermitamine.SUPERPOSITIONED_KERMITAMINE_CRYSTAL.get());
         }
     };
 
