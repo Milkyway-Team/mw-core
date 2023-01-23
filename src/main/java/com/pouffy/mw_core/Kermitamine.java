@@ -6,7 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-@SuppressWarnings("unused")
+@SuppressWarnings({"unused", "SpellCheckingInspection"})
 public class Kermitamine {
     //ITEMS
     public static final DeferredRegister<Item> KERMIT_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "kermitamine");
@@ -20,6 +20,8 @@ public class Kermitamine {
     public static final RegistryObject<Item> POSITIVE_KERMITAMINE = KERMIT_ITEMS.register("positive_kermitamine",
             () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
     public static final RegistryObject<Item> ETHERIC_KERMITIDE = KERMIT_ITEMS.register("etheric_kermitide",
+            () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
+    public static final RegistryObject<Item> UNSTABLE_ETHERIC_KERMITIDE = KERMIT_ITEMS.register("unstable_etheric_kermitide",
             () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
     public static final RegistryObject<Item> CHARGED_ETHERIC_KERMITIDE = KERMIT_ITEMS.register("charged_etheric_kermitide",
             () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
