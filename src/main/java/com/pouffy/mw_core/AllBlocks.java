@@ -1,26 +1,47 @@
 package com.pouffy.mw_core;
 
+import blusunrize.immersiveengineering.common.blocks.IEBaseBlock;
+import blusunrize.immersiveengineering.common.blocks.IEEntityBlock;
+import blusunrize.immersiveengineering.common.blocks.generic.PostBlock;
+import blusunrize.immersiveengineering.common.blocks.generic.ScaffoldingBlock;
+import blusunrize.immersiveengineering.common.blocks.generic.WallmountBlock;
+import blusunrize.immersiveengineering.common.blocks.metal.CrusherBlockEntity;
+import blusunrize.immersiveengineering.common.blocks.metal.MetalMultiblockBlock;
+import blusunrize.immersiveengineering.common.blocks.wooden.BarrelBlock;
+import blusunrize.immersiveengineering.common.register.IEBlockEntities;
+import com.pouffy.mw_core.content.block.PlushBlock;
 import com.pouffy.mw_core.content.block.RockLayerBlock;
+import com.pouffy.mw_core.content.block.SkystoneMagmaBlock;
 import com.pouffy.mw_core.util.BlockHelper;
 import com.simibubi.create.content.contraptions.base.CasingBlock;
+import net.minecraft.Util;
 import net.minecraft.core.BlockPos;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import javax.annotation.Nonnull;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.function.ToIntFunction;
 
 @SuppressWarnings("unused")
 public class AllBlocks {
-
     private static ToIntFunction<BlockState> litBlockEmission(int lightValue) {
         return (state) -> (Boolean)state.getValue(BlockStateProperties.LIT) ? lightValue : 0;
     }
@@ -68,4 +89,22 @@ public class AllBlocks {
             () -> new RockLayerBlock(Block.Properties.copy(Blocks.STONE).strength(1.0F).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> ROCK_BLOCK = BLOCKS.register("rock_block",
             () -> new Block(Block.Properties.copy(Blocks.STONE).strength(1.0F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ROCK = BLOCKS.register("rock",
+            () -> new Block(Block.Properties.copy(Blocks.STONE).strength(3.0F).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<SkystoneMagmaBlock> SKYSTONE_MAGMA = BLOCKS.register("skystone_magma",
+            () -> new SkystoneMagmaBlock(Block.Properties.copy(Blocks.MAGMA_BLOCK).strength(25.0F, 75.0F).requiresCorrectToolForDrops().lightLevel((p_152684_) -> {
+                return 3;
+            }).randomTicks().isValidSpawn((p_187421_, p_187422_, p_187423_, p_187424_) -> {
+                return p_187424_.fireImmune();
+            }).hasPostProcess(AllBlocks::always).emissiveRendering(AllBlocks::always)));
+    public static final RegistryObject<PlushBlock> MILKFUR_PLUSH = BLOCKS.register("milkfur_plush",
+            () -> new PlushBlock(Block.Properties.copy(Blocks.WHITE_WOOL).strength(1.0F)));
+    public static final RegistryObject<PlushBlock> POUFFY_PLUSH = BLOCKS.register("pouffy_plush",
+            () -> new PlushBlock(Block.Properties.copy(Blocks.WHITE_WOOL).strength(1.0F)));
+
+
+    private static boolean always(BlockState p_50775_, BlockGetter p_50776_, BlockPos p_50777_) {
+        return true;
+    }
 }

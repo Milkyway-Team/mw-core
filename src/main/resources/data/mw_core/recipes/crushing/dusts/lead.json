@@ -7,10 +7,10 @@
   ],
   "results": [
     {
-      "item": "thermal:lead_dust"
+      "item": "mw_core:lead_ore_dust"
     },
     {
-      "item": "thermal:lead_dust",
+      "item": "mw_core:lead_ore_dust",
       "chance": 0.5
     }
   ],

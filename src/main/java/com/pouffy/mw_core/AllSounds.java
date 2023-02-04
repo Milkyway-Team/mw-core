@@ -13,6 +13,7 @@ public class AllSounds {
     public static RegistryObject<SoundEvent> VENTURE = registerSoundEvent("venture");
     public static RegistryObject<SoundEvent> SPACE_PIRATES = registerSoundEvent("space_pirates");
 
+    public static RegistryObject<SoundEvent> SQUEAK = registerSoundEvent("squeak");
 
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {

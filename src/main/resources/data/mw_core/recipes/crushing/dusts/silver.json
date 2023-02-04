@@ -7,10 +7,10 @@
   ],
   "results": [
     {
-      "item": "thermal:silver_dust"
+      "item": "mw_core:silver_ore_dust"
     },
     {
-      "item": "thermal:silver_dust",
+      "item": "mw_core:silver_ore_dust",
       "chance": 0.5
     }
   ],

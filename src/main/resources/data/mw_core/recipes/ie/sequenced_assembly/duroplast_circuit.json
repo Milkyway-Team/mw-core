@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "immersiveengineering:wire_aluminum"
+  },
+  "transitionalItem": {
+    "item": "immersiveengineering:wire_aluminum"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "immersiveengineering:wire_aluminum"
+        },
+        {
+          "item": "immersiveengineering:plate_duroplast"
+        }
+      ],
+      "results": [
+        {
+          "item": "immersiveengineering:wire_aluminum"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:duroplast_circuit",
+      "chance": 120.0
+    },
+    {
+      "item": "immersiveengineering:plate_duroplast",
+      "chance": 2.0
+    },
+    {
+      "item": "immersiveengineering:wire_aluminum",
+      "chance": 4.0
+    },
+    {
+      "item": "mw_core:aluminium_nugget",
+      "chance": 6.0
+    }
+  ],
+  "loops": 1
+}

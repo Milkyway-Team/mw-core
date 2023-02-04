@@ -1,0 +1,50 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:treated_circuit"
+  },
+  "transitionalItem": {
+    "item": "mw_core:incomplete_electronic_component"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_electronic_component"
+        },
+        {
+          "item": "immersiveengineering:wire_electrum"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_electronic_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_electronic_component"
+        },
+        {
+          "item": "minecraft:quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_electronic_component"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:component_electronic",
+      "chance": 1.0
+    }
+  ],
+  "loops": 1
+}

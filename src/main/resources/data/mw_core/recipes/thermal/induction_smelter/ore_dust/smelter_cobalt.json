@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": {
+    "tag": "forge:dusts/cobalt"
+  },
+  "result": [
+    {
+      "item": "mw_core:cobalt_dust",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

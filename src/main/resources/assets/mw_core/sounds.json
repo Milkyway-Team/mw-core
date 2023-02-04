@@ -14,5 +14,13 @@
         "stream": true
       }
     ]
+  },
+  "squeak": {
+    "sounds": [
+      {
+        "name": "mw_core:squeak",
+        "stream": true
+      }
+    ]
   }
 }

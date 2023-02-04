@@ -24,10 +24,6 @@
     },
     {
       "item": "minecraft:redstone"
-    },
-    {
-      "fluid": "tconstruct:blazing_blood",
-      "amount": 100
     }
   ],
   "results": [
@@ -36,5 +32,5 @@
       "amount": 320
     }
   ],
-  "heatRequirement": "superheated"
+  "heatRequirement": "heated"
 }

@@ -1,0 +1,15 @@
+{
+  "name": "mw_core:gold_submerged_meteorite",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "mw_core:submerged_meteorites/sm_gold",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

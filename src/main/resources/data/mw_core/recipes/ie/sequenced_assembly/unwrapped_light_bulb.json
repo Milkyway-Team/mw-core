@@ -1,0 +1,75 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_sheet"
+  },
+  "transitionalItem": {
+    "item": "mw_core:light_bulb_base"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "mw_core:light_bulb_base"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:light_bulb_base"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:light_bulb_base"
+        },
+        {
+          "item": "immersiveengineering:wire_aluminum"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:light_bulb_base"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:light_bulb_base"
+        },
+        {
+          "item": "immersiveengineering:screwdriver"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:light_bulb_base"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:unwrapped_light_bulb",
+      "chance": 120.0
+    },
+    {
+      "item": "create:copper_sheet",
+      "chance": 2.0
+    },
+    {
+      "item": "immersiveengineering:wire_aluminum",
+      "chance": 4.0
+    },
+    {
+      "item": "mw_core:aluminium_nugget",
+      "chance": 6.0
+    }
+  ],
+  "loops": 1
+}

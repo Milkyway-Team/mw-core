@@ -1,7 +1,7 @@
 {
   "type": "thermal:smelter",
   "ingredient": {
-    "tag": "forge:dusts/cobalt"
+    "tag": "forge:dusts/processed/cobalt"
   },
   "result": [
     {

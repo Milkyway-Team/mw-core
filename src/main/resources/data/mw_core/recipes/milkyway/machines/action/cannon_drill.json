@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "PCP",
+    "MGM"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/cast_iron"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "M": {
+      "item": "mw_core:action_mechanism"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "G": {
+      "item": "create:piston_extension_pole"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    }
+  },
+  "result": {
+    "item": "createbigcannons:cannon_drill",
+    "count": 1
+  }
+}

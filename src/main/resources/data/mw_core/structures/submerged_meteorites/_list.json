@@ -1,0 +1,12 @@
+{
+  "directories":
+  [
+
+  ],
+  "files":
+  [
+    "sm_iron.nbt",
+    "sm_gold.nbt",
+    "sm_copper.nbt"
+  ]
+}

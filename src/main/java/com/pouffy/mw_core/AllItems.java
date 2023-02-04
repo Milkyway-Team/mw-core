@@ -6,10 +6,15 @@ import com.pouffy.mw_core.common.mod_compats.farmersdelight.MilkywayFoodValues;
 import com.pouffy.mw_core.content.items.CreativeIngotItem;
 import com.pouffy.mw_core.content.items.CrushedCoalItem;
 import com.pouffy.mw_core.content.items.RadiantQuartzItem;
+import com.pouffy.mw_core.content.items.charms.MilksCharmItem;
+import com.pouffy.mw_core.content.items.charms.PouffysCharmItem;
+import com.simibubi.create.Create;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -20,6 +25,8 @@ public class AllItems {
         return new Item.Properties().food(food).tab(MWCore.MISC);
     }
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MWCore.MODID);
+    public static final DeferredRegister<Item> CITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "create");
+
     //public static final DeferredRegister<Item> AE_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "ae2");
 
     //MISC
@@ -43,6 +50,8 @@ public class AllItems {
     public static final RegistryObject<CreativeIngotItem> CREATIVE_ALLOY_PLATING = ITEMS.register("creative_alloy_plating",
             () -> new CreativeIngotItem(new Item.Properties().tab(MWCore.MISC).rarity(Rarity.EPIC).fireResistant()));
     public static final RegistryObject<Item> INSULATION_SHEET = ITEMS.register("insulation_sheet",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ANDESITE_DRILL_HEAD = ITEMS.register("andesite_drill_head",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
 
     public static final RegistryObject<Item> RAVE_TUBE = ITEMS.register("rave_tube",
@@ -170,4 +179,76 @@ public class AllItems {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> MUNDABITUR_CRYSTAL = ITEMS.register("mundabitur_crystal",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+
+    public static final RegistryObject<Item> ORE_ALUMINIUM = ITEMS.register("aluminium_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_NICKEL = ITEMS.register("nickel_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_LEAD = ITEMS.register("lead_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_SILVER = ITEMS.register("silver_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_URANIUM = ITEMS.register("uranium_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_ZINC = ITEMS.register("zinc_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_COBALT = ITEMS.register("cobalt_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_CREATITE = ITEMS.register("creatite_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_COPPER = ITEMS.register("copper_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_GOLD = ITEMS.register("gold_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ORE_IRON = ITEMS.register("iron_ore_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> URANIUM_DUST = ITEMS.register("uranium_dust",
+            () -> new Item(new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<PouffysCharmItem> POUFFYS_CHARM = ITEMS.register("pouffys_charm",
+            () -> new PouffysCharmItem(new Item.Properties().tab(MWCore.MISC).stacksTo(1)));
+    public static final RegistryObject<MilksCharmItem> MILKS_CHARM = ITEMS.register("milks_charm",
+            () -> new MilksCharmItem(new Item.Properties().tab(MWCore.MISC).stacksTo(1)));
+
+    public static final RegistryObject<Item> CRUSHED_A_B = CITEMS.register("crushed_amethyst_bronze",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_B = CITEMS.register("crushed_bronze",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_C_I = CITEMS.register("crushed_cast_iron",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_C = CITEMS.register("crushed_constantan",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_EL = CITEMS.register("crushed_electrum",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_END = CITEMS.register("crushed_enderium",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_HEP = CITEMS.register("crushed_hepatizon",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_INV = CITEMS.register("crushed_invar",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_LUM = CITEMS.register("crushed_lumium",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_MAG = CITEMS.register("crushed_magisteel",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_MAN = CITEMS.register("crushed_manyullyn",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_NETH = CITEMS.register("crushed_netherite",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_P_I = CITEMS.register("crushed_pig_iron",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_Q_S = CITEMS.register("crushed_queens_slime",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_R_G = CITEMS.register("crushed_rose_gold",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_SIG = CITEMS.register("crushed_signalum",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_SLIME = CITEMS.register("crushed_slimesteel",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_STEEL = CITEMS.register("crushed_steel",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_TRANS = CITEMS.register("crushed_transium",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_N_S = CITEMS.register("crushed_nethersteel",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
+    public static final RegistryObject<Item> CRUSHED_BRASS = CITEMS.register("crushed_brass",
+            () -> new Item(new Item.Properties().tab(Create.BASE_CREATIVE_TAB)));
 }

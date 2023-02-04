@@ -7,10 +7,10 @@
   ],
   "results": [
     {
-      "item": "mw_core:zinc_dust"
+      "item": "mw_core:zinc_ore_dust"
     },
     {
-      "item": "mw_core:zinc_dust",
+      "item": "mw_core:zinc_ore_dust",
       "chance": 0.5
     }
   ],

@@ -12,6 +12,12 @@
         "count": 4
       }
     },
+    "Quark Saplings": {
+      "payment": {
+        "item": "thermal:gold_coin",
+        "count": 2
+      }
+    },
     "Bone Meal": {
       "payment": {
         "item": "thermal:iron_coin",
@@ -75,6 +81,24 @@
       "amount": 4
     },
     "minecraft:potato": {
+      "amount": 4
+    },
+    "quark:blue_blossom_sapling": {
+      "amount": 4
+    },
+    "quark:lavender_blossom_sapling": {
+      "amount": 4
+    },
+    "quark:orange_blossom_sapling": {
+      "amount": 4
+    },
+    "quark:pink_blossom_sapling": {
+      "amount": 4
+    },
+    "quark:yellow_blossom_sapling": {
+      "amount": 4
+    },
+    "quark:red_blossom_sapling": {
       "amount": 4
     }
   }

@@ -7,10 +7,10 @@
   ],
   "results": [
     {
-      "item": "thermal:iron_dust"
+      "item": "mw_core:iron_ore_dust"
     },
     {
-      "item": "thermal:iron_dust",
+      "item": "mw_core:iron_ore_dust",
       "chance": 0.5
     }
   ],

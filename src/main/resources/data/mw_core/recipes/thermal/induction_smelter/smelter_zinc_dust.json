@@ -1,7 +1,7 @@
 {
   "type": "thermal:smelter",
   "ingredient": {
-    "tag": "forge:dusts/zinc"
+    "tag": "forge:dusts/processed/zinc"
   },
   "result": [
     {

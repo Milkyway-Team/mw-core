@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#0#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mw_core:rock_lump"
+    },
+    "0": {
+      "item": "mw_core:earthslime_crystal_dust"
+    }
+  },
+  "result": {
+    "item": "mw_core:rock_block"
+  }
+}

@@ -41,4 +41,14 @@ public class AllBlockItems {
             () -> new BlockItem(AllBlocks.RADIANT_QUARTZ_BLOCK.get(), new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> MAGISTEEL_BLOCK = BLOCK_ITEMS.register("magisteel_block",
             () -> new BlockItem(AllBlocks.MAGISTEEL_BLOCK.get(), new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ROCK_BLOCK = BLOCK_ITEMS.register("rock_block",
+            () -> new BlockItem(AllBlocks.ROCK_BLOCK.get(), new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> ROCK = BLOCK_ITEMS.register("rock",
+            () -> new BlockItem(AllBlocks.ROCK.get(), new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> SKYSTONE_MAGMA = BLOCK_ITEMS.register("skystone_magma",
+            () -> new BlockItem(AllBlocks.SKYSTONE_MAGMA.get(), new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> MILKFUR_PLUSH = BLOCK_ITEMS.register("milkfur_plush",
+            () -> new BlockItem(AllBlocks.MILKFUR_PLUSH.get(), new Item.Properties().tab(MWCore.MISC)));
+    public static final RegistryObject<Item> POUFFY_PLUSH = BLOCK_ITEMS.register("pouffy_plush",
+            () -> new BlockItem(AllBlocks.POUFFY_PLUSH.get(), new Item.Properties().tab(MWCore.MISC)));
 }

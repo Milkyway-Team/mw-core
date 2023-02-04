@@ -14,13 +14,34 @@
   "item.mw_core.sweet_berry_juice": "Sweet Berry Juice",
   "item.mw_core.syrup_glazed_apple": "Syrup Glazed Apple",
   "item.mw_core.syrup_glazed_berries": "Syrup Glazed Berries",
+  "item.mw_core.uranium_dust": "Uranium Dust",
+  "item.mw_core.merchant_egg": "Mystical Merchant Spawn Egg",
 
-  "item.mw_core.rock_lump": "Rock Lump",
+  "block.mw_core.rock_block": "Rock Block",
+  "block.mw_core.rock": "Rock",
   "block.mw_core.rock_lump": "Rock Lump",
 
   "itemGroup.mw_core": "Create: Milkyway",
   "itemGroup.kermitamine": "Kermitamine",
   "item.mw_core.rock_lump": "Rock Lump",
+  "item.mw_core.andesite_drill_head": "Andesite Drill Head",
+  "_": "CHARMS",
+  "tooltip.mw_core.toggle": "R Click to Toggle",
+  "tooltip.mw_core.activated": "Active",
+  "tooltip.mw_core.deactivated": "Inactive",
+  "tooltip.mw_core.pouffcharm": "Grants Regeneration",
+  "tooltip.mw_core.milkcharm": "Grants Immunity To Common Negative Effects",
+
+  "item.mw_core.pouffys_charm": "Pouffy's Charm",
+  "item.mw_core.milks_charm": "MilkFur's Charm",
+
+
+
+
+  "_": "PLUSH",
+  "block.mw_core.milkfur_plush": "MilkFur Plush",
+  "block.mw_core.pouffy_plush": "Pouffy Plush",
+
 
   "_": "MATERIALS",
   "item.mw_core.obsidian_fibre": "Obsidian Fibre",
@@ -237,12 +258,57 @@
   "block.mw_core.radiant_casing": "Radiant Casing",
   "block.mw_core.radiant_lamp": "Radiant Quartz Lamp",
   "block.mw_core.radiant_quartz_block": "Block of Radiant Quartz",
+  "block.mw_core.skystone_magma": "Sky Stone Magma",
 
   "_": "DISC",
   "item.mw_core.music_disc_venture": "Music Disc",
   "item.mw_core.music_disc_venture.desc": "Shelltune - Venture",
   "item.mw_core.music_disc_space_pirates": "Music Disc",
   "item.mw_core.music_disc_space_pirates.desc": "Shelltune - Space Pirates",
+
+  "_": "ORE DUST",
+  "item.mw_core.aluminium_ore_dust": "Aluminium Ore Dust",
+  "item.mw_core.cobalt_ore_dust": "Cobalt Ore Dust",
+  "item.mw_core.copper_ore_dust": "Copper Ore Dust",
+  "item.mw_core.creatite_ore_dust": "Creatite Ore Dust",
+  "item.mw_core.gold_ore_dust": "Gold Ore Dust",
+  "item.mw_core.iron_ore_dust": "Iron Ore Dust",
+  "item.mw_core.lead_ore_dust": "Lead Ore Dust",
+  "item.mw_core.nickel_ore_dust": "Nickel Ore Dust",
+  "item.mw_core.silver_ore_dust": "Silver Ore Dust",
+  "item.mw_core.uranium_ore_dust": "Uranium Ore Dust",
+  "item.mw_core.zinc_ore_dust": "Zinc Ore Dust",
+
+  "_": "CRUSHED ALLOY",
+  "item.create.crushed_amethyst_bronze": "Crushed Amethyst Bronze",
+  "item.create.crushed_bronze": "Crushed Bronze",
+  "item.create.crushed_brass": "Crushed Brass",
+  "item.create.crushed_cast_iron": "Crushed Cast Iron",
+  "item.create.crushed_constantan": "Crushed Constantan",
+  "item.create.crushed_electrum": "Crushed Electrum",
+  "item.create.crushed_enderium": "Crushed Enderium",
+  "item.create.crushed_hepatizon": "Crushed Hepatizon",
+  "item.create.crushed_invar": "Crushed Invar",
+  "item.create.crushed_lumium": "Crushed Lumium",
+  "item.create.crushed_magisteel": "Crushed Magisteel",
+  "item.create.crushed_manyullyn": "Crushed Manyullyn",
+  "item.create.crushed_netherite": "Crushed Netherite",
+  "item.create.crushed_nethersteel": "Crushed Nethersteel",
+  "item.create.crushed_pig_iron": "Crushed Pig Iron",
+  "item.create.crushed_queens_slime": "Crushed Queen's Slime",
+  "item.create.crushed_rose_gold": "Crushed Rose Gold",
+  "item.create.crushed_signalum": "Crushed Signalum",
+  "item.create.crushed_slimesteel": "Crushed Slimesteel",
+  "item.create.crushed_steel": "Crushed Steel",
+  "item.create.crushed_transium": "Crushed Transium",
+
+
+
+
+
+
+
+
 
   "_": "ADVANCEMENT",
   "advancements.mw.root": "Create: Milkyway",
@@ -277,7 +343,7 @@
   "item.mw_core.scorched_mechanism.tooltip": "SCORCHED MECHANISM",
   "item.mw_core.scorched_mechanism.tooltip.summary": "Used for the construction of the foundry from _Tinker's_ _Construct_",
   "item.mw_core.action_mechanism.tooltip": "ACTION MECHANISM",
-  "item.mw_core.action_mechanism.tooltip.summary": "Used for the assembly of guns and weapons from _Create:_ _Big_ _Cannons_",
+  "item.mw_core.action_mechanism.tooltip.summary": "Used for the assembly of weapons from _Create:_ _Big_ _Cannons_",
 
 
   "_": "JEI",
@@ -294,5 +360,18 @@
 
   "modifier.mw_core.creatite": "Creatite",
   "modifier.mw_core.creatite.flavor": "Creative!",
-  "modifier.mw_core.creatite.description": "Large increase in durability and stats!"
+  "modifier.mw_core.creatite.description": "Large increase in durability and stats!",
+
+  "death.attack.skystoneHotFloor": "%1$s stood on a hot space rock for too long",
+
+
+  "_": "IMMERSIVE ENGINEERING INTEGRATION STUFF",
+  "itemGroup.ie_stuff": "Milkyway IE Integration",
+  "item.mw_core.treated_circuit": "Treated Circuit",
+  "item.mw_core.incomplete_electronic_component": "Incomplete Electronic Component",
+  "item.mw_core.duroplast_circuit": "Duroplast Circuit",
+  "item.mw_core.incomplete_advanced_electronic_component": "Incomplete Advanced Electronic Component",
+  "item.mw_core.exposed_light_bulb": "Exposed Incandescent Light Bulb",
+  "item.mw_core.light_bulb_base": "Incandescent Light Bulb Base"
+
 }

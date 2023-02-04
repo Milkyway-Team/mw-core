@@ -42,6 +42,14 @@ public class MWCore
             return new ItemStack(AllItems.RAW_CREATITE.get());
         }
     };
+    public static final CreativeModeTab IE = new CreativeModeTab("ie_stuff")
+    {
+        @Nonnull
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(IEIntegrationItems.T_C.get());
+        }
+    };
     public static final CreativeModeTab KERMITAMINE = new CreativeModeTab("kermitamine")
     {
         @Nonnull
@@ -69,10 +77,14 @@ public class MWCore
         // Register the processIMC method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
         IEventBus forgeEventBus = MinecraftForge.EVENT_BUS;
+        modEventBus.addListener(MWClient::init);
 
         // Register ourselves for server and other game events we are interested in
+
         MinecraftForge.EVENT_BUS.register(this);
         AllItems.ITEMS.register(modEventBus);
+        AllItems.CITEMS.register(modEventBus);
+
         MWCoreModifiers.MODIFIERS.register(modEventBus);
         AllBlocks.BLOCKS.register(modEventBus);
         AllFluids.FLUIDS.register(modEventBus);
@@ -86,7 +98,7 @@ public class MWCore
         AllRecipes.RECIPE_TYPES.register(modEventBus);
         AllIncompleteItems.INCOMPLETE_ITEMS.register(modEventBus);
         AllParticleTypes.register(modEventBus);
-
+        IEIntegrationItems.IEITEMS.register(modEventBus);
         Kermitamine.KERMIT_ITEMS.register(modEventBus);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> {
             return () -> {

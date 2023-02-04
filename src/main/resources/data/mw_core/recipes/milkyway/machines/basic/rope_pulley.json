@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MSM",
+    "CRC",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "R": {
+      "tag": "thermal:rockwool"
+    },
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "M": {
+      "item": "mw_core:basic_mechanism"
+    }
+  },
+  "result": {
+    "item": "create:rope_pulley",
+    "count": 1
+  }
+}

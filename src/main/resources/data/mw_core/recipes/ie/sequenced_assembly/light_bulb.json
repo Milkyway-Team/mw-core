@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:exposed_light_bulb"
+  },
+  "transitionalItem": {
+    "item": "mw_core:exposed_light_bulb"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:exposed_light_bulb"
+        },
+        {
+          "tag": "forge:glass"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:exposed_light_bulb"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:light_bulb",
+      "chance": 120.0
+    },
+    {
+      "item": "quark:dirty_shard",
+      "chance": 2.0
+    },
+    {
+      "item": "immersiveengineering:wire_aluminum",
+      "chance": 4.0
+    },
+    {
+      "item": "mw_core:exposed_light_bulb",
+      "chance": 6.0
+    }
+  ],
+  "loops": 1
+}

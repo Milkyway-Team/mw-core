@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " NNN ",
+    "NDMDN",
+    "NMEMN",
+    "NDMDN",
+    " NNN "
+  ],
+  "key": {
+    "M": {
+      "item": "mw_core:magisteel_ingot"
+    },
+    "D": {
+      "item": "mw_core:polished_diamond_quartz"
+    },
+    "E": {
+      "item": "minecraft:emerald_block"
+    },
+    "N": {
+      "item": "mw_core:netherite_sheet"
+    }
+  },
+  "result": {
+    "item": "quark:diamond_heart"
+  },
+  "acceptMirrored": false
+}

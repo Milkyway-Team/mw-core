@@ -1,0 +1,15 @@
+{
+  "name": "mw_core:copper_submerged_meteorite",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "mw_core:submerged_meteorites/sm_copper",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

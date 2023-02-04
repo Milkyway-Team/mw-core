@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MGM",
+    "CSC",
+    "IAI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/cast_iron"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "M": {
+      "item": "mw_core:action_mechanism"
+    },
+    "G": {
+      "item": "create:piston_extension_pole"
+    },
+    "A": {
+      "item": "minecraft:gunpowder"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "item": "createbigcannons:cannon_loader",
+    "count": 1
+  }
+}

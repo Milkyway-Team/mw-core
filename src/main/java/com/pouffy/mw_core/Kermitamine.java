@@ -1,5 +1,6 @@
 package com.pouffy.mw_core;
 
+import com.pouffy.mw_core.kermitamine.item.ContainerItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.registries.DeferredRegister;
@@ -501,12 +502,12 @@ public class Kermitamine {
             () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
     public static final RegistryObject<Item> SCUETRIUMBOCLYX_ALLOY = KERMIT_ITEMS.register("scuetriumboclyx_alloy",
             () -> new Item(new Item.Properties().tab(MWCore.KERMITAMINE)));
-    public static final RegistryObject<Item> CONTAINER = KERMIT_ITEMS.register("container",
-            () -> new Item ((new Item.Properties()).stacksTo(16).tab(MWCore.KERMITAMINE)));
+    public static final RegistryObject<ContainerItem> CONTAINER = KERMIT_ITEMS.register("container",
+            () -> new ContainerItem (Fluids.EMPTY, (new Item.Properties()).stacksTo(1).tab(MWCore.KERMITAMINE)));
 
 
-    public static final RegistryObject<Item> LIQUID_KERMITAMINE_CONTAINER = KERMIT_ITEMS.register("liquid_kermitamine_container",
-            () -> new Item(new Item.Properties().stacksTo(1).tab(MWCore.KERMITAMINE)));
+    public static final RegistryObject<ContainerItem> LIQUID_KERMITAMINE_CONTAINER = KERMIT_ITEMS.register("liquid_kermitamine_container",
+            () -> new ContainerItem (AllFluids.creatite, (new Item.Properties()).stacksTo(1).tab(MWCore.KERMITAMINE)));
 
 
 }

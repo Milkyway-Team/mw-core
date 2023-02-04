@@ -7,10 +7,10 @@
   ],
   "results": [
     {
-      "item": "thermal:gold_dust"
+      "item": "mw_core:gold_ore_dust"
     },
     {
-      "item": "thermal:gold_dust",
+      "item": "mw_core:gold_ore_dust",
       "chance": 0.5
     }
   ],

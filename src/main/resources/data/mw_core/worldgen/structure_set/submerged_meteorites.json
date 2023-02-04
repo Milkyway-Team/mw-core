@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "mw_core:gold_submerged_meteorite",
+      "weight": 1
+    },
+    {
+      "structure": "mw_core:iron_submerged_meteorite",
+      "weight": 1
+    },
+    {
+      "structure": "mw_core:copper_submerged_meteorite",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 7,
+    "salt": 1646207470
+  }
+}

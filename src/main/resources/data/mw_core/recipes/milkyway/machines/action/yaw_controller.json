@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "CMC",
+    "IGI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/cast_iron"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "M": {
+      "item": "mw_core:action_mechanism"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "createbigcannons:yaw_controller",
+    "count": 1
+  }
+}

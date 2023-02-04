@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:redstone"
+  },
+  "transitionalItem": {
+    "item": "minecraft:redstone"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:redstone"
+        },
+        {
+          "tag": "forge:treated_wood_slab"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:redstone"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:treated_circuit",
+      "chance": 120.0
+    },
+    {
+      "item": "immersiveengineering:stick_treated",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:redstone",
+      "chance": 4.0
+    },
+    {
+      "item": "immersiveengineering:slab_treated_wood_horizontal",
+      "chance": 6.0
+    }
+  ],
+  "loops": 1
+}

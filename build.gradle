@@ -130,9 +130,12 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:jeitweaker-368718:${project.jeiTweaker}")
     runtimeOnly fg.deobf("curse.maven:createtweaker-437717:${project.createTweaker}")
 
-
+    implementation fg.deobf("curse.maven:immersive_engineering-231951:${project.ie}")
     implementation fg.deobf("curse.maven:create-328085:4007544")
     implementation fg.deobf("curse.maven:flywheel-forge-486392:3934664")
+
+    runtimeOnly fg.deobf("curse.maven:mm-423476:${project.mm}")
+    runtimeOnly fg.deobf("curse.maven:sv-357304:${project.sv}")
 
     implementation fg.deobf("curse.maven:thermalfoundation-222880:${project.thermalFoundation}")
     runtimeOnly fg.deobf("curse.maven:enchantment_industry-688768:${project.enchantmentIndustry}")
@@ -141,10 +144,7 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:create_big_cannons-646668:${project.bigCannons}")
     runtimeOnly fg.deobf("curse.maven:steam_rails-688231:${project.steamRails}")
     runtimeOnly fg.deobf("curse.maven:confectionery-531834:${project.confectionery}")
-
     runtimeOnly fg.deobf("curse.maven:framework-549225:${project.frameWork}")
-
-
     runtimeOnly fg.deobf("curse.maven:thermalexpansion-69163:${project.thermalExpansion}")
     runtimeOnly fg.deobf("curse.maven:farmers_delight-398521:${project.farmersDelight}")
     implementation fg.deobf("curse.maven:tconstruct-74072:${project.tinkersConstruct}")

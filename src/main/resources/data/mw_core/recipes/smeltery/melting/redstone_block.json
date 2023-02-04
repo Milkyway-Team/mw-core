@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:redstone_block"
+  },
+  "result": {
+    "fluid": "thermal:redstone",
+    "amount": 900
+  },
+  "temperature": 1000,
+  "time": 360
+}

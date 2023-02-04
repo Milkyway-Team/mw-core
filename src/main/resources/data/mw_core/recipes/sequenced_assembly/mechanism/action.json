@@ -1,0 +1,100 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mw_core:seared_mechanism"
+  },
+  "transitionalItem": {
+    "item": "mw_core:incomplete_action_mechanism"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        },
+        {
+          "item": "tconstruct:cobalt_nugget"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        },
+        {
+          "item": "tconstruct:action_brick"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        },
+        {
+          "fluid": "tconstruct:blazing_blood",
+          "nbt": {},
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        },
+        {
+          "item": "tconstruct:action_glass"
+        }
+      ],
+      "results": [
+        {
+          "item": "mw_core:incomplete_action_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mw_core:action_mechanism",
+      "chance": 1.0
+    }
+  ],
+  "loops": 1
+}

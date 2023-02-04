@@ -7,10 +7,10 @@
   ],
   "results": [
     {
-      "item": "thermal:nickel_dust"
+      "item": "mw_core:nickel_ore_dust"
     },
     {
-      "item": "thermal:nickel_dust",
+      "item": "mw_core:nickel_ore_dust",
       "chance": 0.5
     }
   ],

@@ -1,0 +1,13 @@
+{
+  "type": "thermal:smelter",
+  "ingredient": {
+    "tag": "forge:dusts/zinc"
+  },
+  "result": [
+    {
+      "item": "mw_core:zinc_dust",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

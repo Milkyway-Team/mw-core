@@ -2,7 +2,7 @@
   "type": "create:mechanical_crafting",
   "pattern": [
     "TPSFFF",
-    "#M#   "
+    "AM#   "
     
   ],
   "key": {
@@ -23,6 +23,9 @@
     },
     "M": {
       "item": "create:precision_mechanism"
+    },
+    "A": {
+      "item": "mw_core:action_mechanism"
     }
   },
   "result": {

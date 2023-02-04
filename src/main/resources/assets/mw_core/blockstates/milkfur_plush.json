@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mw_core:block/plush/milkfur_plush",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mw_core:block/plush/milkfur_plush"
+    },
+    "facing=south": {
+      "model": "mw_core:block/plush/milkfur_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mw_core:block/plush/milkfur_plush",
+      "y": 270
+    }
+  }
+}

@@ -7,10 +7,10 @@
   ],
   "results": [
     {
-      "item": "thermal:copper_dust"
+      "item": "mw_core:copper_ore_dust"
     },
     {
-      "item": "thermal:copper_dust",
+      "item": "mw_core:copper_ore_dust",
       "chance": 0.5
     }
   ],

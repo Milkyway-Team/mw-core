@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ASA",
+    "ASA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "result": {
+    "item": "mw_core:andesite_drill_head"
+  }
+}

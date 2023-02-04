@@ -7,10 +7,10 @@
   ],
   "results": [
     {
-      "item": "mw_core:aluminium_dust"
+      "item": "mw_core:aluminium_ore_dust"
     },
     {
-      "item": "mw_core:aluminium_dust",
+      "item": "mw_core:aluminium_ore_dust",
       "chance": 0.5
     }
   ],
