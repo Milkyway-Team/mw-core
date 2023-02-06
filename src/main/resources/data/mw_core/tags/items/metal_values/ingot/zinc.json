@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "create:crushed_zinc_ore",
+    "create:zinc_ingot",
+    "mw_core:zinc_ore_dust",
+    "mw_core:zinc_dust",
+    "#forge:plates/zinc"
+
+  ]
+}

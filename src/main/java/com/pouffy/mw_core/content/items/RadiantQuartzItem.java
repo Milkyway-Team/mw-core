@@ -1,7 +1,6 @@
 package com.pouffy.mw_core.content.items;
 
 import com.pouffy.mw_core.MWCore;
-import com.simibubi.create.content.curiosities.NoGravMagicalDohickyItem;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.Item;

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "create:crushed_copper_ore",
+    "minecraft:copper_ingot",
+    "create:copper_sheet",
+    "mw_core:copper_ore_dust",
+    "thermal:copper_dust"
+  ]
+}

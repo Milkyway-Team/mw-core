@@ -1,0 +1,36 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:crushed_iron_ore"
+    },
+    {
+      "item": "create:crushed_iron_ore"
+    },
+    {
+      "item": "create:crushed_iron_ore"
+    },
+    {
+      "item": "thermal:coal_coke"
+    },
+    {
+      "item": "thermal:coal_coke"
+    },
+    {
+      "item": "thermal:coal_coke"
+    },
+    {
+      "item": "thermal:coal_coke"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_steel"
+    },
+    {
+      "item": "create:crushed_steel",
+      "chance": 0.5
+    }
+  ],
+  "heatRequirement": "heated"
+}

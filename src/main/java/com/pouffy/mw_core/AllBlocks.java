@@ -1,43 +1,22 @@
 package com.pouffy.mw_core;
 
-import blusunrize.immersiveengineering.common.blocks.IEBaseBlock;
-import blusunrize.immersiveengineering.common.blocks.IEEntityBlock;
-import blusunrize.immersiveengineering.common.blocks.generic.PostBlock;
-import blusunrize.immersiveengineering.common.blocks.generic.ScaffoldingBlock;
-import blusunrize.immersiveengineering.common.blocks.generic.WallmountBlock;
-import blusunrize.immersiveengineering.common.blocks.metal.CrusherBlockEntity;
-import blusunrize.immersiveengineering.common.blocks.metal.MetalMultiblockBlock;
-import blusunrize.immersiveengineering.common.blocks.wooden.BarrelBlock;
-import blusunrize.immersiveengineering.common.register.IEBlockEntities;
 import com.pouffy.mw_core.content.block.PlushBlock;
 import com.pouffy.mw_core.content.block.RockLayerBlock;
 import com.pouffy.mw_core.content.block.SkystoneMagmaBlock;
 import com.pouffy.mw_core.util.BlockHelper;
-import com.simibubi.create.content.contraptions.base.CasingBlock;
-import net.minecraft.Util;
 import net.minecraft.core.BlockPos;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import javax.annotation.Nonnull;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Supplier;
 import java.util.function.ToIntFunction;
 
 @SuppressWarnings("unused")
@@ -76,7 +55,7 @@ public class AllBlocks {
             () -> new Block(Block.Properties.copy(Blocks.NETHERITE_BLOCK).strength(2.0F).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> RADIANT_CASING = BLOCKS.register("radiant_casing",
-            () -> new CasingBlock(Block.Properties.copy(Blocks.OAK_WOOD).lightLevel(BlockHelper.lightValue(15)).strength(1.0F).requiresCorrectToolForDrops()));
+            () -> new Block(Block.Properties.copy(Blocks.OAK_WOOD).lightLevel(BlockHelper.lightValue(15)).strength(1.0F).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> RADIANT_LAMP = BLOCKS.register("radiant_lamp",
             () -> new RedstoneLampBlock(BlockBehaviour.Properties.of(Material.BUILDABLE_GLASS).lightLevel(litBlockEmission(20)).strength(0.3F).sound(SoundType.GLASS).isValidSpawn(AllBlocks::always)));
     public static final RegistryObject<Block> RADIANT_QUARTZ_BLOCK = BLOCKS.register("radiant_quartz_block",

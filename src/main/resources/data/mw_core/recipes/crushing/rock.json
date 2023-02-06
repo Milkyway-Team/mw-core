@@ -1,0 +1,159 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "mw_core:rock"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_iron_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_gold_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_copper_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_zinc_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_cobalt_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_creatite_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_cinnabar_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_nether_quartz_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_certus_quartz_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_sulfur_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_coal_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_emerald_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_diamond_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_apatite_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_lapis_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "mw_core:crushed_niter_ore",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_amethyst_bronze",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_bronze",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_cast_iron",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_constantan",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_electrum",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_enderium",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_hepatizon",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_invar",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_lumium",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_magisteel",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_manyullyn",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_netherite",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_pig_iron",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_queens_slime",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_rose_gold",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_signalum",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_slimesteel",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_steel",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_transium",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_nethersteel",
+      "chance": 0.036
+    },
+    {
+      "item": "create:crushed_brass",
+      "chance": 0.036
+    }
+  ],
+  "processingTime": 1600
+}

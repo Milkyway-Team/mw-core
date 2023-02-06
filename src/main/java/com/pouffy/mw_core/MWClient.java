@@ -16,7 +16,6 @@ public class MWClient {
 
     }
     public static void onCtorClient(IEventBus modEventBus, IEventBus forgeEventBus) {
-        modEventBus.addListener(AllParticleTypes::registerFactories);
 
     }
 }

@@ -50,7 +50,8 @@
         {
           "item": "mw_core:light_bulb_base"
         }
-      ]
+      ],
+      "keepHeldItem": true
     }
   ],
   "results": [

@@ -1,6 +1,6 @@
 package com.pouffy.mw_core.content.items;
 
-import com.simibubi.create.foundation.utility.VecHelper;
+import com.pouffy.mw_core.util.VecHelper;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.util.Mth;

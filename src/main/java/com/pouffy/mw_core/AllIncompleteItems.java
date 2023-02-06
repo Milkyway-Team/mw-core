@@ -1,6 +1,6 @@
 package com.pouffy.mw_core;
 
-import com.simibubi.create.content.contraptions.itemAssembly.SequencedAssemblyItem;
+import com.pouffy.mw_core.content.items.SequencedAssemblyItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

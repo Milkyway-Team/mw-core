@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:crushed_copper_ore"
+    },
+    {
+      "item": "create:crushed_copper_ore"
+    },
+    {
+      "item": "create:crushed_copper_ore"
+    },
+    {
+      "item": "create:crushed_gold_ore"
+    },
+    {
+      "item": "create:crushed_gold_ore"
+    },
+    {
+      "item": "create:crushed_gold_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_rose_gold"
+    },
+    {
+      "item": "create:crushed_rose_gold",
+      "chance": 0.5
+    }
+  ],
+  "heatRequirement": "heated"
+}

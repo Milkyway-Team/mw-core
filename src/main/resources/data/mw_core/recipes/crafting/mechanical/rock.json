@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " RRR ",
+    "RRRRR",
+    "RRDRR",
+    "RRRRR",
+    " RRR "
+  ],
+  "key": {
+    "R": {
+      "item": "mw_core:rock_block"
+    },
+    "D": {
+      "item": "quark:diamond_heart"
+    }
+  },
+  "result": {
+    "item": "mw_core:rock"
+  },
+  "acceptMirrored": false
+}

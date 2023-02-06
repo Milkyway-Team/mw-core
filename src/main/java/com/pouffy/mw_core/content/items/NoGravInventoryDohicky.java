@@ -1,12 +1,10 @@
 package com.pouffy.mw_core.content.items;
 
-import com.simibubi.create.foundation.utility.VecHelper;
-import net.minecraft.core.NonNullList;
+import com.pouffy.mw_core.util.VecHelper;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;

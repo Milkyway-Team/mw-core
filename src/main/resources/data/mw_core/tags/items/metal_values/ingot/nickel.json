@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "create:crushed_nickel_ore",
+    "thermal:nickel_ingot",
+    "mw_core:nickel_sheet",
+    "mw_core:nickel_ore_dust",
+    "thermal:nickel_dust"
+  ]
+}

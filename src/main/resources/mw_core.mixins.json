@@ -4,10 +4,9 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "mw_core.refmap.json",
   "mixins": [
-
   ],
   "client": [
-
+    "GameRendererAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

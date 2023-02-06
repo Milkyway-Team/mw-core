@@ -1,13 +1,11 @@
 {
-  "type": "create:mixing",
+  "type": "createbigcannons:melting",
   "ingredients": [
     {
-      "fluid": "tconstruct:molten_copper",
-      "amount": 90
+      "tag": "mw_core:metal_values/ingot/copper"
     },
     {
-      "fluid": "tconstruct:molten_zinc",
-      "amount": 90
+      "tag": "mw_core:metal_values/ingot/zinc"
     }
   ],
   "results": [
@@ -16,5 +14,6 @@
       "amount": 180
     }
   ],
+  "processingTime": 440,
   "heatRequirement": "heated"
 }

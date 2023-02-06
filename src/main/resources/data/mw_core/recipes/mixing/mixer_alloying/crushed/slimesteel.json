@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:crushed_iron_ore"
+    },
+    {
+      "item": "create:crushed_iron_ore"
+    },
+    {
+      "item": "create:crushed_iron_ore"
+    },
+    {
+      "item": "tconstruct:sky_slime_ball"
+    },
+    {
+      "item": "tconstruct:sky_slime_ball"
+    },
+    {
+      "item": "tconstruct:sky_slime_ball"
+    },
+    {
+      "fluid": "tconstruct:seared_stone",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "create:crushed_slimesteel"
+    },
+    {
+      "item": "create:crushed_slimesteel",
+      "chance": 0.5
+    }
+  ],
+  "heatRequirement": "heated"
+}

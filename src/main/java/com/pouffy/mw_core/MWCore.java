@@ -1,7 +1,6 @@
 package com.pouffy.mw_core;
 
 import com.mojang.logging.LogUtils;
-import com.pouffy.mw_core.common.mod_compats.tconstruct.modifiers.MWCoreModifiers;
 import com.pouffy.mw_core.util.config.MWClientConfig;
 import com.pouffy.mw_core.util.config.MWCommonConfig;
 import net.minecraft.resources.ResourceLocation;
@@ -34,14 +33,8 @@ import java.util.stream.Collectors;
 @Mod("mw_core")
 public class MWCore
 {
-    public static final CreativeModeTab MISC = new CreativeModeTab(MWCore.MODID)
-    {
-        @Nonnull
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(AllItems.RAW_CREATITE.get());
-        }
-    };
+
+    public static final CreativeModeTab MISC = new ModItemGroup(MWCore.MODID);
     public static final CreativeModeTab IE = new CreativeModeTab("ie_stuff")
     {
         @Nonnull
@@ -50,14 +43,14 @@ public class MWCore
             return new ItemStack(IEIntegrationItems.T_C.get());
         }
     };
-    public static final CreativeModeTab KERMITAMINE = new CreativeModeTab("kermitamine")
-    {
-        @Nonnull
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(Kermitamine.SUPERPOSITIONED_KERMITAMINE_CRYSTAL.get());
-        }
-    };
+    //public static final CreativeModeTab KERMITAMINE = new CreativeModeTab("kermitamine")
+    //{
+    //    @Nonnull
+    //    @Override
+    //    public ItemStack makeIcon() {
+    //        return new ItemStack(Kermitamine.SUPERPOSITIONED_KERMITAMINE_CRYSTAL.get());
+    //    }
+    //};
 
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
@@ -85,7 +78,6 @@ public class MWCore
         AllItems.ITEMS.register(modEventBus);
         AllItems.CITEMS.register(modEventBus);
 
-        MWCoreModifiers.MODIFIERS.register(modEventBus);
         AllBlocks.BLOCKS.register(modEventBus);
         AllFluids.FLUIDS.register(modEventBus);
         AllMechanisms.MECHANISMS.register(modEventBus);
@@ -97,9 +89,8 @@ public class MWCore
         AllRecipes.RECIPE_SERIALIZERS.register(modEventBus);
         AllRecipes.RECIPE_TYPES.register(modEventBus);
         AllIncompleteItems.INCOMPLETE_ITEMS.register(modEventBus);
-        AllParticleTypes.register(modEventBus);
         IEIntegrationItems.IEITEMS.register(modEventBus);
-        Kermitamine.KERMIT_ITEMS.register(modEventBus);
+        //Kermitamine.KERMIT_ITEMS.register(modEventBus);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> {
             return () -> {
                 MWClient.onCtorClient(modEventBus, forgeEventBus);

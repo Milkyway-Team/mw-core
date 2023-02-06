@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "forge:ingots/transium"
+  },
+  "result": {
+    "fluid": "mw_core:molten_transium",
+    "amount": 90
+  },
+  "temperature": 1200,
+  "time": 79
+}
