@@ -14,13 +14,34 @@
   "item.mw_core.sweet_berry_juice": "甜浆果汁",
   "item.mw_core.syrup_glazed_apple": "糖渍苹果",
   "item.mw_core.syrup_glazed_berries": "糖渍浆果",
+    "item.mw_core.uranium_dust": "铀粉",
+  "item.mw_core.merchant_egg": "神秘商人刷怪蛋",
 
-  "item.mw_core.rock_lump": "石块",
-  "block.mw_core.rock_lump": "石块",
+  "block.mw_core.rock_block": "砾石块",
+  "block.mw_core.rock": "砾岩",
+  "block.mw_core.rock_lump": "砾石",
 
   "itemGroup.mw_core": "Create: Milkyway",
   "itemGroup.kermitamine": "克米他敏",
   "item.mw_core.rock_lump": "石块",
+  "item.mw_core.andesite_drill_head": "安山合金钻头",
+  "_": "CHARMS",
+  "tooltip.mw_core.toggle": "R Click to Toggle",
+  "tooltip.mw_core.activated": "Active",
+  "tooltip.mw_core.deactivated": "Inactive",
+  "tooltip.mw_core.pouffcharm": "Grants Regeneration",
+  "tooltip.mw_core.milkcharm": "Grants Immunity To Common Negative Effects",
+
+  "item.mw_core.pouffys_charm": "Pouffy的护符",
+  "item.mw_core.milks_charm": "MilkFur的护符",
+
+
+
+
+  "_": "PLUSH",
+  "block.mw_core.milkfur_plush": "MilkFur玩偶",
+  "block.mw_core.pouffy_plush": "Pouffy玩偶",
+
 
   "_": "MATERIALS",
   "item.mw_core.obsidian_fibre": "黑曜石纤维",
@@ -237,12 +258,57 @@
   "block.mw_core.radiant_casing": "光辉机壳",
   "block.mw_core.radiant_lamp": "光辉石英灯",
   "block.mw_core.radiant_quartz_block": "光辉石英块",
+  "block.mw_core.skystone_magma": "炽热的陨石",
 
   "_": "DISC",
   "item.mw_core.music_disc_venture": "音乐唱片",
   "item.mw_core.music_disc_venture.desc": "Shelltune - Venture",
   "item.mw_core.music_disc_space_pirates": "音乐唱片",
   "item.mw_core.music_disc_space_pirates.desc": "Shelltune - Space Pirates",
+
+  "_": "ORE DUST",
+  "item.mw_core.aluminium_ore_dust": "铝矿粉",
+  "item.mw_core.cobalt_ore_dust": "钴矿粉",
+  "item.mw_core.copper_ore_dust": "铜矿粉",
+  "item.mw_core.creatite_ore_dust": "创造宝石矿粉",
+  "item.mw_core.gold_ore_dust": "金矿粉",
+  "item.mw_core.iron_ore_dust": "铁矿粉",
+  "item.mw_core.lead_ore_dust": "铅矿粉",
+  "item.mw_core.nickel_ore_dust": "镍矿粉",
+  "item.mw_core.silver_ore_dust": "银矿粉",
+  "item.mw_core.uranium_ore_dust": "铀矿粉",
+  "item.mw_core.zinc_ore_dust": "锌矿粉",
+
+  "_": "CRUSHED ALLOY",
+  "item.create.crushed_amethyst_bronze": "粉碎紫水晶青铜",
+  "item.create.crushed_bronze": "粉碎青铜",
+  "item.create.crushed_brass": "粉碎黄铜",
+  "item.create.crushed_cast_iron": "粉碎铸铁",
+  "item.create.crushed_constantan": "粉碎康铜",
+  "item.create.crushed_electrum": "粉碎琥珀金",
+  "item.create.crushed_enderium": "粉碎末影",
+  "item.create.crushed_hepatizon": "粉碎黑色科林斯青铜",
+  "item.create.crushed_invar": "粉碎殷钢",
+  "item.create.crushed_lumium": "粉碎流明",
+  "item.create.crushed_magisteel": "粉碎魔钢",
+  "item.create.crushed_manyullyn": "粉碎玛玉灵",
+  "item.create.crushed_netherite": "粉碎下界合金",
+  "item.create.crushed_nethersteel": "粉碎下界钢",
+  "item.create.crushed_pig_iron": "粉碎生铁",
+  "item.create.crushed_queens_slime": "粉碎皇后史莱姆",
+  "item.create.crushed_rose_gold": "粉碎玫瑰金",
+  "item.create.crushed_signalum": "粉碎信素",
+  "item.create.crushed_slimesteel": "粉碎黏钢",
+  "item.create.crushed_steel": "粉碎钢",
+  "item.create.crushed_transium": "粉碎跨性合金",
+
+
+
+
+
+
+
+
 
   "_": "ADVANCEMENT",
   "advancements.mw.root": "Create: Milkyway",
@@ -293,6 +359,19 @@
 
 
   "modifier.mw_core.creatite": "创造宝石",
-  "modifier.mw_core.creatite.flavor": "Create!",
+  "modifier.mw_core.creatite.flavor": "Creative!",
   "modifier.mw_core.creatite.description": "大大提高耐久度及其他属性！各项指标显著提升！"
+
+  "death.attack.skystoneHotFloor": "%1$s没能及时把脚从炽热的陨石上挪开",
+
+
+  "_": "IMMERSIVE ENGINEERING INTEGRATION STUFF",
+  "itemGroup.ie_stuff": "Milkyway沉浸工程兼容",
+  "item.mw_core.treated_circuit": "防腐木电路板",
+  "item.mw_core.incomplete_electronic_component": "未完成的电子元件",
+  "item.mw_core.duroplast_circuit": "工程塑胶电路板",
+  "item.mw_core.incomplete_advanced_electronic_component": "未完成的高级电子元件",
+  "item.mw_core.exposed_light_bulb": "未加装灯壳的白炽灯泡",
+  "item.mw_core.unwrapped_light_bulb": "未包装的白炽灯泡",
+
 }
