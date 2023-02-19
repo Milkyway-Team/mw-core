@@ -1,6 +1,0 @@
-{
-  "parent": "thermal:block/fluid_machine_base",
-  "textures": {
-    "north": "thermal:block/machines/machine_crucible"
-  }
-}

@@ -15,6 +15,14 @@
       }
     ]
   },
+  "thermal_rise": {
+    "sounds": [
+      {
+        "name": "mw_core:thermal_rise",
+        "stream": true
+      }
+    ]
+  },
   "squeak": {
     "sounds": [
       {

@@ -1,6 +1,7 @@
 package com.pouffy.mw_core;
 
 import com.pouffy.mw_core.content.items.CreativeIngotItem;
+import net.minecraft.client.model.SlimeModel;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,7 +28,6 @@ public class AllMechanisms {
 
     public static final RegistryObject<Item> COBALT = MECHANISMS.register("cobalt_mechanism",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-
     public static final RegistryObject<CreativeIngotItem> MANYULLYN = MECHANISMS.register("manyullyn_mechanism",
             () -> new CreativeIngotItem(new Item.Properties().tab(MWCore.MISC).rarity(Rarity.EPIC).fireResistant()));
 
@@ -49,6 +49,4 @@ public class AllMechanisms {
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
     public static final RegistryObject<Item> FLUIX_CORE = MECHANISMS.register("fluix_core",
             () -> new Item(new Item.Properties().tab(MWCore.MISC)));
-
-
 }

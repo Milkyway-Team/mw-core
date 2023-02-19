@@ -1,6 +1,0 @@
-{
-  "parent": "thermal:block/machine_press",
-  "textures": {
-    "north": "thermal:block/machines/machine_press_active"
-  }
-}
