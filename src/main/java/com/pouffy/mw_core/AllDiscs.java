@@ -17,4 +17,6 @@ public class AllDiscs {
             () -> new RecordItem(4, AllSounds.VENTURE ,new Item.Properties().tab(MWCore.MISC).stacksTo(1)));
     public static final RegistryObject<Item> SPACE_PIRATES = DISCS.register("music_disc_space_pirates",
             () -> new RecordItem(4, AllSounds.SPACE_PIRATES ,new Item.Properties().tab(MWCore.MISC).stacksTo(1)));
+    public static final RegistryObject<Item> THERMAL_RISE = DISCS.register("music_disc_thermal_rise",
+            () -> new RecordItem(4, AllSounds.THERMAL_RISE ,new Item.Properties().tab(MWCore.MISC).stacksTo(1)));
 }

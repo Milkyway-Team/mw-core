@@ -1,8 +1,0 @@
-{
-  "parent": "thermal:block/fluid_machine_bottler",
-  "textures": {
-    "north": "thermal:block/machines/machine_bottler_active",
-    "down": "mw_core:block/fluid_machine_bottom"
-
-  }
-}
