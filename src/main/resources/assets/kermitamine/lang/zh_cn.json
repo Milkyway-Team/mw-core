@@ -235,7 +235,7 @@
   "item.kermitamine.noclaitiumcleutiumblealium_alloy": "量子霍尔效应里德伯物质合金",
   "item.kermitamine.kaplieniumaes_alloy": "超临界超导态光子分子元素合金",
   "item.kermitamine.uspeociumoer_alloy": "热-电介质效应惰性超流态纳米量子金属合金",
-  "item.kermitamine.chiudiousium_alloy": "超流体真空理论相容性中子星物质合金",
+  "item.kermitamine.chiudiousium_alloy": "真空理论相容性中子星物质合金",
   "item.kermitamine.asmuytinegefreyrium_alloy": "非自发规范对称破缺自旋波动费米子物质合金",
   "item.kermitamine.chueciumcleusten_alloy": "超抗磁性迈斯纳效应物质合金",
   "item.kermitamine.stailiumyodrite_alloy": "非交换对称J/ψ介子物质合金",
@@ -245,5 +245,5 @@
   "item.kermitamine.scuetriumboclyx_alloy": "泡利不相容高维度粲夸克物质合金",
   "item.kermitamine.liquid_kermitamine_container": "液态克米他敏容器",
   "item.kermitamine.container": "空容器"
-
+  
 }
